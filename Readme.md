@@ -1,7 +1,7 @@
 # Личный проект «Пинк» 
 
 * Студент: [Рустем Асфандияров](https://up.htmlacademy.ru/adaptive/24/user/1848169).
-* Наставник: `Неизвестно`.
+* Наставник: [Ирина Малиновская](https://htmlacademy.ru/profile/irina-malinovskaya).
 
 ---
 
