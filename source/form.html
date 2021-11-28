@@ -51,135 +51,108 @@
     </nav>
   </header>
   <main class="page-main">
-    <h1 class="visually-hidden">Пинк - редактор фото</h1>
-    <section class="promo">
+    <div class="promo">
       <div class="promo__wrapper">
         <header class="promo__header">
-          <h2 class="visually-hidden">Промо блок</h2>
-          <p class="promo__slogan">Взгляните на жизнь<br>иначе!</p>
+          <h1 class="visually-hidden">Конкурс на самое бесшабашное путешествие с Пинк</h1>
         </header>
-        <div class="promo__download">
-          <a class="download__link" href="#">Cкачайте приложение</a>
-          <ul class="promo__list">
-            <li class="promo__item">
-              <a href="#">apple-logo</a>
+      </div>
+    </div>
+    <section class="achievement">
+      <div class="achievement__wrapper" <form class="achievement__form" action="https://echo.htmlacademy.ru/"
+        method="post">
+        <p class="achievement__slogan">Поделитесь своей историей и получите<br>
+          шанс выиграть ценный приз - 1000<br>миль на вашу бонусную карту!</p>
+        <fieldset class="achievement__field achievement__field--warning">
+          <ul class="achievement__list">
+            <li class="achievement__item">
+              <label class="achievement__label" for="name">Фамилия:</label>
+              <input class="achievement__input" id="name" type="text" placeholder="Укажите фамилию*">
             </li>
-            <li class="promo__item">
-              <a href="#">android-logo</a>
+            <li class="achievement__item">
+              <label class="achievement__label" for="name">Имя:</label>
+              <input class="achievement__input" id="name" type="text" placeholder="Введите ваше имя*">
             </li>
-            <li class="promo__item">
-              <a href="#">microsoft-logo</a>
+            <li class="achievement__item">
+              <label class="achievement__label" for="name">Отчество:</label>
+              <input class="achievement__input" id="name" type="text" placeholder="Ну и отчество тоже*">
             </li>
           </ul>
-          <span class="promo__legend">
-            Доступно для iPhone, iPad, Android<br>Windows Phone, OS X, Windows 8
-          </span>
-        </div>
-      </div>
-    </section>
-    <section class="advantages">
-      <div class="advantages__wrapper">
-        <h2 class="visually-hidden">Наши преимущества</h2>
-        <p class="advantages__text">Устали от серости<br>мегаполиса?</p>
-        <p class="advantages__text">Нам есть, что вам<br>предложить</p>
-        <ul class="advantages__list">
-          <li class="advantages__item">
-            <h3 class="advantages__title">Поднимает настроение</h3>
-            <p class="advantages__description">
-              Приложение позволяет вам победить<br>осеннюю хандру и депрессию<br>буквально в несколько кликов!
-            </p>
-          </li>
-          <li class="advantages__item">
-            <h3 class="advantages__title">Меняет мир вокруг</h3>
-            <p class="advantages__description">
-              Сделайте снимок и украсьте его<br>смайликом или текстовой подписью,<br>чтобы усилить эффект
-            </p>
-          </li>
-          <li class="advantages__item">
-            <h3 class="advantages__title">Заводит новых друзей</h3>
-            <p class="advantages__description">
-              Ставьте лайки, комментируйте,<br>делитесь фотографиями с друзьями и<br>заводите новых
-            </p>
-          </li>
-        </ul>
-        <div class="advantages__block">
-          <h3 class="block__title--title-block">Эффект<br>на 24 часа!</h3>
-          <p class="block__description">
-            Британские ученые провели исследования<br>и доказали, что положительный эффект<br>
-            от использования приложения длится<br>целые сутки!
+        </fieldset>
+        <fieldset class="achievement__filter achievement__filter--app">
+          <legend class="achievement__title">Ваши безбашенные достижения в путешествии</legend>
+          <ul class="achievement__list">
+            <li class="achievement__item">
+              <input class="achievement__checkbox" id="one-check" type="checkbox" checked>
+              <label class="achievement__label" for="one-check">Сделал селфи с акулой</label>
+            </li>
+            <li class="achievement__item">
+              <input class="achievement__checkbox" id="two-check" type="checkbox" checked>
+              <label class="achievement__label" for="two-check">Обгорел на пляже</label>
+            </li>
+            <li class="achievement__item">
+              <input class="achievement__checkbox" id="three-check" type="checkbox">
+              <label class="achievement__label" for="three-check">Видел Чак Норриса</label>
+            </li>
+            <li class="achievement__item">
+              <input class="achievement__checkbox" id="four" type="checkbox">
+              <label class="achievement__label" for="four">Накупил сувениров</label>
+            </li>
+            <li class="achievement__item">
+              <input class="achievement__checkbox" id="five" type="checkbox" checked>
+              <label class="achievement__label" for="five">Удержал башню</label>
+            </li>
+            <li class="achievement__item">
+              <input class="achievement__checkbox" id="five" type="checkbox">
+              <label class="achievement__label" for="five">Разгромил отель</label>
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset class="achievement__contacts achievement__contacts--app">
+          <ul class="achievement__list">
+            <li class="achievement__item">
+              <label class="achievement__label achievement__label--bottom" for="phone">Номер телефона</label>
+              <input class="achievement__number-phone" id="phone" type="tel" placeholder="Номер, пожалуйста">
+            </li>
+            <li class="achievement__item">
+              <label class="achievement__label achievement__label--bottom" for="mail">Адрес почты</label>
+              <input class="achievement__number-phone" id="mail" type="email" placeholder="Введите почту*">
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset class="achievement__gadget achievement__gadget--app">
+          <legend class="achievement__title">Ваши безбашенные достижения в путешествии</legend>
+          <ul class="achievement__list">
+            <li class="achievement__item">
+              <input class="achievement__radio" id="ios" type="radio" checked>
+              <label class="achievement__label" for="ios">Pink для iOS</label>
+            </li>
+            <li class="achievement__item">
+              <input class="achievement__radio" id="android" type="radio">
+              <label class="achievement__label" for="android">Pink для Android</label>
+            </li>
+            <li class="achievement__item">
+              <input class="achievement__radio" id="phone_radio" type="radio">
+              <label class="achievement__label" for="phone_radio">Windows Phone</label>
+            </li>
+          </ul>
+        </fieldset>
+          <fieldset class="achievement__feedback achievement__feedback--emotion">
+            <legend class="achievement__title">Опишите свои эмоции</legend>
+            <textarea class="achievement__textarea" name="emotion" id="emotion"
+            placeholder="Можно прям в красках, не стесняясь в выражениях">
+          </textarea>
+          </fieldset>
+        </fieldset>
+        <div class="achievement__form-wrapper">
+          <button class="achievement__button" type="button">Отправить форму</button>
+          <p class="achievement__legend achievement__legend--top">
+            <small>
+              * — обязательные поля
+            </small>
           </p>
-          <a class="block__link" href="#">Узнать больше об исследовании</a>
         </div>
-      </div>
-    </section>
-    <section class="reviews">
-      <div class="reviews__wrapper slider">
-        <h2 class="visually-hidden">Отзывы</h2>
-        <div class="reviews__list slider__list">
-          <blockquote class="reviews__item slider__item">
-            <div class="reviews__author-info">
-              <cite class="reviews__author-name--author-top">Николай Петров</cite>
-              <p class="reviews__text">"Это приложение перевернуло мой мир<br>и позволило по-новому взглянуть на<br>
-                привычные серые вещи!А еще я<br>познакомился со своей будущей женой<br>
-                в комментариях к выложенной<br>фотографии!"</p>
-            </div>
-          </blockquote>
-          <small class="reviews__legend reviews__legend--bottom">
-            25 лет, водитель трамвая
-          </small>
-          <button class="reviews__prev" type="button">Предыдущий отзыв</button>
-          <button class="reviews__next" type="button">Следующий отзыв</button>
-        </div>
-        <p class="reviews__toggles">
-          <button class="reviews__toggle--current" type="button">1</button>
-          <button class="reviews__toggle" type="button">2</button>
-          <button class="reviews__toggle" type="button">3</button>
-        </p>
-      </div>
-    </section>
-    <section class="price">
-      <div class="price__wrapper">
-        <h2 class="visually-hidden">Таблица цен</h2>
-        <table class="price__table">
-          <tr class="price__line">
-            <th class="price__cell price__cell--empty"></th>
-            <th class="price__cell">
-              <p class="price__number">База</p>
-              <p class="price__text">1,99 USD</p>
-            </th>
-            <th class="price__cell price__cell--flag">
-              <p class="price__number">Стандарт</p>
-              <p class="price__text">3,99 USD</p>
-            </th>
-            <th class="price__cell">
-              <p class="price__number">Анлим</p>
-              <p class="price__text">9,99 USD</p>
-            </th>
-          </tr>
-          <tr class="price__line">
-            <th class="price__cell">Розовый фильтр</th>
-            <th class="price__cell">Активно</th>
-            <th class="price__cell">Активно</th>
-            <th class="price__cell">Активно</th>
-          </tr>
-          <tr class="price__line">
-            <th class="price__cell">Комментарии</th>
-            <th class="price__cell">Не активно</th>
-            <th class="price__cell">Активно</th>
-            <th class="price__cell">Активно</th>
-          </tr>
-          <tr class="price__line">
-            <th class="price__cell">Смайлики</th>
-            <th class="price__cell">Не активно</th>
-            <th class="price__cell">Не активно</th>
-            <th class="price__cell">Активно</th>
-          </tr>
-        </table>
-        <p class="price-slider__toggles">
-          <button class="price-slider__toggle" type="button">1</button>
-          <button class="price-slider__toggle--current" type="button">2</button>
-          <button class="price-slider__toggle" type="button">3</button>
-        </p>
+        </form>
       </div>
     </section>
   </main>
