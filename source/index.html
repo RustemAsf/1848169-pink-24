@@ -11,7 +11,7 @@
     <nav class="main-nav">
       <div class="main-nav__logo-wrapper">
         <a class="page-header__logo">
-          <svg class="logo__mobile" width="74" height="23" viewBox="0 0 74 23" fill="none"
+          <svg width="74" height="23" viewBox="0 0 74 23" fill="none"
             xmlns="http://www.w3.org/2000/svg">
             <path
               d="M0.00496827 1.54857C0.00487772 1.21254 0.135804 0.889818 0.369742 0.649431C0.60368 0.409043 0.922049 0.27008 1.25676 0.262266H8.39001C13.4469 0.262266 16.7751 2.9645 16.7751 7.39179V7.45162C16.7751 12.2977 12.7415 14.8105 7.97274 14.8105H2.53836V21.611C2.55394 21.7874 2.53277 21.9651 2.47619 22.1329C2.41961 22.3006 2.32887 22.4547 2.20973 22.5854C2.09058 22.716 1.94565 22.8204 1.78416 22.8918C1.62266 22.9631 1.44812 23 1.27166 23C1.0952 23 0.920671 22.9631 0.759173 22.8918C0.597674 22.8204 0.452744 22.716 0.333602 22.5854C0.21446 22.4547 0.123708 22.3006 0.0671295 22.1329C0.0105515 21.9651 -0.0106138 21.7874 0.00496827 21.611V1.54857ZM8.07209 12.5171C11.7778 12.5171 14.2119 10.5228 14.2119 7.53139V7.47156C14.2119 4.26078 11.8175 2.59556 8.25092 2.59556H2.58804V12.4772L8.07209 12.5171Z"
@@ -58,7 +58,7 @@
           <p class="promo__slogan">Взгляните на жизнь<br>иначе!</p>
         </header>
         <div class="promo__download">
-          <a class="download__link" href="#">Cкачайте приложение</a>
+          <a class="promo__link" href="#">Cкачайте приложение</a>
           <ul class="promo__list">
             <li class="promo__item">
               <a href="#">apple-logo</a>
@@ -101,13 +101,13 @@
             </p>
           </li>
         </ul>
-        <div class="advantages__block">
-          <h3 class="block__title--title-block">Эффект<br>на 24 часа!</h3>
-          <p class="block__description">
+        <div class="advantages__block advantages__block--disabled">
+          <h3 class="advantages__title">Эффект<br>на 24 часа!</h3>
+          <p class="advantages__description">
             Британские ученые провели исследования<br>и доказали, что положительный эффект<br>
             от использования приложения длится<br>целые сутки!
           </p>
-          <a class="block__link" href="#">Узнать больше об исследовании</a>
+          <a class="advantages__link" href="#">Узнать больше об исследовании</a>
         </div>
       </div>
     </section>
@@ -117,7 +117,7 @@
         <div class="reviews__list slider__list">
           <blockquote class="reviews__item slider__item">
             <div class="reviews__author-info">
-              <cite class="reviews__author-name--author-top">Николай Петров</cite>
+              <cite class="reviews__author-name reviews__author-name--author-top">Николай Петров</cite>
               <p class="reviews__text">"Это приложение перевернуло мой мир<br>и позволило по-новому взглянуть на<br>
                 привычные серые вещи!А еще я<br>познакомился со своей будущей женой<br>
                 в комментариях к выложенной<br>фотографии!"</p>
@@ -130,14 +130,14 @@
           <button class="reviews__next" type="button">Следующий отзыв</button>
         </div>
         <p class="reviews__toggles">
-          <button class="reviews__toggle--current" type="button">1</button>
+          <button class="reviews__toggle reviews__toggle--current" type="button">1</button>
           <button class="reviews__toggle" type="button">2</button>
           <button class="reviews__toggle" type="button">3</button>
         </p>
       </div>
     </section>
     <section class="price">
-      <div class="price__wrapper">
+      <div class="price__wrapper slider">
         <h2 class="visually-hidden">Таблица цен</h2>
         <table class="price__table">
           <tr class="price__line">
@@ -174,17 +174,17 @@
             <th class="price__cell">Активно</th>
           </tr>
         </table>
-        <p class="price-slider__toggles">
-          <button class="price-slider__toggle" type="button">1</button>
-          <button class="price-slider__toggle--current" type="button">2</button>
-          <button class="price-slider__toggle" type="button">3</button>
+        <p class="price__toggles slider__toggles">
+          <button class="slider__toggle" type="button">1</button>
+          <button class="slider__toggle slider__toggle--current" type="button">2</button>
+          <button class="slider__toggle" type="button">3</button>
         </p>
       </div>
     </section>
   </main>
   <footer class="page-footer">
     <div class="page-footer__wrapper">
-      <div class="page-footer__contacts">
+      <div class="page-footer__contacts contacts">
         <h2 class="contacts__title">Остались вопросы?<br>Свяжитесь с нами</h2>
         <ul class="contacts__list">
           <li class="contacts__item">
@@ -204,7 +204,7 @@
       <div class="map">
 
       </div>
-      <div class="page-footer__social">
+      <div class="page-footer__social social">
         <a class="page-footer__logo" href="#">
           <svg width="145" height="40" viewBox="0 0 145 40" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
