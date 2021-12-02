@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html class="page" lang="ru">
+
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Пинк</title>
@@ -7,6 +8,7 @@
 
 <body class="page__body">
   <header class="page-header">
+
     <nav class="main-nav">
       <div class="main-nav__logo-wrapper">
         <a class="page-header__logo">
@@ -42,142 +44,183 @@
             <a href="#">Конкурс</a>
           </li>
           <li class="main-nav__item">
-            <a href="#">HTML Academy</a>
+            <a href="index.html">HTML Academy</a>
           </li>
         </ul>
       </div>
     </nav>
   </header>
   <main class="page-main">
-    <h1 class="visually-hidden">Пинк - редактор фото</h1>
-    <section class="promo">
-      <div class="promo__wrapper">
-        <header class="promo__header">
-          <h2 class="visually-hidden">Промо блок</h2>
-          <p class="promo__slogan">Взгляните на жизнь<br>иначе!</p>
-        </header>
-        <div class="promo__download">
-          <a class="promo__link" href="#">Cкачайте приложение</a>
-          <ul class="promo__list">
-            <li class="promo__item">
-              <a href="#">apple-logo</a>
-            </li>
-            <li class="promo__item">
-              <a href="#">android-logo</a>
-            </li>
-            <li class="promo__item">
-              <a href="#">microsoft-logo</a>
-            </li>
-          </ul>
-          <span class="promo__legend">
-            Доступно для iPhone, iPad, Android<br>Windows Phone, OS X, Windows 8
-          </span>
-        </div>
-      </div>
-    </section>
-    <section class="advantages">
-      <div class="advantages__wrapper">
-        <h2 class="visually-hidden">Наши преимущества</h2>
-        <p class="advantages__text">Устали от серости<br>мегаполиса?</p>
-        <p class="advantages__text">Нам есть, что вам<br>предложить</p>
-        <ul class="advantages__list">
-          <li class="advantages__item">
-            <h3 class="advantages__title">Поднимает настроение</h3>
-            <p class="advantages__description">
-              Приложение позволяет вам победить<br>осеннюю хандру и депрессию<br>буквально в несколько кликов!
+    <div class="promo">
+      <header class="promo__header">
+        <h1 class="promo__title">Фотографии пользователей</h1>
+      </header>
+    </div>
+    <section class="photo-collage">
+      <div class="photo-collage__wrapper">
+        <p class="photo-collage__slogan">Взгляните на фотографии, которые<br>
+          выкладывают наши пользователи!<br>Видите, как не хватает ваших?</p>
+        <div class="photo-collage__user">
+          <div class="photo-collage__user-img">
+
+          </div>
+          <article class="photo-collage__user-text">
+            <h3 class="photo-collage__user-title">Анна</h3>
+            <span class="photo-collage__remark">5 минут назад</span>
+            <p class="photo-collage__text-block">
+              Прыгать или нет?Напишите в<br>комментарии свой совет и<br>
+              смотрите прямую трансляцию в<br>перископе, задавайте свои вопросы!
             </p>
-          </li>
-          <li class="advantages__item">
-            <h3 class="advantages__title">Меняет мир вокруг</h3>
-            <p class="advantages__description">
-              Сделайте снимок и украсьте его<br>смайликом или текстовой подписью,<br>чтобы усилить эффект
-            </p>
-          </li>
-          <li class="advantages__item">
-            <h3 class="advantages__title">Заводит новых друзей</h3>
-            <p class="advantages__description">
-              Ставьте лайки, комментируйте,<br>делитесь фотографиями с друзьями и<br>заводите новых
-            </p>
-          </li>
-        </ul>
-        <div class="advantages__block advantages__block--disabled">
-          <h3 class="advantages__title">Эффект<br>на 24 часа!</h3>
-          <p class="advantages__description">
-            Британские ученые провели исследования<br>и доказали, что положительный эффект<br>
-            от использования приложения длится<br>целые сутки!
-          </p>
-          <a class="advantages__link" href="#">Узнать больше об исследовании</a>
-        </div>
-      </div>
-    </section>
-    <section class="reviews">
-      <div class="reviews__wrapper slider">
-        <h2 class="visually-hidden">Отзывы</h2>
-        <div class="reviews__list slider__list">
-          <blockquote class="reviews__item slider__item">
-            <div class="reviews__author-info">
-              <cite class="reviews__author-name reviews__author-name--author-top">Николай Петров</cite>
-              <p class="reviews__text">"Это приложение перевернуло мой мир<br>и позволило по-новому взглянуть на<br>
-                привычные серые вещи!А еще я<br>познакомился со своей будущей женой<br>
-                в комментариях к выложенной<br>фотографии!"</p>
+            <div class="photo-collage__like-block">
+              <span class="photo-collage__like-text">Нравится:</span>
+              <span class="photo-collage__like-counter">215</span>
             </div>
-            <small class="reviews__legend reviews__legend--bottom">
-              25 лет, водитель трамвая
-            </small>
-          </blockquote>
-          <button class="reviews__prev" type="button">Предыдущий отзыв</button>
-          <button class="reviews__next" type="button">Следующий отзыв</button>
+          </article>
         </div>
-        <p class="reviews__toggles">
-          <button class="reviews__toggle reviews__toggle--current" type="button">1</button>
-          <button class="reviews__toggle" type="button">2</button>
-          <button class="reviews__toggle" type="button">3</button>
-        </p>
+        <div class="photo-collage__user">
+          <div class="photo-collage__user-img">
+
+          </div>
+          <article class="photo-collage__user-text">
+            <h3 class="photo-collage__user-title">Левон</h3>
+            <span class="photo-collage__remark">5 часов назад</span>
+            <p class="photo-collage__text-block">
+              Вчера он на луну летал, сегодня в<br>руки к нам попал.
+            </p>
+            <div class="photo-collage__like-block">
+              <span class="photo-collage__like-text">Нравится:</span>
+              <span class="photo-collage__like-counter">356</span>
+            </div>
+          </article>
+        </div>
+        <div class="photo-collage__user">
+          <div class="photo-collage__user-img">
+
+          </div>
+          <article class="photo-collage__user-text">
+            <h3 class="photo-collage__user-title">Антон</h3>
+            <span class="photo-collage__remark">12 часов назад</span>
+            <p class="photo-collage__text-block">
+              Соседи будут рады!
+            </p>
+            <div class="photo-collage__like-block">
+              <span class="photo-collage__like-text">Нравится:</span>
+              <span class="photo-collage__like-counter">666</span>
+            </div>
+          </article>
+        </div>
+        <div class="photo-collage__user">
+          <div class="photo-collage__user-img">
+
+          </div>
+          <article class="photo-collage__user-text">
+            <h3 class="photo-collage__user-title">Борис</h3>
+            <span class="photo-collage__remark">20 часов назад</span>
+            <p class="photo-collage__text-block">
+              Здесь могла быть ваша цитата о<br>высоком и вечном.
+            </p>
+            <div class="photo-collage__like-block">
+              <span class="photo-collage__like-text">Нравится:</span>
+              <span class="photo-collage__like-counter">215</span>
+            </div>
+          </article>
+        </div>
+        <div class="photo-collage__user">
+          <div class="photo-collage__user-img">
+
+          </div>
+          <article class="photo-collage__user-text">
+            <h3 class="photo-collage__user-title">Сергей</h3>
+            <span class="photo-collage__remark">25 часов назад</span>
+            <p class="photo-collage__text-block">
+              Самая кубанская в мире!
+            </p>
+            <div class="photo-collage__like-block">
+              <span class="photo-collage__like-text">Нравится:</span>
+              <span class="photo-collage__like-counter">4</span>
+            </div>
+          </article>
+        </div>
+        <div class="photo-collage__user">
+          <div class="photo-collage__user-img">
+
+          </div>
+          <article class="photo-collage__user-text">
+            <h3 class="photo-collage__user-title">Максим</h3>
+            <span class="photo-collage__remark">40 часов назад</span>
+            <p class="photo-collage__text-block">
+              Где снег то?
+            </p>
+            <div class="photo-collage__like-block">
+              <span class="photo-collage__like-text">Нравится:</span>
+              <span class="photo-collage__like-counter">150</span>
+            </div>
+          </article>
+        </div>
+        <div class="photo-collage__user">
+          <div class="photo-collage__user-img">
+
+          </div>
+          <article class="photo-collage__user-text">
+            <h3 class="photo-collage__user-title">Надежда</h3>
+            <span class="photo-collage__remark">45 часов назад</span>
+            <p class="photo-collage__text-block">
+              Всегда GM и взаимные лайки!
+            </p>
+            <div class="photo-collage__like-block">
+              <span class="photo-collage__like-text">Нравится:</span>
+              <span class="photo-collage__like-counter">2560</span>
+            </div>
+          </article>
+        </div>
       </div>
     </section>
-    <section class="price">
-      <div class="price__wrapper slider">
-        <h2 class="visually-hidden">Таблица цен</h2>
-        <table class="price__table">
-          <tr class="price__line">
-            <th class="price__cell price__cell--empty"></th>
-            <th class="price__cell">
-              <p class="price__number">База</p>
-              <p class="price__text">1,99 USD</p>
-            </th>
-            <th class="price__cell price__cell--flag">
-              <p class="price__number">Стандарт</p>
-              <p class="price__text">3,99 USD</p>
-            </th>
-            <th class="price__cell">
-              <p class="price__number">Анлим</p>
-              <p class="price__text">9,99 USD</p>
-            </th>
-          </tr>
-          <tr class="price__line">
-            <th class="price__cell">Розовый фильтр</th>
-            <th class="price__cell">Активно</th>
-            <th class="price__cell">Активно</th>
-            <th class="price__cell">Активно</th>
-          </tr>
-          <tr class="price__line">
-            <th class="price__cell">Комментарии</th>
-            <th class="price__cell">Не активно</th>
-            <th class="price__cell">Активно</th>
-            <th class="price__cell">Активно</th>
-          </tr>
-          <tr class="price__line">
-            <th class="price__cell">Смайлики</th>
-            <th class="price__cell">Не активно</th>
-            <th class="price__cell">Не активно</th>
-            <th class="price__cell">Активно</th>
-          </tr>
-        </table>
-        <p class="price__toggles slider__toggles">
-          <button class="slider__toggle" type="button">1</button>
-          <button class="slider__toggle slider__toggle--current" type="button">2</button>
-          <button class="slider__toggle" type="button">3</button>
-        </p>
+    <section class="download-block">
+      <h2 class="visually-hidden">Меню загрузки фотографии</h2>
+      <div class="download-block__wrapper">
+        <div class="download-block__content-block">
+          <p class="download-block__slogan-text">
+            Затмите их всех!<br>Выкладывайте все, что накопилось в<br>телефоне!
+          </p>
+        </div>
+        <form class="download-block__user-photo" action="echo" method="post">
+          <div class="download-block__img">
+
+          </div>
+          <div class="download-block__tools">
+            <dl class="download-block__tools-list">
+              <dt class="download-block__elements download-block__elements--crop">
+                Обрезать
+              </dt>
+              <dd class="download-block__scale scale">
+                <div class="scale__bar">
+                </div>
+                <div class="scale__range-toggle">
+                </div>
+              </dd>
+              <dt class="download-block__elements download-block__elements--fill">
+                Заливка
+              </dt>
+              <dd class="download-block__scale scale">
+                <div class="scale__bar">
+                </div>
+                <div class="scale__range-toggle">
+                </div>
+              </dd>
+              <dt class="download-block__elements download-block__elements--contrast">
+                Контраст
+              </dt>
+              <dd class="download-block__scale scale">
+                <div class="scale__bar">
+                </div>
+                <div class="scale__range-toggle">
+                </div>
+              </dd>
+            </dl>
+            <input class="download-block__button download-block__button--submit" type="submit" value="Запостить">
+            <input class="download-block__button download-block__button--reset" type="reset" value="Отмена">
+          </div>
+        </form>
       </div>
     </section>
   </main>
