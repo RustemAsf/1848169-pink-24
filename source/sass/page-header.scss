@@ -1,0 +1,13 @@
+
+.page-header {
+  width: $mobile-width;
+  background-color:$header-color;
+  background-image: url("../img/back-mobile.png");
+  background-repeat: no-repeat;
+  color: $white;
+}
+
+.main-nav__wrapper {
+  display: none;
+}
+
