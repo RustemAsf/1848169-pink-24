@@ -1,0 +1,36 @@
+.download__link {
+  padding: 17px 29px 17px 29px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 18px;
+  color: #FFFFFF;
+  font-weight: 700;
+  text-decoration: none;
+  border: 3px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 29px;
+}
+
+.download__list {
+  padding-top: 53px;
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  margin-bottom: 28px;
+}
+
+.download__legend {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  display: block;
+  margin: 0 auto;
+}
+

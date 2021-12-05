@@ -1,2 +1,78 @@
 
+.advantages__wrapper {
+  position: relative;
+  width: $mobile-width;
+}
+
+.advantages__slogan-block {
+  background: $white;
+  padding-top: 46px;
+  padding-bottom: 42px;
+}
+
+.advantages__text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 120%;
+  align-items: center;
+  text-align: center;
+  color: #283645;
+  margin: 0;
+  margin-bottom: 28px;
+}
+
+.advantages__list {
+  padding-top: 50px;
+  list-style-type: none;
+  text-align: center;
+  padding-left: 0;
+  margin: 0;
+  background: #F2F2F2;
+  min-height: 828px;
+}
+
+.advantages__title {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.advantages__description {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  align-items: center;
+  text-align: center;
+  color: #283645;
+}
+
+.advantages__block {
+  display: none;
+}
+
+.advantages__img-block {
+  // position: absolute;
+  // display: block;
+  // top: 0;
+  // left: 0;
+  background-image: url("../img/iphone-smile.png");
+  background-repeat: no-repeat;
+  background-position: 50% 148px;
+  background-size: 157px auto;
+}
+
+
+
+
 

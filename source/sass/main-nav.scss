@@ -1,5 +1,24 @@
-
 .main-nav {
-
+  min-height: 66px;
+  width: 100%;
+  background:rgba(0, 0, 0, 0.3);
+  margin-bottom: 29px;
 }
+
+.main-nav__logo-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 22px;
+}
+
+.main-nav__wrapper {
+  display: none;
+}
+
+.main-nav__toggle {
+  padding: 0;
+  border: none;
+  background: none;
+}
+
 

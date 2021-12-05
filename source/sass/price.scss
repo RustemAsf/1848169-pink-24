@@ -1,2 +1,20 @@
+.price {
+  background:  #F2F2F2;
+}
+.price__wrapper {
+  width: 100%;
+  overflow: hidden;
+}
 
+.price__table {
+  border-collapse: collapse;
+  // background: #FFFFFF;
+  // border: 2px solid #E5E5E5;
+  // border-radius: 1px 0px 0px 0px;
+}
+
+.price__cell {
+  border: 2px solid #E5E5E5;
+  border-radius: 1px 0px 0px 0px;
+}
 
