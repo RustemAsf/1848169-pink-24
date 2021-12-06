@@ -3,6 +3,10 @@
   padding-right: 20px;
 }
 
+.download-block__wrapper {
+  width: 320px;
+}
+
 .download__link {
   padding: 17px 29px 17px 29px;
   font-family: "Open Sans";
@@ -21,7 +25,7 @@
 }
 
 .download__list {
-  padding-top: 53px;
+  padding-top: 38px;
   display: flex;
   list-style-type: none;
   margin: 0;
@@ -39,6 +43,73 @@
   color: #FFFFFF;
   display: block;
   margin: 0 auto;
-  // margin-bottom: 38px;
+}
+
+.download-block__slogan-text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  align-items: center;
+  text-align: center;
+  color: #283645;
+  margin: 0;
+  margin-bottom: 52px;
+}
+
+.download-block__tools-list {
+  margin: 0;
+}
+
+.download-block__user-photo {
+  padding: 0;
+  background: #F2F2F2;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.download-block__img {
+  width: 280px;
+  min-height: 374px;
+}
+
+.download-block__tools-list {
+  display: flex;
+  margin-bottom: 122px;
+}
+
+.download-block__button {
+  width: 280px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 18px;
+  align-items: center;
+  text-align: center;
+  color: #D22856;
+}
+
+.download-block__button--submit {
+  border: 3px solid #D22856;
+  box-sizing: border-box;
+  border-radius: 30px;
+  padding: 21px 90px 21px 90px;
+  margin-bottom: 12px;
+}
+
+.download-block__button--reset {
+  padding: 21px 90px 21px 90px;
+  color: #283645;
+  opacity: 0.1;
+  opacity: 0.1;
+  border: 3px solid #283645;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
+
+.download-block__button-block {
+  margin-bottom: 41px;
 }
 

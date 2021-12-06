@@ -1,0 +1,102 @@
+
+.photo-collage {
+  width: $mobile-width;
+}
+
+.photo-collage__wrapper {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.photo-collage__slogan {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  align-items: center;
+  text-align: center;
+  color: #283645;
+  margin: 0;
+  padding: 54px 20px 60px 20px;
+}
+
+.photo-collage__user-img {
+  width: $mobile-width;
+  min-height: 137px;
+  outline: 2px solid rgba(255, 99, 78, 0.5);
+  outline-offset: -5px;
+  margin-bottom: 26px;
+}
+
+.small-img-block {
+  width: 280px;
+  min-height: 180px;
+  margin: 0;
+}
+
+.photo-collage__user-text {
+  max-width: 280px;
+  margin: 0;
+  background: #F2F2F2;
+  padding-left: 17px;
+  margin-bottom: 20px;
+}
+
+.photo-collage__user-title {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  align-items: center;
+  color: #283645;
+  margin: 0;
+}
+
+.photo-collage__remark {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 24px;
+  align-items: center;
+  text-transform: uppercase;
+  color: #283645;
+}
+
+.photo-collage__text-block {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  align-items: center;
+  color: #283645;
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+.photo-collage__like-text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  align-items: center;
+  text-align: right;
+  text-transform: uppercase;
+  color: #D22856;
+}
+
+.photo-collage__like-counter {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  align-items: center;
+  text-align: right;
+  text-transform: uppercase;
+  color: #D22856;
+}
