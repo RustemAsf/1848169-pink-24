@@ -1,3 +1,8 @@
+.download__wrapper {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .download__link {
   padding: 17px 29px 17px 29px;
   font-family: "Open Sans";
@@ -11,6 +16,8 @@
   border: 3px solid #FFFFFF;
   box-sizing: border-box;
   border-radius: 29px;
+  display: block;
+  text-align: center;
 }
 
 .download__list {
@@ -32,5 +39,6 @@
   color: #FFFFFF;
   display: block;
   margin: 0 auto;
+  // margin-bottom: 38px;
 }
 

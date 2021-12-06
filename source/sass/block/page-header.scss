@@ -2,14 +2,11 @@
 .page-header {
   position: relative;
   width: $mobile-width;
-  min-height: 733px;
   background-color:$header-color;
   background-image: url("../img/back-mobile.png");
   background-repeat: no-repeat;
   box-sizing: border-box;
   color: $white;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
 .page-header__slogan {
