@@ -2,16 +2,16 @@
 .page-header {
   position: relative;
   min-width: $mobile-width-only;
-  background-color:$darkgrey;
+  background-color: #1D2631;
   background-image: url("../img/back-mobile.png");
   background-repeat: no-repeat;
   box-sizing: border-box;
-  color: $white;
+  color: #FFFFFF;
 }
 
 .page-header__slogan {
   margin: 0;
-  font-family: "Open Sans";
+  font-family: $font-pink;
   font-style: normal;
   font-weight: 300;
   font-size: 24px;

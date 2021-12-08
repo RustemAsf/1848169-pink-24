@@ -1,6 +1,6 @@
 
 .photo-collage {
-  width: $mobile-width;
+  width: $mobile-width-only;
 }
 
 .photo-collage__wrapper {
@@ -9,7 +9,7 @@
 }
 
 .photo-collage__slogan {
-  font-family: "Open Sans";
+  font-family: $font-pink;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -22,15 +22,15 @@
 }
 
 .photo-collage__user-img {
-  width: $mobile-width;
+  width: $mobile-width-only;
   min-height: 137px;
   outline: 2px solid rgba(255, 99, 78, 0.5);
   outline-offset: -5px;
   margin-bottom: 26px;
 }
 
-.small-img-block {
-  width: 280px;
+.photo-collage__small-img-block {
+  min-width: 280px;
   min-height: 180px;
   margin: 0;
 }
@@ -44,7 +44,7 @@
 }
 
 .photo-collage__user-title {
-  font-family: "Open Sans";
+  font-family: $font-pink;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -55,7 +55,7 @@
 }
 
 .photo-collage__remark {
-  font-family: "Open Sans";
+  font-family: $font-pink;
   font-style: normal;
   font-weight: 300;
   font-size: 12px;
@@ -66,7 +66,7 @@
 }
 
 .photo-collage__text-block {
-  font-family: "Open Sans";
+  font-family: $font-pink;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -78,7 +78,7 @@
 }
 
 .photo-collage__like-text {
-  font-family: "Open Sans";
+  font-family: $font-pink;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -90,7 +90,7 @@
 }
 
 .photo-collage__like-counter {
-  font-family: "Open Sans";
+  font-family: $font-pink;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;

@@ -1,7 +1,7 @@
 
 .achievement__slogan {
   margin: 0;
-  font-family: "Open Sans";
+  font-family: $font-pink;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -33,7 +33,7 @@
 }
 
 .achievement__input {
-  font-family: "Open Sans";
+  font-family: $font-pink;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -53,13 +53,13 @@
 }
 
 .achievement__input {
-  &__three {
+  &--three {
   margin-bottom: 44px;
   }
 }
 
 .achievement__label {
-  font-family: "Open Sans";
+  font-family: $font-pink;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -71,7 +71,7 @@
 }
 
 .achievement__label-check {
-  font-family: "Open Sans";
+  font-family: $font-pink;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -93,7 +93,7 @@
 }
 
 .achievement__title {
-  font-family: "Open Sans";
+  font-family: $font-pink;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -107,7 +107,7 @@
 }
 
 .achievement__title-gadget {
-  font-family: "Open Sans";
+  font-family: $font-pink;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -121,7 +121,7 @@
 }
 
 .achievement__title-feedback {
-  font-family: "Open Sans";
+  font-family: $font-pink;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -162,7 +162,7 @@
 }
 
 .achievement__number-phone::placeholder {
-  font-family: "Open Sans";
+  font-family: $font-pink;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -182,7 +182,7 @@
 }
 
 .achievement__mail::placeholder {
-  font-family: "Open Sans";
+  font-family: $font-pink;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -209,7 +209,7 @@
 }
 
 .achievement__label-radio {
-  font-family: "Open Sans";
+  font-family: $font-pink;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -227,7 +227,7 @@
 }
 
 .achievement__text-emotion {
-  font-family: "Open Sans";
+  font-family: $font-pink;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -247,7 +247,7 @@
 }
 
 .achievement__button {
-  font-family: "Open Sans";
+  font-family: $font-pink;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -271,7 +271,7 @@
 
 .achievement__text {
   margin: 0;
-  font-family: Open Sans;
+  font-family: $font-pink;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;

@@ -1,5 +1,5 @@
 .reviews__wrapper {
-  width: $mobile-width;
+  width: $mobile-width-only;
   background: #FFFFFF;
   min-height: 364px;
   outline: 2px solid rgba(255, 99, 78, 0.5);
@@ -7,7 +7,7 @@
 }
 
 .reviews__author-name {
-  font-family: "Open Sans";
+  font-family: $font-pink;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -19,7 +19,7 @@
 
 .reviews__text {
   padding-top: 31px;
-  font-family: "Open Sans";
+  font-family: $font-pink;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;

@@ -14,6 +14,14 @@
 }
 
 .price__cell {
+  font-family: $font-pink;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  align-items: center;
+  text-transform: uppercase;
+  color: #283645;
   border: 2px solid #E5E5E5;
   border-radius: 1px 0px 0px 0px;
 }
