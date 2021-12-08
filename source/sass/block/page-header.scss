@@ -1,8 +1,8 @@
 
 .page-header {
   position: relative;
-  min-width: $mobile-width;
-  background-color:$header-color;
+  min-width: $mobile-width-only;
+  background-color:$darkgrey;
   background-image: url("../img/back-mobile.png");
   background-repeat: no-repeat;
   box-sizing: border-box;

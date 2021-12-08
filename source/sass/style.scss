@@ -1,4 +1,4 @@
-@import "settings.scss";
+@import "./global/variables.scss";
 @import "fonts.scss";
 @import "./block/page-header.scss";
 @import "./block/visually-hidden.scss";
@@ -15,7 +15,7 @@
 @import "./block/social.scss";
 @import "./block/photo-collage.scss";
 @import "./block/achievement.scss";
-
+@import "./block/page.scss";
 
 
 
