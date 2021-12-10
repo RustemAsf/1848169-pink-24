@@ -1,12 +1,23 @@
 
 .page-header {
   position: relative;
-  min-width: $mobile-width-only;
+  min-width: $mobile-width;
   background-color: #1D2631;
   background-image: url("../img/back-mobile.png");
+  background-position: 100% 0;
+  background-size: cover;
   background-repeat: no-repeat;
   box-sizing: border-box;
   color: #FFFFFF;
+  @media (min-width: $tablet-width) {
+    position: relative;
+    min-width: $mobile-width;
+    background-color: #1D2631;
+    background-image: url("../img/back-tablet.png");
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    color: #FFFFFF;
+  }
 }
 
 .page-header__slogan {
@@ -20,3 +31,28 @@
   color: #FFFFFF;
 }
 
+@media (min-width: $tablet-width) {
+  .page-header__slogan {
+    margin: 0;
+    font-family: $font-pink;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+  }
+}
+
+.page-header__logo {
+  width: 74px;
+  height: 23px;
+
+  @media (min-width: $tablet-width) {
+    height: 23px;
+  }
+
+  @media (min-width: $desktop-width) {
+    height: 40px;
+  }
+}

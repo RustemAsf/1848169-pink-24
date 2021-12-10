@@ -43,28 +43,22 @@
   align-items: center;
   text-align: center;
   color: #D22856;
-}
-
-.download-block__button {
   &--submit {
-  border: 3px solid #D22856;
-  box-sizing: border-box;
-  border-radius: 30px;
-  padding: 21px 90px 21px 90px;
-  margin-bottom: 12px;
-  }
-}
-
-.download-block__button {
-  &--reset {
-  padding: 21px 90px 21px 90px;
-  color: #283645;
-  opacity: 0.1;
-  opacity: 0.1;
-  border: 3px solid #283645;
-  box-sizing: border-box;
-  border-radius: 30px;
-  }
+    border: 3px solid #D22856;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 21px 90px 21px 90px;
+    margin-bottom: 12px;
+    }
+    &--reset {
+      padding: 21px 90px 21px 90px;
+      color: #283645;
+      opacity: 0.1;
+      opacity: 0.1;
+      border: 3px solid #283645;
+      box-sizing: border-box;
+      border-radius: 30px;
+    }
 }
 
 .download-block__button-block {

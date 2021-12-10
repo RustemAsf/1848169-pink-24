@@ -1,3 +1,10 @@
+.download {
+  background: #1D2631;
+  color: #FFFFFF;
+  outline: 3px solid rgba(255, 99, 78, 0.5);
+  outline-offset: -5px;
+}
+
 .download__wrapper {
   padding-left: 20px;
   padding-right: 20px;
@@ -41,6 +48,3 @@
   display: block;
   margin: 0 auto;
 }
-
-
-

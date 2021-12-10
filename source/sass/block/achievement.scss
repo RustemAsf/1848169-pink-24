@@ -45,17 +45,14 @@
   border: 2px solid #E5E5E5;
   border-radius: 1px;
   margin-bottom: 29px;
+  &--three {
+    margin-bottom: 44px;
+    }
 }
 
 .achievement__input::placeholder {
   padding-left: 20px;
   color: #283645;
-}
-
-.achievement__input {
-  &--three {
-  margin-bottom: 44px;
-  }
 }
 
 .achievement__label {

@@ -1,0 +1,13 @@
+.logo-pink__tablet {
+  display: none;
+}
+
+
+@media (min-width: $tablet-width) {
+  .logo-pink__tablet {
+    display: block;
+  }
+  .logo-pink__mobile {
+    display: none;
+  }
+}
