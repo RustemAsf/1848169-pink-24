@@ -1,14 +1,36 @@
 .download {
   background: #1D2631;
   color: #FFFFFF;
-  outline: 3px solid rgba(255, 99, 78, 0.5);
-  outline-offset: -5px;
 }
 
 .download__wrapper {
   padding-left: 20px;
   padding-right: 20px;
   min-height: 271px;
+}
+
+@media (min-width: $tablet-width) {
+  .download__wrapper {
+    position: absolute;
+    top: 386px;
+    left: 0;
+    width: 45%;
+    padding-left: 20px;
+    padding-right: 20px;
+    min-height: 271px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .download__wrapper {
+    position: absolute;
+    top: 386px;
+    left: 111px;
+    width: 25%;
+    padding-left: 20px;
+    padding-right: 20px;
+    min-height: 271px;
+  }
 }
 
 .download__link {

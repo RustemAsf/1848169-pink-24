@@ -1,17 +1,20 @@
 
 .page-header {
   position: relative;
-  min-width: $mobile-width;
+  min-width: 100%;
   background-color: #1D2631;
   background-image: url("../img/back-mobile.png");
   background-position: 100% 0;
-  background-size: cover;
+  // background-size: cover;
   background-repeat: no-repeat;
   box-sizing: border-box;
   color: #FFFFFF;
-  @media (min-width: $tablet-width) {
+}
+
+@media (min-width: $tablet-width) {
+  .page-header {
     position: relative;
-    min-width: $mobile-width;
+    min-height: 729px;
     background-color: #1D2631;
     background-image: url("../img/back-tablet.png");
     background-repeat: no-repeat;
@@ -20,8 +23,22 @@
   }
 }
 
+@media (min-width: $desktop-width) {
+  .page-header {
+    position: relative;
+    min-width: $mobile-width;
+    min-height: 853px;
+    background-color: #1D2631;
+    background-image: url("../img/back-desktop.png");
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    color: #FFFFFF;
+  }
+}
+
 .page-header__slogan {
   margin: 0;
+  padding-top: 29px;
   font-family: $font-pink;
   font-style: normal;
   font-weight: 300;
@@ -33,13 +50,37 @@
 
 @media (min-width: $tablet-width) {
   .page-header__slogan {
+    width: 200px;
+    display: block;
+    padding-left: 74px;
     margin: 0;
+    text-align: center;
+    padding-top: 102px;
     font-family: $font-pink;
     font-style: normal;
     font-weight: 300;
-    font-size: 24px;
+    font-size: 40px;
     line-height: 120%;
+    color: #FFFFFF;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .page-header__slogan {
+    position: absolute;
+    top: 114px;
+    left: 113px;
+    width: 200px;
+    display: block;
+    padding-left: 74px;
+    margin: 0;
     text-align: center;
+    padding-top: 102px;
+    font-family: $font-pink;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 120%;
     color: #FFFFFF;
   }
 }

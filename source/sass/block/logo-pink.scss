@@ -2,6 +2,10 @@
   display: none;
 }
 
+.logo-pink__desktop {
+  display: none;
+}
+
 
 @media (min-width: $tablet-width) {
   .logo-pink__tablet {
@@ -9,5 +13,20 @@
   }
   .logo-pink__mobile {
     display: none;
+  }
+  .logo-pink__desktop {
+    display: none;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .logo-pink__tablet {
+    display: none;
+  }
+  .logo-pink__mobile {
+    display: none;
+  }
+  .logo-pink__desktop {
+    display: block;
   }
 }
