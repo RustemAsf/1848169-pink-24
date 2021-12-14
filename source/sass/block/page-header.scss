@@ -44,6 +44,22 @@
   }
 }
 
+@media (min-width: $tablet-width) {
+  .page-header {
+    &--form {
+      min-height: 430px;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .page-header {
+    &--form {
+      min-height: 394px;
+    }
+  }
+}
+
 .page-header__slogan {
   margin: 0;
   padding-top: 29px;
