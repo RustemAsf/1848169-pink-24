@@ -5,7 +5,7 @@
   background-color: #1D2631;
   background-image: url("../img/back-mobile.png");
   background-position: 100% 0;
-  // background-size: cover;
+  background-size: cover;
   background-repeat: no-repeat;
   box-sizing: border-box;
   color: #FFFFFF;
@@ -33,6 +33,14 @@
     background-repeat: no-repeat;
     box-sizing: border-box;
     color: #FFFFFF;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .page-header {
+    &--catalog {
+      min-height: 440px;
+    }
   }
 }
 

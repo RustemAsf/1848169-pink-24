@@ -2,3 +2,10 @@
   width: $mobile-width;
   margin: 0;
 }
+
+@media (min-width: $tablet-width) {
+  .page-main {
+    width: 100%;
+    margin: 0;
+  }
+}

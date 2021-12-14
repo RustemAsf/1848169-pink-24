@@ -9,7 +9,7 @@
 </head>
 
 <body class="page__body">
-  <header class="page-header">
+  <header class="page-header page-header--catalog">
 
     <nav class="main-nav main-nav--closed main-nav--nojs">
       <div class="main-nav__logo-wrapper">
@@ -75,7 +75,7 @@
 
       navMain.classList.remove('main-nav--nojs');
 
-      navToggle.addEventListener('click', function() {
+      navToggle.addEventListener('click', function () {
         if (navMain.classList.contains('main-nav--closed')) {
           navMain.classList.remove('main-nav--closed');
           navMain.classList.add('main-nav--opened');
@@ -94,32 +94,37 @@
       <p class="photo-collage__slogan">Взгляните на фотографии, которые<br>
         выкладывают наши пользователи!<br>Видите, как не хватает ваших?</p>
       <div class="photo-collage__user">
-        <div class="photo-collage__user-img">
+        <div class="photo-collage__user-img--one">
 
         </div>
-
-        <div class="photo-collage__wrapper">
-          <article class="photo-collage__user-text">
+        <article class="photo-collage__user-text--one">
+          <div class="photo-collage__title-line--one">
             <h3 class="photo-collage__user-title">Анна
-              <span class="photo-collage__remark">(5 минут назад)</span>
+              <span class="photo-collage__remark--one">(5 минут назад)</span>
             </h3>
-            <p class="photo-collage__text-block">
-              Прыгать или нет?Напишите в<br>комментарии свой совет и<br>
-              смотрите прямую трансляцию в<br>перископе, задавайте свои вопросы!
-            </p>
-            <div class="photo-collage__like-block">
-              <span class="photo-collage__like-text">Нравится:</span>
-              <span class="photo-collage__like-counter">215</span>
-            </div>
-          </article>
-
-          <div class="photo-collage__user">
+            <span class="photo-collage__like-text--top-text">Нравится:</span>
+            <span class="photo-collage__like-counter--top-counter">215</span>
+          </div>
+          <p class="photo-collage__text-block">
+            Прыгать или нет?Напишите в комментарии свой совет и
+            смотрите прямую трансляцию в перископе, задавайте свои вопросы!
+          </p>
+          <div class="photo-collage__like-block">
+            <span class="photo-collage__like-text--bottom-text">Нравится:</span>
+            <span class="photo-collage__like-counter--bottom-counter">215</span>
+          </div>
+        </article>
+        <div class="photo-collage__wrapper">
+          <div class="photo-collage__user--block">
             <div class="photo-collage__user-img photo-collage__small-img-block">
 
             </div>
             <article class="photo-collage__user-text">
-              <h3 class="photo-collage__user-title">Левон</h3>
-              <span class="photo-collage__remark">5 часов назад</span>
+              <div class="photo-collage__title-line">
+                <h3 class="photo-collage__user-title">Левон
+                  <span class="photo-collage__remark">(5 часов назад)</span>
+                </h3>
+              </div>
               <p class="photo-collage__text-block">
                 Вчера он на луну летал, сегодня в<br>руки к нам попал.
               </p>
@@ -129,13 +134,16 @@
               </div>
             </article>
           </div>
-          <div class="photo-collage__user">
+          <div class="photo-collage__user--block">
             <div class="photo-collage__user-img photo-collage__small-img-block">
 
             </div>
             <article class="photo-collage__user-text">
-              <h3 class="photo-collage__user-title">Антон</h3>
-              <span class="photo-collage__remark">12 часов назад</span>
+              <div class="photo-collage__title-line">
+                <h3 class="photo-collage__user-title">Антон
+                  <span class="photo-collage__remark">(12 часов назад)</span>
+                </h3>
+              </div>
               <p class="photo-collage__text-block">
                 Соседи будут рады!
               </p>
@@ -145,13 +153,16 @@
               </div>
             </article>
           </div>
-          <div class="photo-collage__user">
+          <div class="photo-collage__user--block">
             <div class="photo-collage__user-img photo-collage__small-img-block">
 
             </div>
             <article class="photo-collage__user-text">
-              <h3 class="photo-collage__user-title">Борис</h3>
-              <span class="photo-collage__remark">20 часов назад</span>
+              <div class="photo-collage__title-line">
+                <h3 class="photo-collage__user-title">Борис
+                  <span class="photo-collage__remark">(20 часов назад)</span>
+                </h3>
+              </div>
               <p class="photo-collage__text-block">
                 Здесь могла быть ваша цитата о<br>высоком и вечном.
               </p>
@@ -161,13 +172,16 @@
               </div>
             </article>
           </div>
-          <div class="photo-collage__user">
+          <div class="photo-collage__user--block">
             <div class="photo-collage__user-img photo-collage__small-img-block">
 
             </div>
             <article class="photo-collage__user-text">
-              <h3 class="photo-collage__user-title">Сергей</h3>
-              <span class="photo-collage__remark">25 часов назад</span>
+              <div class="photo-collage__title-line">
+                <h3 class="photo-collage__user-title">Сергей
+                  <span class="photo-collage__remark">(25 часов назад)</span>
+                </h3>
+              </div>
               <p class="photo-collage__text-block">
                 Самая кубанская в мире!
               </p>
@@ -177,13 +191,16 @@
               </div>
             </article>
           </div>
-          <div class="photo-collage__user">
+          <div class="photo-collage__user--block">
             <div class="photo-collage__user-img photo-collage__small-img-block">
 
             </div>
             <article class="photo-collage__user-text">
-              <h3 class="photo-collage__user-title">Максим</h3>
-              <span class="photo-collage__remark">40 часов назад</span>
+              <div class="photo-collage__title-line">
+                <h3 class="photo-collage__user-title">Максим
+                  <span class="photo-collage__remark">(40 часов назад)</span>
+                </h3>
+              </div>
               <p class="photo-collage__text-block">
                 Где снег то?
               </p>
@@ -193,13 +210,16 @@
               </div>
             </article>
           </div>
-          <div class="photo-collage__user">
+          <div class="photo-collage__user--block">
             <div class="photo-collage__user-img photo-collage__small-img-block">
 
             </div>
             <article class="photo-collage__user-text">
-              <h3 class="photo-collage__user-title">Надежда</h3>
-              <span class="photo-collage__remark">45 часов назад</span>
+              <div class="photo-collage__title-line">
+                <h3 class="photo-collage__user-title">Надежда
+                  <span class="photo-collage__remark">(45 часов назад)</span>
+                </h3>
+              </div>
               <p class="photo-collage__text-block">
                 Всегда GM и взаимные лайки!
               </p>

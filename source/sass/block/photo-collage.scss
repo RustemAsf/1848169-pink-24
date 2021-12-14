@@ -3,10 +3,39 @@
   width: $mobile-width;
 }
 
+@media (min-width: $tablet-width) {
+  .photo-collage {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
 .photo-collage__wrapper {
   padding-left: 20px;
   padding-right: 20px;
 }
+
+@media (min-width: $tablet-width) {
+  .photo-collage__wrapper {
+      display: grid;
+      grid-template-columns: 45% 45%;
+      grid-template-rows: 455px 455px;
+      grid-auto-flow: row;
+      column-gap: 20px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .photo-collage__wrapper {
+      display: grid;
+      grid-template-columns: 25% 25% 25%;
+      grid-template-rows: 555px 555px;
+      grid-auto-flow: row;
+      column-gap: 20px;
+      justify-content: center;
+  }
+}
+
 
 .photo-collage__slogan {
   font-family: $font-pink;
@@ -21,12 +50,106 @@
   padding: 54px 0px 60px 0px;
 }
 
+@media (min-width: $tablet-width) {
+  .photo-collage__slogan {
+    min-width: 67%;
+    display: block;
+    margin: 0 auto;
+    font-family: $font-pink;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #283645;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .photo-collage__slogan {
+    width: 48%;
+    display: block;
+    margin: 0 auto;
+    min-width: 67%;
+    display: block;
+    margin: 0 auto;
+    font-family: $font-pink;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #283645;
+  }
+}
+
 .photo-collage__user-img {
-  width: $mobile-width;
-  min-height: 137px;
+    &--one {
+    width: $mobile-width;
+    height: 137px;
+    outline: 2px solid rgba(255, 99, 78, 0.5);
+    outline-offset: -5px;
+    margin-bottom: 26px;
+    }
+}
+
+.photo-collage__user-img {
+  width: 280px;
+  height: 180px;
   outline: 2px solid rgba(255, 99, 78, 0.5);
   outline-offset: -5px;
-  margin-bottom: 26px;
+}
+
+@media (min-width: $tablet-width) {
+  .photo-collage__user-img {
+      &--one {
+        width: 660px;
+        height: 509px;
+        margin: 0;
+    }
+  }
+  .photo-collage__user-img {
+    width: 300px;
+    height: 300px;
+    padding: 0;
+    outline: 2px solid rgba(255, 99, 78, 0.5);
+    outline-offset: -5px;
+    margin-bottom: 26px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .photo-collage__user-img {
+    &--one {
+      width: 1200px;
+      height: 506px;
+      margin: 0;
+    }
+  }
+    .photo-collage__user-img {
+      width: 300px;
+      height: 400px;
+      padding: 0;
+      outline: 2px solid rgba(255, 99, 78, 0.5);
+      outline-offset: -5px;
+      margin-bottom: 26px;
+      margin: 0 auto;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .photo-collage__title-line {
+    &--one {
+      display: flex;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .photo-collage__title-line {
+    padding-left: 27px;
+  }
 }
 
 .photo-collage__small-img-block {
@@ -36,11 +159,42 @@
 }
 
 .photo-collage__user-text {
-  max-width: 280px;
-  margin: 0;
-  background: #F2F2F2;
-  padding-left: 17px;
-  margin-bottom: 52px;
+  &--one {
+    width: 94%;
+    margin: 0 auto;
+    background: #F2F2F2;
+    padding-left: 17px;
+    margin-bottom: 50px;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .photo-collage__user-text {
+    &--one {
+    width: 94%;
+    margin: 0 auto;
+    background: #F2F2F2;
+    padding-left: 30px;
+    margin-bottom: 50px;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .photo-collage__user-text {
+    &--one {
+    width: 78%;
+    margin: 0 auto;
+    background: #F2F2F2;
+    padding-left: 27px;
+    margin-bottom: 50px;
+    }
+  }
+}
+
+.photo-collage__user-text {
+  width: 300px;
+  min-height: 155px;
 }
 
 .photo-collage__user-title {
@@ -63,6 +217,23 @@
   align-items: center;
   text-transform: uppercase;
   color: #283645;
+  margin: 0;
+}
+
+@media (min-width: $tablet-width) {
+  .photo-collage__remark {
+    &--one {
+      margin-right: 302px;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .photo-collage__remark {
+    &--one {
+      margin-right: 624px;
+    }
+  }
 }
 
 .photo-collage__text-block {
@@ -77,6 +248,32 @@
   margin-bottom: 25px;
 }
 
+@media (min-width: $tablet-width) {
+  .photo-collage__text-block {
+    width: 87%;
+    margin: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .photo-collage__text-block {
+    padding-left: 27px;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .photo-collage__like-block {
+    display: flex;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .photo-collage__like-block {
+    display: flex;
+    padding-left: 27px;
+  }
+}
+
 .photo-collage__like-text {
   font-family: $font-pink;
   font-style: normal;
@@ -87,6 +284,76 @@
   text-align: right;
   text-transform: uppercase;
   color: #D22856;
+}
+
+.photo-collage__like-text {
+  &--bottom-text {
+    font-family: $font-pink;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 24px;
+    align-items: center;
+    text-align: right;
+    text-transform: uppercase;
+    color: #D22856;
+  }
+}
+
+.photo-collage__like-text {
+  &--top-text {
+    display: none;
+  }
+}
+
+.photo-collage__like-counter {
+  &--top-counter {
+    display: none;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .photo-collage__like-text {
+    &--top-text {
+      display: block;
+      font-family: $font-pink;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 24px;
+      align-items: center;
+      text-align: right;
+      text-transform: uppercase;
+      color: #D22856;
+    }
+  }
+  .photo-collage__like-counter {
+    &--top-counter {
+      display: block;
+      font-family: $font-pink;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 24px;
+      align-items: center;
+      text-align: right;
+      text-transform: uppercase;
+      color: #D22856;
+    }
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .photo-collage__like-text {
+    &--bottom-text {
+      display: none;
+    }
+  }
+  .photo-collage__like-counter {
+    &--bottom-counter {
+    display: none;
+    }
+  }
 }
 
 .photo-collage__like-counter {
@@ -100,3 +367,19 @@
   text-transform: uppercase;
   color: #D22856;
 }
+
+.photo-collage__like-counter {
+  &--bottom-counter {
+    font-family: $font-pink;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  align-items: center;
+  text-align: right;
+  text-transform: uppercase;
+  color: #D22856;
+  }
+}
+
+
