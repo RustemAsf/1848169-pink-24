@@ -67,58 +67,49 @@
 
 @media (min-width: $desktop-width) {
   .achievement__list {
-    &--app {
-    display: flex;
+    &--checkbox {
+      display: flex;
+      list-style-type: none;
+      flex-direction: column;
+      flex-wrap: wrap;
+      padding-left: 60px;
+      padding-right: 60px;
     }
   }
-}
-
-.achievement__item {
-  display: flex;
-  flex-wrap: wrap;
 }
 
 @media (min-width: $desktop-width) {
   .achievement__item {
-    &--app {
+    &--checkbox {
+      padding-right: 60px;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .achievement__item-app {
       width: 40%;
       display: block;
       flex-wrap: nowrap;
-    }
   }
 }
 
 @media (min-width: $tablet-width) {
-  .achievement__list {
-    &--app {
+  .achievement__list-app {
       margin: 0;
       display: flex;
       flex-wrap: wrap;
       list-style-type: none;
-    }
   }
 }
 
 @media (min-width: $desktop-width) {
-  .achievement__list {
-    &--checkbox {
-      display: flex;
-      list-style-type: none;
-      padding-left: 60px;
-      padding-right: 60px;
-      justify-content: space-between;
-    }
-  }
-}
-
-@media (min-width: $desktop-width) {
-  .achievement__list {
-    &--app {
+  .achievement__list-app {
       margin: 0;
       display: flex;
       justify-content: space-between;
+      padding-right: 60px;
       list-style-type: none;
-    }
   }
 }
 
@@ -296,9 +287,8 @@
 
 @media (min-width: $desktop-width) {
   .achievement__filter {
-    display: block;
-    flex-wrap: wrap;
-    width: 87%;
+    display: flex;
+    width: 75%;
     height: 228px;
   }
 }
@@ -343,10 +333,8 @@
   }
 }
 
-.achievement__contacts {
-  &--app {
-    display: none;
-  }
+.achievement__contacts-app {
+  display: none;
 }
 
 @media (min-width: $tablet-width) {
@@ -356,29 +344,26 @@
 }
 
 @media (min-width: $tablet-width) {
-  .achievement__contacts {
-    &--app {
+  .achievement__contacts-app {
       width: 90%;
       display: block;
+      padding: 0;
       border: 2px solid #E5E5E5;
       border-radius: 1px;
       margin: 0 auto;
       margin-bottom: 51px;
-    }
   }
 }
 
 @media (min-width: $desktop-width) {
-  .achievement__contacts {
-    &--app {
-      width: 89%;
+  .achievement__contacts-app {
+      width: 78%;
       min-height: 158px;
       display: block;
       border: 2px solid #E5E5E5;
       border-radius: 1px;
       margin: 0 auto;
       margin-bottom: 64px;
-    }
   }
 }
 
@@ -454,10 +439,11 @@
   .achievement__number-phone {
     width: 496px;
     height: 59px;
+    display: flex;
     box-shadow: 0 0 0 2px #E5E5E5;
     border-radius: 1px;
     border: none;
-    margin-bottom: 22px;
+    margin-bottom: 7px;
   }
 }
 
@@ -499,7 +485,7 @@
     box-shadow: 0 0 0 2px #E5E5E5;
     border-radius: 1px;
     border: none;
-    margin-bottom: 22px;
+    margin-bottom: 7px;
     margin-right: 10px;
   }
 }
@@ -537,22 +523,18 @@
   background: #F2F2F2;
 }
 
-.achievement__gadget {
-  &--app {
+.achievement__gadget-app {
   display: none;
-  }
 }
 
 @media (min-width: $tablet-width) {
-  .achievement__gadget {
-    &--app {
+  .achievement__gadget-app {
       display: block;
       width: 90%;
       margin: 0 auto;
       border: 2px solid #E5E5E5;
       border-radius: 1px;
       margin-bottom: 70px;
-    }
   }
     .achievement__gadget {
       display: none;
@@ -560,15 +542,13 @@
   }
 
 @media (min-width: $desktop-width) {
-  .achievement__gadget {
-    &--app {
+  .achievement__gadget-app {
       display: block;
-      width: 36%;
+      width: 33%;
       margin: 0;
       border: 2px solid #E5E5E5;
       border-radius: 1px;
       margin-bottom: 70px;
-    }
   }
     .achievement__gadget {
       display: none;
@@ -620,8 +600,8 @@
 
 @media (min-width: $desktop-width) {
   .achievement__feedback {
-    width: 91%;
-    min-height: 213px;
+    width: 79%;
+    height: 213px;
     border: 2px solid #E5E5E5;
     border-radius: 1px;
     padding: 0;
@@ -662,7 +642,7 @@
   .achievement__text-emotion {
     display: block;
     width: 816px;
-    height: 214px;
+    height: 124px;
     box-shadow: 0 0 0 2px #E5E5E5;
     border-radius: 1px;
     margin: 0 auto;
@@ -713,6 +693,8 @@
   .achievement__form-wrapper {
     display: flex;
     justify-content: space-between;
+    width: 81%;
+    margin: 0 auto;
   }
 }
 

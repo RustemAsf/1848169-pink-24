@@ -19,17 +19,6 @@
   }
 }
 
-.reviews__author-name {
-  font-family: $font-pink;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 30px;
-  align-items: center;
-  text-align: center;
-  color: #000000;
-}
-
 @media (min-width: $tablet-width) {
   .reviews__list {
     width: 620px;
@@ -99,7 +88,18 @@
   text-align: center;
 }
 
-.reviews__author-name--author-bottom {
+.reviews__author-name {
+  font-family: $font-pink;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+
+.reviews__author-name-bottom {
   display: none;
 }
 
@@ -110,8 +110,7 @@
 }
 
 @media (min-width: $tablet-width) {
-  .reviews__author-name {
-    &--author-bottom {
+  .reviews__author-name-bottom {
       display: block;
       font-family: $font-pink;
       font-style: normal;
@@ -121,12 +120,6 @@
       align-items: center;
       text-align: center;
       color: #000000;
-    }
   }
 }
 
-// @media (min-width: $tablet-width) {
-//   .reviews__author-info {
-//     margin: 0 auto;
-//   }
-// }

@@ -83,14 +83,12 @@
   }
 }
 
-.photo-collage__user-img {
-    &--one {
+.photo-collage__user-img-one {
     width: $mobile-width;
     height: 137px;
     outline: 2px solid rgba(255, 99, 78, 0.5);
     outline-offset: -5px;
     margin-bottom: 26px;
-    }
 }
 
 .photo-collage__user-img {
@@ -100,14 +98,17 @@
   outline-offset: -5px;
 }
 
+
+
+
+
 @media (min-width: $tablet-width) {
-  .photo-collage__user-img {
-      &--one {
-        width: 660px;
-        height: 509px;
-        margin: 0;
-    }
+  .photo-collage__user-img-one {
+     width: 660px;
+    height: 509px;
+    margin: 0;
   }
+
   .photo-collage__user-img {
     width: 300px;
     height: 300px;
@@ -120,12 +121,10 @@
 }
 
 @media (min-width: $desktop-width) {
-  .photo-collage__user-img {
-    &--one {
-      width: 1200px;
-      height: 506px;
-      margin: 0;
-    }
+  .photo-collage__user-img-one {
+    width: 1200px;
+    height: 506px;
+    margin: 0;
   }
     .photo-collage__user-img {
       width: 300px;
@@ -158,37 +157,31 @@
   margin: 0;
 }
 
-.photo-collage__user-text {
-  &--one {
-    width: 94%;
-    margin: 0 auto;
-    background: #F2F2F2;
-    padding-left: 17px;
-    margin-bottom: 50px;
-  }
+.photo-collage__user-text-one {
+  width: 94%;
+  margin: 0 auto;
+  background: #F2F2F2;
+  padding-left: 17px;
+  margin-bottom: 50px;
 }
 
 @media (min-width: $tablet-width) {
-  .photo-collage__user-text {
-    &--one {
+  .photo-collage__user-text-one {
     width: 94%;
     margin: 0 auto;
     background: #F2F2F2;
     padding-left: 30px;
     margin-bottom: 50px;
-    }
   }
 }
 
 @media (min-width: $desktop-width) {
   .photo-collage__user-text {
-    &--one {
     width: 78%;
     margin: 0 auto;
     background: #F2F2F2;
     padding-left: 27px;
     margin-bottom: 50px;
-    }
   }
 }
 
