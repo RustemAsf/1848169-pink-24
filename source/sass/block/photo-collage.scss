@@ -1,15 +1,4 @@
 
-.photo-collage {
-  width: $mobile-width;
-}
-
-@media (min-width: $tablet-width) {
-  .photo-collage {
-    width: 100%;
-    margin: 0 auto;
-  }
-}
-
 .photo-collage__wrapper {
   padding-left: 20px;
   padding-right: 20px;
@@ -186,8 +175,9 @@
 }
 
 .photo-collage__user-text {
-  width: 300px;
+  min-width: 300px;
   min-height: 155px;
+  background: #F2F2F2;
 }
 
 .photo-collage__user-title {

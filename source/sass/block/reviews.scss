@@ -1,34 +1,18 @@
 .reviews__wrapper {
-  width: $mobile-width;
   background: #FFFFFF;
   min-height: 364px;
-  outline: 2px solid rgba(255, 99, 78, 0.5);
-  outline-offset: -5px;
-}
-
-@media (min-width: $tablet-width) {
-  .reviews__wrapper {
-    width: $tablet-width;
-  }
-}
-
-@media (min-width: $desktop-width) {
-  .reviews__wrapper {
-    width: $desktop-width;
-    margin: 0 auto;
-  }
 }
 
 @media (min-width: $tablet-width) {
   .reviews__list {
-    width: 620px;
+    // width: 620px;
     margin: 0 auto;
   }
 }
 
 @media (min-width: $desktop-width) {
   .reviews__list {
-    width: 940px;
+    // width: 940px;
     margin: 0 auto;
   }
 }
