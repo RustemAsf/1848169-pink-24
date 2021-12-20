@@ -22,6 +22,7 @@
       grid-auto-flow: row;
       column-gap: 20px;
       justify-content: center;
+      padding: 0;
   }
 }
 
@@ -87,10 +88,6 @@
   outline-offset: -5px;
 }
 
-
-
-
-
 @media (min-width: $tablet-width) {
   .photo-collage__user-img-one {
      width: 660px;
@@ -126,20 +123,6 @@
   }
 }
 
-@media (min-width: $tablet-width) {
-  .photo-collage__title-line {
-    &--one {
-      display: flex;
-    }
-  }
-}
-
-@media (min-width: $desktop-width) {
-  .photo-collage__title-line {
-    padding-left: 27px;
-  }
-}
-
 .photo-collage__small-img-block {
   min-width: 280px;
   min-height: 180px;
@@ -156,12 +139,26 @@
 
 @media (min-width: $tablet-width) {
   .photo-collage__user-text-one {
+    position: relative;
     width: 94%;
-    margin: 0 auto;
-    background: #F2F2F2;
     padding-left: 30px;
     margin-bottom: 50px;
   }
+}
+
+@media (min-width: $desktop-width) {
+  .photo-collage__user-text-one {
+    position: relative;
+    width: 78%;
+    padding-left: 27px;
+    margin-bottom: 50px;
+  }
+}
+
+.photo-collage__user-text {
+  min-width: 300px;
+  min-height: 155px;
+  background: #F2F2F2;
 }
 
 @media (min-width: $desktop-width) {
@@ -172,12 +169,6 @@
     padding-left: 27px;
     margin-bottom: 50px;
   }
-}
-
-.photo-collage__user-text {
-  min-width: 300px;
-  min-height: 155px;
-  background: #F2F2F2;
 }
 
 .photo-collage__user-title {
@@ -203,22 +194,6 @@
   margin: 0;
 }
 
-@media (min-width: $tablet-width) {
-  .photo-collage__remark {
-    &--one {
-      margin-right: 302px;
-    }
-  }
-}
-
-@media (min-width: $desktop-width) {
-  .photo-collage__remark {
-    &--one {
-      margin-right: 624px;
-    }
-  }
-}
-
 .photo-collage__text-block {
   font-family: $font-pink;
   font-style: normal;
@@ -240,20 +215,23 @@
 
 @media (min-width: $desktop-width) {
   .photo-collage__text-block {
-    padding-left: 27px;
+    padding: 0;
   }
 }
 
 @media (min-width: $tablet-width) {
-  .photo-collage__like-block {
-    display: flex;
+  .photo-collage__like-block-one {
+    position: absolute;
+    top: -3px;
+    left: 466px;
   }
 }
 
 @media (min-width: $desktop-width) {
-  .photo-collage__like-block {
-    display: flex;
-    padding-left: 27px;
+  .photo-collage__like-block-one {
+    position: absolute;
+    top: -3px;
+    left: 787px;
   }
 }
 
@@ -269,76 +247,6 @@
   color: #D22856;
 }
 
-.photo-collage__like-text {
-  &--bottom-text {
-    font-family: $font-pink;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 24px;
-    align-items: center;
-    text-align: right;
-    text-transform: uppercase;
-    color: #D22856;
-  }
-}
-
-.photo-collage__like-text {
-  &--top-text {
-    display: none;
-  }
-}
-
-.photo-collage__like-counter {
-  &--top-counter {
-    display: none;
-  }
-}
-
-@media (min-width: $tablet-width) {
-  .photo-collage__like-text {
-    &--top-text {
-      display: block;
-      font-family: $font-pink;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 12px;
-      line-height: 24px;
-      align-items: center;
-      text-align: right;
-      text-transform: uppercase;
-      color: #D22856;
-    }
-  }
-  .photo-collage__like-counter {
-    &--top-counter {
-      display: block;
-      font-family: $font-pink;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 12px;
-      line-height: 24px;
-      align-items: center;
-      text-align: right;
-      text-transform: uppercase;
-      color: #D22856;
-    }
-  }
-}
-
-@media (min-width: $tablet-width) {
-  .photo-collage__like-text {
-    &--bottom-text {
-      display: none;
-    }
-  }
-  .photo-collage__like-counter {
-    &--bottom-counter {
-    display: none;
-    }
-  }
-}
-
 .photo-collage__like-counter {
   font-family: $font-pink;
   font-style: normal;
@@ -351,18 +259,5 @@
   color: #D22856;
 }
 
-.photo-collage__like-counter {
-  &--bottom-counter {
-    font-family: $font-pink;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 24px;
-  align-items: center;
-  text-align: right;
-  text-transform: uppercase;
-  color: #D22856;
-  }
-}
 
 

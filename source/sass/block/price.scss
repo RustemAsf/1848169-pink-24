@@ -24,8 +24,7 @@
 
 @media (min-width: $tablet-width) {
   .price__wrapper {
-    width: $tablet-width;
-    overflow: hidden;
+    min-height: 346px;
   }
 }
 
@@ -46,18 +45,15 @@
 @media (min-width: $tablet-width) {
   .price__table {
     margin: 0;
-    position: relative;
-    border-collapse: collapse;
+    margin-top: 56px;
     margin-left: 22px;
   }
 }
 
 @media (min-width: $desktop-width) {
   .price__table {
-    margin: 0;
-    position: relative;
-    border-collapse: collapse;
     margin: 0 auto;
+    margin-top: 56px;
   }
 }
 

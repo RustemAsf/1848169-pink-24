@@ -1,3 +1,9 @@
+@media (min-width: $tablet-width) {
+  .price__toggles {
+    display: none;
+  }
+}
+
 @media (min-width: $desktop-width) {
   .price__toggles {
     display: none;

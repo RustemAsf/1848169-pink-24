@@ -27,29 +27,7 @@
   }
 }
 
-.achievement__field {
-  border: none;
-  padding: 0;
-  display: block;
-  margin: 0 auto;
-  padding-left: 22px;
-  padding-right: 22px;
-}
 
-@media (min-width: $tablet-width) {
-  .achievement__field {
-    padding: 0;
-    margin: 0;
-    padding-left: 20px;
-  }
-}
-
-@media (min-width: $desktop-width) {
-  .achievement__field {
-    margin-right: 74px;
-    padding-left: 130px;
-  }
-}
 
 .achievement__list {
   margin: 0;
@@ -94,12 +72,17 @@
   }
 }
 
+.achievement__list-app {
+  list-style-type: none;
+  padding: 0;
+}
+
 @media (min-width: $tablet-width) {
   .achievement__list-app {
-      margin: 0;
-      display: flex;
-      flex-wrap: wrap;
-      list-style-type: none;
+    list-style-type: none;
+    min-width: 660px;
+    padding: 0;
+    margin: 0;
   }
 }
 
@@ -108,15 +91,6 @@
       justify-content: space-between;
       padding-right: 95px;
       list-style-type: none;
-  }
-}
-
-@media (min-width: $desktop-width) {
-  .achievement__list {
-    &--desktop {
-      height: 227px;
-      display: flex;
-    }
   }
 }
 
@@ -149,7 +123,7 @@
     height: 59px;
     border: 2px solid #E5E5E5;
     border-radius: 1px;
-    margin-bottom: 29px;
+    margin-bottom: 56px;
   }
 }
 
@@ -160,7 +134,7 @@
       height: 59px;
       border: 2px solid #E5E5E5;
       border-radius: 1px;
-      margin-bottom: 29px;
+      margin-bottom: 56px;
     }
   }
 }
@@ -194,7 +168,7 @@
       height: 59px;
       border: 2px solid #E5E5E5;
       border-radius: 1px;
-      margin-bottom: 29px;
+      margin-bottom: 19px;
     }
   }
 }
@@ -220,21 +194,38 @@
   align-items: center;
   color: #D22856;
   padding-left: 21px;
-  margin-bottom: 15px;
+  margin-bottom: 17px;
 }
 
 @media (min-width: $tablet-width) {
   .achievement__label {
-    font-family: $font-pink;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 30px;
-    align-items: center;
-    color: #D22856;
-    padding: 0;
-    margin-right: 20px;
-    margin-bottom: 15px;
+    padding-left: 15px;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .achievement__label {
+    &--phone {
+      position: absolute;
+      top: 87px;
+      left: 28px;
+      padding: 0;
+      margin-right: 20px;
+      margin-bottom: 15px;
+    }
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .achievement__label {
+    &--mail {
+      position: absolute;
+      top: 219px;
+      left: 28px;
+      padding: 0;
+      margin-right: 20px;
+      margin-bottom: 15px;
+    }
   }
 }
 
@@ -261,34 +252,6 @@
   align-items: center;
   color: #283645;
   padding-left: 22px;
-}
-
-.achievement__filter {
-  border: none;
-  padding: 0;
-  background: #F2F2F2;
-  margin-bottom: 44px;
-  padding-left: 22px;
-  padding-right: 22px;
-}
-
-@media (min-width: $tablet-width) {
-  .achievement__filter {
-    width: 87%;
-    margin: 0 auto;
-    border: 2px solid #E5E5E5;
-    border-radius: 1px;
-    background: #FFFFFF;
-    margin-bottom: 70px;
-  }
-}
-
-@media (min-width: $desktop-width) {
-  .achievement__filter {
-    display: flex;
-    width: 75%;
-    height: 228px;
-  }
 }
 
 .achievement__title {
@@ -321,58 +284,25 @@
   text-align: center;
   text-transform: uppercase;
   color: #D22856;
-  padding-top: 42px;
   margin-bottom: 40px;
+  padding-top: 42px;
 }
 
 @media (min-width: $tablet-width) {
   .achievement__title-gadget {
     padding: 0;
+    padding-top: 46px;
   }
 }
 
 @media (min-width: $desktop-width) {
   .achievement__title-gadget {
     padding: 0;
-  }
-}
-
-.achievement__contacts-app {
-  display: none;
-}
-
-@media (min-width: $tablet-width) {
-  .achievement__contacts {
-    display: none;
-  }
-}
-
-@media (min-width: $tablet-width) {
-  .achievement__contacts-app {
-      width: 92%;
-      display: flex;
-      padding: 0;
-      border: 2px solid #E5E5E5;
-      border-radius: 1px;
-      margin: 0 auto;
-      margin-bottom: 51px;
-  }
-}
-
-@media (min-width: $desktop-width) {
-  .achievement__contacts-app {
-      width: 78%;
-      min-height: 158px;
-      display: block;
-      border: 2px solid #E5E5E5;
-      border-radius: 1px;
-      justify-content: space-between;
-      margin: 0 auto;
-      margin-bottom: 64px;
   }
 }
 
 .achievement__title-contacts {
+  display: none;
   font-family: $font-pink;
   font-style: normal;
   font-weight: normal;
@@ -389,6 +319,9 @@
 @media (min-width: $tablet-width) {
   .achievement__title-contacts {
     padding-top: 0;
+    display: block;
+    margin: 0;
+    margin-bottom: 41px;
   }
 }
 
@@ -423,13 +356,6 @@
   margin-bottom: 47px;
 }
 
-.achievement__contacts {
-  border: none;
-  padding: 0;
-  padding-left: 22px;
-  padding-right: 22px;
-}
-
 .achievement__number-phone {
   width: 99%;
   height: 59px;
@@ -442,14 +368,12 @@
 
 @media (min-width: $tablet-width) {
   .achievement__number-phone {
-    width:166%;
+    width: 75%;
     height: 59px;
-    // display: block;
     box-shadow: 0 0 0 2px #E5E5E5;
     border-radius: 1px;
-    border: none;
-    margin: 0 auto;
-    margin-bottom: 7px;
+    // border: none;
+    margin-bottom: 73px;
   }
 }
 
@@ -475,18 +399,27 @@
   padding-left: 20px;
 }
 
+.achievement__block-check {
+  background-color:#F2F2F2;
+}
+
+.achievement__block-gadget {
+  background-color: #F2F2F2;
+  min-height: 340px;
+}
+
 .achievement__mail {
   width: 99%;
   height: 59px;
   box-shadow: 0 0 0 2px #E5E5E5;
   border-radius: 1px;
   border: none;
-  margin-bottom: 44px;
+  margin-bottom: 40px;
 }
 
 @media (min-width: $tablet-width) {
   .achievement__mail {
-    width: 177%;
+    width: 75%;
     height: 59px;
     box-shadow: 0 0 0 2px #E5E5E5;
     border-radius: 1px;
@@ -524,44 +457,177 @@
   margin: 0;
   padding: 0;
   border: none;
-  display: block;
+  background-color: #F2F2F2;
   padding-left: 22px;
-  background: #F2F2F2;
 }
 
-.achievement__gadget-app {
-  display: none;
+.achievement__form {
+  display: flex;
+  flex-direction: column;
 }
 
 @media (min-width: $tablet-width) {
-  .achievement__gadget-app {
-      display: block;
-      width: 89%;
-      margin: 0 auto;
-      border: 2px solid #E5E5E5;
-      border-radius: 1px;
-      margin-bottom: 70px;
+  .achievement__form {
+    display: flex;
+    flex-direction: column;
   }
-    .achievement__gadget {
-      display: none;
-    }
+}
+
+.achievement__field {
+  border: none;
+  padding: 0;
+  display: block;
+  margin: 0 auto;
+  padding-left: 22px;
+  padding-right: 22px;
+}
+
+@media (min-width: $tablet-width) {
+  .achievement__field {
+    order: 0;
+    padding: 0;
+    margin: 0;
+    padding-left: 20px;
   }
+}
+
+@media (min-width: $tablet-width) {
+  .achievement__gadget {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: #FFFFFF;
+    padding-left: 22px;
+    order: 1;
+    padding-left: 82px;
+    margin-bottom: 54px;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .achievement__contacts-app {
+    position: relative;
+    order: 3;
+    padding: 0;
+    border: 2px solid #00BFFF;
+    border-radius: 1px;
+    margin-bottom: 51px;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .achievement__filter {
+    order: 4;
+    width: 87%;
+    margin: 0 auto;
+    border: 2px solid #E5E5E5;
+    border-radius: 1px;
+    background-color: #FFFFFF;
+    margin-bottom: 70px;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .achievement__feedback {
+    order: 5;
+    width: 94%;
+    border: 2px solid #E5E5E5;
+    border-radius: 1px;
+    padding: 0;
+    margin: 0 auto;
+    margin-bottom: 70px;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .achievement__form-wrapper {
+    order: 6;
+    display: flex;
+  }
+}
+
+.achievement__form-wrapper {
+  padding-left: 22px;
+  padding-right: 22px;
+}
 
 @media (min-width: $desktop-width) {
-  .achievement__gadget-app {
+  .achievement__form-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 81%;
+    margin: 0 auto;
+  }
+}
+
+.achievement__filter {
+  border: none;
+  background-color: #F2F2F2;
+  padding: 0;
+  padding-left: 22px;
+  padding-right: 22px;
+}
+
+.achievement__feedback {
+  border: none;
+  padding: 0;
+  padding-left: 22px;
+  padding-right: 22px;
+}
+
+@media (min-width: $desktop-width) {
+  .achievement__feedback {
+    width: 79%;
+    height: 213px;
+    border: 2px solid #E5E5E5;
+    border-radius: 1px;
+    padding: 0;
+    margin: 0 auto;
+    margin-bottom: 70px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .achievement__filter {
+    display: flex;
+    width: 75%;
+    height: 228px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .achievement__field {
+    margin-right: 74px;
+    padding-left: 130px;
+  }
+}
+
+.achievement__contacts-app {
+  border: none;
+  padding: 0;
+  padding-left: 22px;
+  padding-right: 22px;
+}
+
+
+
+@media (min-width: $desktop-width) {
+  .achievement__contacts-app {
+      width: 78%;
+      min-height: 158px;
       display: block;
-      width: 27%;
-      min-height: 292px;
-      margin: 0;
-      padding-left: 74px;
       border: 2px solid #E5E5E5;
       border-radius: 1px;
-      margin-bottom: 70px;
+      justify-content: space-between;
+      margin: 0 auto;
+      margin-bottom: 64px;
   }
-    .achievement__gadget {
-      display: none;
-    }
-  }
+}
+
+
+.achievement__desktop-wrapper {
+
+}
 
 @media (min-width: $desktop-width) {
   .achievement__desktop-wrapper {
@@ -588,35 +654,7 @@
   padding-left: 31px;
 }
 
-.achievement__feedback {
-  border: none;
-  padding: 0;
-  padding-left: 22px;
-  padding-right: 22px;
-}
 
-@media (min-width: $tablet-width) {
-  .achievement__feedback {
-    width: 94%;
-    border: 2px solid #E5E5E5;
-    border-radius: 1px;
-    padding: 0;
-    margin: 0 auto;
-    margin-bottom: 70px;
-  }
-}
-
-@media (min-width: $desktop-width) {
-  .achievement__feedback {
-    width: 79%;
-    height: 213px;
-    border: 2px solid #E5E5E5;
-    border-radius: 1px;
-    padding: 0;
-    margin: 0 auto;
-    margin-bottom: 70px;
-  }
-}
 
 .achievement__text-emotion {
   font-family: $font-pink;
@@ -686,25 +724,7 @@
   }
 }
 
-.achievement__form-wrapper {
-  padding-left: 22px;
-  padding-right: 22px;
-}
 
-@media (min-width: $tablet-width) {
-  .achievement__form-wrapper {
-    display: flex;
-  }
-}
-
-@media (min-width: $desktop-width) {
-  .achievement__form-wrapper {
-    display: flex;
-    justify-content: space-between;
-    width: 81%;
-    margin: 0 auto;
-  }
-}
 
 .achievement__text {
   margin: 0;

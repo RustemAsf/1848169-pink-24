@@ -5,14 +5,12 @@
 
 @media (min-width: $tablet-width) {
   .reviews__list {
-    // width: 620px;
     margin: 0 auto;
   }
 }
 
 @media (min-width: $desktop-width) {
   .reviews__list {
-    // width: 940px;
     margin: 0 auto;
   }
 }
@@ -72,6 +70,11 @@
   text-align: center;
 }
 
+.reviews__author-info {
+  display: flex;
+  flex-direction: column;
+}
+
 .reviews__author-name {
   font-family: $font-pink;
   font-style: normal;
@@ -89,7 +92,7 @@
 
 @media (min-width: $tablet-width) {
   .reviews__author-name {
-    display: none;
+    order: 2;
   }
 }
 
