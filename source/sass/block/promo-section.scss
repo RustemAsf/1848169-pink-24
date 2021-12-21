@@ -7,9 +7,9 @@
   line-height: 33px;
   align-items: center;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   margin: 0;
-  padding: 36px 0px 74px 0px;
+  padding: 36px 0 74px 0;
 }
 
 @media (min-width: $tablet-width) {
@@ -21,15 +21,15 @@
     line-height: 68px;
     align-items: center;
     text-align: center;
-    color: #FFFFFF;
+    color: #ffffff;
     margin: 0;
-    padding: 81px 0px 143px 0px;
+    padding: 81px 0 143px 0;
   }
 }
 
 @media (min-width: $desktop-width) {
   .promo-section__title {
     margin: 0;
-    padding: 74px 0px 104px 0px;
+    padding: 74px 0 104px 0;
   }
 }

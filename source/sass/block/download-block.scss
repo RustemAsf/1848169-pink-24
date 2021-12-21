@@ -24,7 +24,7 @@
   padding: 0;
   display: flex;
   flex-wrap: wrap;
-  background: #F2F2F2;
+  background: #f2f2f2;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -78,7 +78,7 @@
 }
 
 @media (min-width: $tablet-width) {
-  .download-block__tools  {
+  .download-block__tools {
     width: 44%;
     padding-left: 47px;
   }
@@ -86,7 +86,7 @@
 
 
 @media (min-width: $desktop-width) {
-  .download-block__tools  {
+  .download-block__tools {
     padding-left: 90px;
   }
 }
@@ -100,29 +100,25 @@
   line-height: 18px;
   align-items: center;
   text-align: center;
-  color: #D22856;
-}
+  color: #d22856;
 
-.download-block__button {
   &--submit {
-    border: 3px solid #D22856;
+    border: 3px solid #d22856;
     box-sizing: border-box;
     border-radius: 30px;
     padding: 21px 42px 21px 42px;
     margin-bottom: 12px;
     margin-right: 44px;
-    }
   }
 
-  .download-block__button {
-    &--reset {
-      padding: 21px 42px 21px 42px;
-      color: #283645;
-      opacity: 0.1;
-      border: 3px solid #283645;
-      box-sizing: border-box;
-      border-radius: 30px;
-    }
+  &--reset {
+    padding: 21px 42px 21px 42px;
+    color: #283645;
+    opacity: 0.1;
+    border: 3px solid #283645;
+    box-sizing: border-box;
+    border-radius: 30px;
+  }
 }
 
 .download-block__button-block {

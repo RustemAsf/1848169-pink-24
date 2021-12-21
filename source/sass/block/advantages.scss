@@ -7,11 +7,11 @@
   align-items: center;
   text-align: center;
   text-decoration-line: underline;
-  color: #D22856;
+  color: #d22856;
 }
 
 .advantages__slogan-block {
-  background: #FFFFFF;
+  background: #ffffff;
   padding-top: 46px;
   padding-bottom: 42px;
 }
@@ -61,7 +61,7 @@
   text-align: center;
   padding-left: 0;
   margin: 0;
-  background: #F2F2F2;
+  background: #f2f2f2;
   min-height: 828px;
 }
 
@@ -175,15 +175,11 @@
   .advantages__block {
     display: block;
     margin: 0 auto;
-    background: #F2F2F2;
+    background: #f2f2f2;
   }
 }
 
 .advantages__img-block {
-  // position: absolute;
-  // display: block;
-  // top: 0;
-  // left: 0;
   background-image: url("../img/iphone-smile.png");
   background-repeat: no-repeat;
   background-position: 50% 148px;

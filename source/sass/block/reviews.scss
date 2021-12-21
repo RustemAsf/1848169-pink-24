@@ -1,5 +1,5 @@
 .reviews__wrapper {
-  background: #FFFFFF;
+  background: #ffffff;
   min-height: 364px;
 }
 
@@ -98,14 +98,14 @@
 
 @media (min-width: $tablet-width) {
   .reviews__author-name-bottom {
-      display: block;
-      font-family: $font-pink;
-      font-style: normal;
-      font-weight: bold;
-      font-size: 20px;
-      line-height: 30px;
-      align-items: center;
-      text-align: center;
-      color: #000000;
+    display: block;
+    font-family: $font-pink;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    align-items: center;
+    text-align: center;
+    color: #000000;
   }
 }

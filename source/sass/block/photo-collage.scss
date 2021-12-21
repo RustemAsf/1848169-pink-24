@@ -6,26 +6,25 @@
 
 @media (min-width: $tablet-width) {
   .photo-collage__wrapper {
-      display: grid;
-      grid-template-columns: 45% 45%;
-      grid-template-rows: 455px 455px;
-      grid-auto-flow: row;
-      column-gap: 20px;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: 455px 455px;
+    grid-auto-flow: row;
+    column-gap: 20px;
   }
 }
 
 @media (min-width: $desktop-width) {
   .photo-collage__wrapper {
-      display: grid;
-      grid-template-columns: 25% 25% 25%;
-      grid-template-rows: 555px 555px;
-      grid-auto-flow: row;
-      column-gap: 20px;
-      justify-content: center;
-      padding: 0;
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-template-rows: 555px 555px;
+    grid-auto-flow: row;
+    column-gap: 20px;
+    justify-content: center;
+    padding: 0;
   }
 }
-
 
 .photo-collage__slogan {
   font-family: $font-pink;
@@ -37,7 +36,7 @@
   text-align: center;
   color: #283645;
   margin: 0;
-  padding: 54px 0px 60px 0px;
+  padding: 54px 0 60px 0;
 }
 
 @media (min-width: $tablet-width) {
@@ -61,8 +60,6 @@
     display: block;
     margin: 0 auto;
     min-width: 67%;
-    display: block;
-    margin: 0 auto;
     font-family: $font-pink;
     font-style: normal;
     font-weight: normal;
@@ -74,11 +71,11 @@
 }
 
 .photo-collage__user-img-one {
-    width: $mobile-width;
-    height: 137px;
-    outline: 2px solid rgba(255, 99, 78, 0.5);
-    outline-offset: -5px;
-    margin-bottom: 26px;
+  width: $mobile-width;
+  height: 137px;
+  outline: 2px solid rgba(255, 99, 78, 0.5);
+  outline-offset: -5px;
+  margin-bottom: 26px;
 }
 
 .photo-collage__user-img {
@@ -101,8 +98,8 @@
     padding: 0;
     outline: 2px solid rgba(255, 99, 78, 0.5);
     outline-offset: -5px;
-    margin-bottom: 26px;
     margin: 0 auto;
+    margin-bottom: 26px;
   }
 }
 
@@ -112,14 +109,15 @@
     height: 506px;
     margin: 0;
   }
-    .photo-collage__user-img {
-      width: 300px;
-      height: 400px;
-      padding: 0;
-      outline: 2px solid rgba(255, 99, 78, 0.5);
-      outline-offset: -5px;
-      margin-bottom: 26px;
-      margin: 0 auto;
+
+  .photo-collage__user-img {
+    width: 300px;
+    height: 400px;
+    padding: 0;
+    outline: 2px solid rgba(255, 99, 78, 0.5);
+    outline-offset: -5px;
+    margin: 0 auto;
+    margin-bottom: 26px;
   }
 }
 
@@ -132,7 +130,7 @@
 .photo-collage__user-text-one {
   width: 94%;
   margin: 0 auto;
-  background: #F2F2F2;
+  background: #f2f2f2;
   padding-left: 17px;
   margin-bottom: 50px;
 }
@@ -158,14 +156,14 @@
 .photo-collage__user-text {
   min-width: 300px;
   min-height: 155px;
-  background: #F2F2F2;
+  background: #f2f2f2;
 }
 
 @media (min-width: $desktop-width) {
   .photo-collage__user-text {
     width: 78%;
     margin: 0 auto;
-    background: #F2F2F2;
+    background: #f2f2f2;
     padding-left: 27px;
     margin-bottom: 50px;
   }
@@ -244,7 +242,7 @@
   align-items: center;
   text-align: right;
   text-transform: uppercase;
-  color: #D22856;
+  color: #d22856;
 }
 
 .photo-collage__like-counter {
@@ -256,5 +254,5 @@
   align-items: center;
   text-align: right;
   text-transform: uppercase;
-  color: #D22856;
+  color: #d22856;
 }

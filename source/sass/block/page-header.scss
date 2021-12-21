@@ -2,24 +2,24 @@
 .page-header {
   position: relative;
   min-width: 100%;
-  background-color: #1D2631;
+  background-color: #1d2631;
   background-image: url("../img/back-mobile.png");
   background-position: 100% 0;
   background-size: cover;
   background-repeat: no-repeat;
   box-sizing: border-box;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 @media (min-width: $tablet-width) {
   .page-header {
     position: relative;
     min-height: 729px;
-    background-color: #1D2631;
+    background-color: #1d2631;
     background-image: url("../img/back-tablet.png");
     background-repeat: no-repeat;
     box-sizing: border-box;
-    color: #FFFFFF;
+    color: #ffffff;
   }
 }
 
@@ -28,11 +28,11 @@
     position: relative;
     min-width: $mobile-width;
     min-height: 853px;
-    background-color: #1D2631;
+    background-color: #1d2631;
     background-image: url("../img/back-desktop.png");
     background-repeat: no-repeat;
     box-sizing: border-box;
-    color: #FFFFFF;
+    color: #ffffff;
   }
 }
 
@@ -69,7 +69,7 @@
   font-size: 24px;
   line-height: 120%;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 @media (min-width: $tablet-width) {
@@ -85,7 +85,7 @@
     font-weight: 300;
     font-size: 40px;
     line-height: 120%;
-    color: #FFFFFF;
+    color: #ffffff;
   }
 }
 
@@ -105,7 +105,7 @@
     font-weight: 300;
     font-size: 40px;
     line-height: 120%;
-    color: #FFFFFF;
+    color: #ffffff;
   }
 }
 
