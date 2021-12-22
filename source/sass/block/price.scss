@@ -18,7 +18,7 @@
 }
 
 .price__wrapper {
-  min-width: $mobile-width;
+  width: 100%;
   overflow: hidden;
 }
 
@@ -30,8 +30,7 @@
 
 @media (min-width: $desktop-width) {
   .price__wrapper {
-    width: $desktop-width;
-    overflow: hidden;
+    width: 100%;
   }
 }
 

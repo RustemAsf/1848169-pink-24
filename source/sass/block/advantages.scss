@@ -82,13 +82,20 @@
     width: 100%;
     padding-top: 366px;
     text-align: center;
-    padding-left: 72px;
     margin: 0 auto;
   }
 }
 
 .advantages__item {
   height: 200px;
+}
+
+@media (min-width: $desktop-width) {
+  .advantages__item {
+    width: 252px;
+    margin-right: 68px;
+    margin: 0 auto;
+  }
 }
 
 .advantages__title {
