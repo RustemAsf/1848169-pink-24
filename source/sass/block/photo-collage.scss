@@ -41,7 +41,7 @@
 
 @media (min-width: $tablet-width) {
   .photo-collage__slogan {
-    min-width: 67%;
+    width: 67%;
     display: block;
     margin: 0 auto;
     font-family: $font-pink;
@@ -71,7 +71,7 @@
 }
 
 .photo-collage__user-img-one {
-  width: $mobile-width;
+  width: 100%;
   height: 137px;
   outline: 2px solid rgba(255, 99, 78, 0.5);
   outline-offset: -5px;
@@ -87,7 +87,7 @@
 
 @media (min-width: $tablet-width) {
   .photo-collage__user-img-one {
-    width: 660px;
+    width: 100%;
     height: 509px;
     margin: 0;
   }
@@ -105,7 +105,7 @@
 
 @media (min-width: $desktop-width) {
   .photo-collage__user-img-one {
-    width: 1200px;
+    width: 100%;
     height: 506px;
     margin: 0;
   }

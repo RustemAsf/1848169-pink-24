@@ -710,10 +710,11 @@
   font-weight: normal;
   font-size: 18px;
   line-height: 30px;
+  resize: none;
+  width: 276px;
+  height: 197px;
   align-items: center;
   color: #283645;
-  width: 99%;
-  height: 197px;
   border: none;
   box-shadow: 0 0 0 2px #e5e5e5;
   border-radius: 1px;
@@ -723,6 +724,7 @@
 @media (min-width: $tablet-width) {
   .achievement__text-emotion {
     display: block;
+    resize: none;
     width: 496px;
     height: 189px;
     box-shadow: 0 0 0 2px #e5e5e5;
@@ -736,6 +738,7 @@
   .achievement__text-emotion {
     display: block;
     width: 816px;
+    resize: none;
     height: 124px;
     box-shadow: 0 0 0 2px #e5e5e5;
     border-radius: 1px;

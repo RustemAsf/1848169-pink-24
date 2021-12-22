@@ -31,7 +31,6 @@
 
 @media (min-width: $tablet-width) {
   .download-block__user-photo {
-    display: flex;
     margin: 0 auto;
   }
 }
@@ -108,7 +107,6 @@
     border-radius: 30px;
     padding: 21px 42px 21px 42px;
     margin-bottom: 12px;
-    margin-right: 44px;
   }
 
   &--reset {
