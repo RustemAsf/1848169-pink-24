@@ -39,19 +39,23 @@
   border-collapse: collapse;
   margin-top: 83px;
   margin-bottom: 45px;
+  top: 0px;
+  left: -370px;
 }
 
 @media (min-width: $tablet-width) {
   .price__table {
-    margin: 0;
     margin-top: 56px;
-    margin-left: 22px;
+    margin-left: 389px;
   }
 }
 
+
 @media (min-width: $desktop-width) {
   .price__table {
-    margin: 0 auto;
+    position: relative;
+    top: 0px;
+    left: -199px;
     margin-top: 56px;
   }
 }
@@ -63,28 +67,68 @@
   font-size: 14px;
   line-height: 30px;
   align-items: center;
+  text-transform: uppercase;
+  background: #ffffff;
   color: #283645;
   border: 2px solid #e5e5e5;
   border-radius: 1px 0 0 0;
+  height: 59px;
+
+  &--two {
+    padding-right: 115px;
+  }
+  &--three {
+    padding-right: 167px;
+  }
+  &--four {
+    padding-right: 136px;
+  }
 }
 
 @media (min-width: $tablet-width) {
   .price__cell {
-    width: 153px;
-    padding-top: 15px;
-    padding-left: 15px;
+    padding: 0;
     background: #ffffff;
+    color: #ffffff;
   }
 }
 
 @media (min-width: $desktop-width) {
   .price__cell {
-    width: 233px;
-    padding-top: 15px;
-    padding-left: 15px;
+    padding: 0;
     background: #ffffff;
   }
 }
+
+.price__cell-inactive {
+  font-family: $font-pink;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  align-items: center;
+  text-transform: uppercase;
+  color: #f2f2f2;
+  background:#f2f2f2;
+}
+
+@media (min-width: $tablet-width) {
+  .price__cell-inactive {
+    font-family: $font-pink;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    align-items: center;
+    text-transform: uppercase;
+    color: #283645;
+    background: #ffffff;
+    border: 2px solid #e5e5e5;
+    border-radius: 1px 0 0 0;
+    min-width: 153px;
+  }
+}
+
 
 .price__number {
   margin: 0;
@@ -103,6 +147,7 @@
 .price__text {
   margin: 0;
   padding: 0;
+  width: 276px;
   font-family: $font-pink;
   font-style: normal;
   font-weight: 300;
@@ -114,9 +159,26 @@
   color: #ffffff;
 }
 
+@media (min-width: $tablet-width) {
+  .price__text {
+    width: 152px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .price__text {
+    width: 233px;
+  }
+}
+
+
+
 .price__cell-one {
   border: 2px solid #e5e5e5;
   border-radius: 1px 0 0 0;
+  background: #283645;
+  width: 276px;
+  height: 94px;
 }
 
 @media (min-width: $tablet-width) {
@@ -140,3 +202,5 @@
   text-align: center;
   margin-bottom: 49px;
 }
+
+
