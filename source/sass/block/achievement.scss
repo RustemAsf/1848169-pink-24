@@ -10,29 +10,16 @@
   text-align: center;
   color: #283645;
   padding: 54px 0 55px 0;
-}
 
-@media (min-width: $tablet-width) {
-  .achievement__slogan {
-    margin: 0;
-    font-family: $font-pink;
-    font-style: normal;
-    font-weight: normal;
+  @media (min-width: $tablet-width) {
+    padding: 100px 0 82px 0;
     font-size: 18px;
     line-height: 30px;
-    align-items: center;
-    text-align: center;
-    color: #283645;
-    padding: 100px 0 82px 0;
-  }
-}
-
-@media (min-width: $tablet-width) {
-  .achievement__slogan {
     width: 63%;
     margin: 0 auto;
   }
 }
+
 
 .achievement__list {
   margin: 0;
@@ -44,18 +31,14 @@
     list-style-type: none;
     padding: 0;
   }
-}
 
-@media (min-width: $tablet-width) {
-  .achievement__list {
+  @media (min-width: $tablet-width) {
     &--checkbox {
       padding-left: 50px;
     }
   }
-}
 
-@media (min-width: $desktop-width) {
-  .achievement__list {
+  @media (min-width: $desktop-width) {
     &--checkbox {
       display: flex;
       list-style-type: none;
@@ -86,19 +69,15 @@
 .achievement__list-app {
   list-style-type: none;
   padding: 0;
-}
 
-@media (min-width: $tablet-width) {
-  .achievement__list-app {
+  @media (min-width: $tablet-width) {
     list-style-type: none;
     padding: 0;
     margin: 0;
     margin-left: 60px;
   }
-}
 
-@media (min-width: $desktop-width) {
-  .achievement__list-app {
+  @media (min-width: $desktop-width) {
     justify-content: space-between;
     padding-right: 95px;
     list-style-type: none;
@@ -123,21 +102,27 @@
   &--three {
     margin-bottom: 44px;
   }
-}
 
-.achievement__input::placeholder {
-  padding-left: 20px;
-  color: #283645;
-}
-
-@media (min-width: $tablet-width) {
-  .achievement__input {
+  @media (min-width: $tablet-width) {
     min-width: 81%;
     height: 59px;
     border: 2px solid #e5e5e5;
     border-radius: 1px;
     margin-bottom: 56px;
   }
+
+  @media (min-width: $desktop-width) {
+    min-width: 336px;
+    height: 59px;
+    border: 2px solid #e5e5e5;
+    border-radius: 1px;
+    margin-bottom: 58px;
+  }
+}
+
+.achievement__input::placeholder {
+  padding-left: 20px;
+  color: #283645;
 }
 
 @media (min-width: $tablet-width) {
@@ -149,16 +134,6 @@
       border-radius: 1px;
       margin-bottom: 56px;
     }
-  }
-}
-
-@media (min-width: $desktop-width) {
-  .achievement__input {
-    min-width: 336px;
-    height: 59px;
-    border: 2px solid #e5e5e5;
-    border-radius: 1px;
-    margin-bottom: 58px;
   }
 }
 
@@ -208,11 +183,14 @@
   color: #d22856;
   padding-left: 21px;
   margin-bottom: 17px;
-}
 
-@media (min-width: $tablet-width) {
-  .achievement__label {
+  @media (min-width: $tablet-width) {
     padding-left: 15px;
+  }
+
+  @media (min-width: $desktop-width) {
+    text-transform: uppercase;
+    padding: 0;
   }
 }
 
@@ -262,20 +240,6 @@
   }
 }
 
-@media (min-width: $desktop-width) {
-  .achievement__label {
-    font-family: $font-pink;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 30px;
-    align-items: center;
-    text-transform: uppercase;
-    color: #d22856;
-    padding: 0;
-  }
-}
-
 .achievement__label-check {
   font-family: $font-pink;
   font-style: normal;
@@ -299,10 +263,8 @@
   color: #d22856;
   padding-top: 42px;
   margin-bottom: 44px;
-}
 
-@media (min-width: $tablet-width) {
-  .achievement__title {
+  @media (min-width: $tablet-width) {
     padding-top: 0;
   }
 }
@@ -319,16 +281,12 @@
   color: #d22856;
   margin-bottom: 40px;
   padding-top: 42px;
-}
 
-@media (min-width: $tablet-width) {
-  .achievement__title-gadget {
+  @media (min-width: $tablet-width) {
     padding: 0;
   }
-}
 
-@media (min-width: $desktop-width) {
-  .achievement__title-gadget {
+  @media (min-width: $desktop-width) {
     padding: 0;
   }
 }
@@ -346,10 +304,8 @@
   color: #d22856;
   padding-top: 42px;
   margin-bottom: 22px;
-}
 
-@media (min-width: $tablet-width) {
-  .achievement__title-contacts {
+  @media (min-width: $tablet-width) {
     padding-top: 0;
     display: block;
     margin: 0;
@@ -369,10 +325,8 @@
   color: #d22856;
   padding-top: 42px;
   margin-bottom: 22px;
-}
 
-@media (min-width: $tablet-width) {
-  .achievement__title-feedback {
+  @media (min-width: $tablet-width) {
     padding-top: 0;
   }
 }
@@ -396,20 +350,16 @@
   border: none;
   margin: 0 auto;
   margin-bottom: 29px;
-}
 
-@media (min-width: $tablet-width) {
-  .achievement__number-phone {
+  @media (min-width: $tablet-width) {
     width: 89%;
     height: 59px;
     box-shadow: 0 0 0 2px #e5e5e5;
     border-radius: 1px;
     margin-bottom: 73px;
   }
-}
 
-@media (min-width: $desktop-width) {
-  .achievement__number-phone {
+  @media (min-width: $desktop-width) {
     width: 371px;
     height: 59px;
     box-shadow: 0 0 0 2px #e5e5e5;
@@ -446,10 +396,8 @@
   border-radius: 1px;
   border: none;
   margin-bottom: 40px;
-}
 
-@media (min-width: $tablet-width) {
-  .achievement__mail {
+  @media (min-width: $tablet-width) {
     width: 89%;
     height: 59px;
     box-shadow: 0 0 0 2px #e5e5e5;
@@ -458,10 +406,8 @@
     margin-bottom: 69px;
     margin-right: 10px;
   }
-}
 
-@media (min-width: $desktop-width) {
-  .achievement__mail {
+  @media (min-width: $desktop-width) {
     width: 371px;
     height: 59px;
     box-shadow: 0 0 0 2px #e5e5e5;
@@ -471,7 +417,6 @@
     margin-right: 10px;
   }
 }
-
 
 .achievement__mail::placeholder {
   font-family: $font-pink;
@@ -487,17 +432,13 @@
 .achievement__form {
   display: flex;
   flex-direction: column;
-}
 
-@media (min-width: $tablet-width) {
-  .achievement__form {
+  @media (min-width: $tablet-width) {
     display: flex;
     flex-direction: column;
   }
-}
 
-@media (min-width: $desktop-width) {
-  .achievement__form {
+  @media (min-width: $desktop-width) {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -511,19 +452,15 @@
   margin: 0 auto;
   padding-left: 22px;
   padding-right: 22px;
-}
 
-@media (min-width: $tablet-width) {
-  .achievement__field {
+  @media (min-width: $tablet-width) {
     order: 0;
     padding: 0;
     margin: 0;
     padding-left: 20px;
   }
-}
 
-@media (min-width: $desktop-width) {
-  .achievement__field {
+  @media (min-width: $desktop-width) {
     width: 36%;
     margin-right: 74px;
     padding-left: 130px;
@@ -536,10 +473,8 @@
   border: none;
   background-color: #f2f2f2;
   padding-left: 22px;
-}
 
-@media (min-width: $tablet-width) {
-  .achievement__gadget {
+  @media (min-width: $tablet-width) {
     order: 1;
     width: 82%;
     border: 2px solid #e5e5e5;
@@ -549,10 +484,8 @@
     margin-left: 20px;
     margin-bottom: 54px;
   }
-}
 
-@media (min-width: $desktop-width) {
-  .achievement__gadget {
+  @media (min-width: $desktop-width) {
     order: 1;
     width: 30%;
     margin: 0;
@@ -571,10 +504,8 @@
   padding: 0;
   padding-left: 22px;
   padding-right: 22px;
-}
 
-@media (min-width: $tablet-width) {
-  .achievement__filter {
+  @media (min-width: $tablet-width) {
     order: 4;
     background-color: #ffffff;
     width: 85%;
@@ -583,6 +514,12 @@
     border-radius: 1px;
     margin-bottom: 70px;
   }
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+    width: 75%;
+    height: 228px;
+  }
 }
 
 .achievement__feedback {
@@ -590,10 +527,8 @@
   padding: 0;
   padding-left: 18px;
   padding-right: 18px;
-}
 
-@media (min-width: $tablet-width) {
-  .achievement__feedback {
+  @media (min-width: $tablet-width) {
     order: 5;
     width: 92%;
     border: 2px solid #e5e5e5;
@@ -602,31 +537,8 @@
     margin-bottom: 70px;
     margin-left: 27px;
   }
-}
 
-@media (min-width: $tablet-width) {
-  .achievement__form-wrapper {
-    order: 6;
-    display: flex;
-  }
-}
-
-.achievement__form-wrapper {
-  padding-left: 22px;
-  padding-right: 22px;
-}
-
-@media (min-width: $desktop-width) {
-  .achievement__form-wrapper {
-    display: flex;
-    justify-content: space-between;
-    width: 81%;
-    margin: 0 auto;
-  }
-}
-
-@media (min-width: $desktop-width) {
-  .achievement__feedback {
+  @media (min-width: $desktop-width) {
     width: 79%;
     height: 213px;
     border: 2px solid #e5e5e5;
@@ -637,11 +549,20 @@
   }
 }
 
-@media (min-width: $desktop-width) {
-  .achievement__filter {
+.achievement__form-wrapper {
+  padding-left: 22px;
+  padding-right: 22px;
+
+  @media (min-width: $tablet-width) {
+    order: 6;
     display: flex;
-    width: 75%;
-    height: 228px;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+    justify-content: space-between;
+    width: 81%;
+    margin: 0 auto;
   }
 }
 
@@ -650,10 +571,8 @@
   padding: 0;
   padding-left: 22px;
   padding-right: 22px;
-}
 
-@media (min-width: $tablet-width) {
-  .achievement__contacts-app {
+  @media (min-width: $tablet-width) {
     position: relative;
     width: 93%;
     order: 3;
@@ -664,24 +583,17 @@
     margin-left: 20px;
     margin-right: 20px;
   }
-}
 
-@media (min-width: $desktop-width) {
-  .achievement__contacts-app {
+  @media (min-width: $desktop-width) {
+    display: flex;
     width: 78%;
     min-height: 158px;
-    display: block;
+    // display: block;
     border: 2px solid #e5e5e5;
     border-radius: 1px;
     justify-content: space-between;
     margin: 0 auto;
     margin-bottom: 64px;
-  }
-}
-
-@media (min-width: $desktop-width) {
-  .achievement__contacts-app {
-    display: flex;
   }
 }
 
@@ -719,29 +631,21 @@
   box-shadow: 0 0 0 2px #e5e5e5;
   border-radius: 1px;
   margin-bottom: 52px;
-}
 
-@media (min-width: $tablet-width) {
-  .achievement__text-emotion {
+  @media (min-width: $tablet-width) {
     display: block;
     resize: none;
     width: 496px;
     height: 189px;
-    box-shadow: 0 0 0 2px #e5e5e5;
-    border-radius: 1px;
     margin: 0 auto;
     margin-bottom: 52px;
   }
-}
 
-@media (min-width: $desktop-width) {
-  .achievement__text-emotion {
+  @media (min-width: $desktop-width) {
     display: block;
     width: 816px;
     resize: none;
     height: 124px;
-    box-shadow: 0 0 0 2px #e5e5e5;
-    border-radius: 1px;
     margin: 0 auto;
     margin-bottom: 52px;
   }
@@ -767,10 +671,8 @@
   border: none;
   padding: 23px 45px 23px 45px;
   margin-bottom: 44px;
-}
 
-@media (min-width: $tablet-width) {
-  .achievement__button {
+  @media (min-width: $tablet-width) {
     margin-right: auto;
   }
 }
@@ -787,6 +689,10 @@
   color: #d22856;
   text-align: center;
   margin-bottom: 26px;
+
+  @media (min-width: $desktop-width) {
+    display: none;
+  }
 }
 
 .achievement__text-desktop {
@@ -801,20 +707,8 @@
   text-transform: uppercase;
   color: #d22856;
   text-align: center;
-}
 
-@media (min-width: $tablet-width) {
-  .achievement__text-desktop {
+  @media (min-width: $tablet-width) {
     display: none;
-  }
-}
-
-@media (min-width: $desktop-width) {
-  .achievement__text {
-    display: none;
-  }
-
-  .achievement__text-desktop {
-    display: block;
   }
 }

@@ -1,50 +1,35 @@
-.logo-pink__tablet {
-  display: none;
-}
+// .logo-pink__mobile {
+//   display: block;
 
-.logo-pink__desktop {
-  display: none;
-}
+//   @media (min-width: $tablet-width) {
+//     display: none;
+//   }
 
+//   @media (min-width: $desktop-width) {
+//     display: none;
+//   }
+// }
 
-@media (min-width: $tablet-width) {
-  .logo-pink__tablet {
-    display: block;
-  }
+// .logo-pink__tablet {
+//   display: none;
 
-  .logo-pink__mobile {
-    display: none;
-  }
+//   @media (min-width: $tablet-width) {
+//     display: block;
+//   }
 
-  .logo-pink__desktop {
-    display: none;
-  }
-}
+//   @media (min-width: $desktop-width) {
+//     display: none;
+//   }
+// }
 
-@media (min-width: $desktop-width) {
-  .logo-pink__tablet {
-    display: none;
-  }
+// .logo-pink__desktop {
+//   display: none;
 
-  .logo-pink__mobile {
-    display: none;
-  }
+//   @media (min-width: $tablet-width) {
+//     display: none;
+//   }
 
-  .logo-pink__desktop {
-    display: block;
-  }
-}
-
-@media (min-width: $desktop-width) {
-  .logo-pink__tablet {
-    display: none;
-  }
-
-  .logo-pink__mobile {
-    display: none;
-  }
-
-  .logo-pink__desktop {
-    display: block;
-  }
-}
+//   @media (min-width: $desktop-width) {
+//     display: block;
+//   }
+// }
