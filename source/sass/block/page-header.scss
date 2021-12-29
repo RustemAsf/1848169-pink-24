@@ -79,41 +79,25 @@
   line-height: 120%;
   text-align: center;
   color: #ffffff;
-}
 
-@media (min-width: $tablet-width) {
-  .page-header__slogan {
+  @media (min-width: $tablet-width) {
     width: 200px;
     display: block;
     padding-left: 74px;
     margin: 0;
     text-align: center;
     padding-top: 102px;
-    font-family: $font-pink;
-    font-style: normal;
-    font-weight: 300;
     font-size: 40px;
     line-height: 120%;
     color: #ffffff;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-left: 180px;
+    padding-top: 102px;
   }
 }
 
-@media (min-width: $desktop-width) {
-  .page-header__slogan {
-    position: absolute;
-    top: 114px;
-    left: 113px;
-    width: 200px;
-    display: block;
-    padding-left: 74px;
-    margin: 0;
-    text-align: center;
-    padding-top: 102px;
-    font-family: $font-pink;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 40px;
-    line-height: 120%;
-    color: #ffffff;
-  }
-}
+
+
+

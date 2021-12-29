@@ -1,6 +1,7 @@
 .download {
   background: #1d2631;
   color: #ffffff;
+  padding-top: 28px;
 }
 
 .download__wrapper {
@@ -50,9 +51,10 @@
 }
 
 .download__list {
-  padding-top: 38px;
   display: flex;
   list-style-type: none;
+  width: 71%;
+  justify-content: space-between;
   margin: 0;
   margin-bottom: 28px;
 }
@@ -68,4 +70,19 @@
   color: #ffffff;
   display: block;
   margin: 0 auto;
+}
+
+.apple-logo {
+  display: block;
+  margin-top: 32px;
+}
+
+.android-logo {
+  display: block;
+  margin-top: 38px;
+}
+
+.microsoft-logo {
+  display: block;
+  margin-top: 44px;
 }

@@ -2,6 +2,7 @@
   min-height: 66px;
   min-width: 100%;
   background: rgba(0, 0, 0, 0.3);
+  z-index: 1;
 
   &--opened .main-nav__wrapper {
     display: block;
@@ -9,6 +10,7 @@
     position: absolute;
     top: 66px;
     left: 0;
+    z-index: 1;
   }
 
   &--closed .main-nav__wrapper {
@@ -17,6 +19,7 @@
     position: absolute;
     top: 66px;
     left: 0;
+    z-index: 1;
   }
 
   &--closed .main-nav__toggle::before {
@@ -29,12 +32,14 @@
     background-color: #ffffff;
     box-shadow: 0 8px 0 0 #ffffff, 0 16px 0 0 #ffffff;
     border-radius: 1px;
+    z-index: 1;
   }
 
   &--closed .main-nav__toggle:hover::before {
     background-color: #d22856;
     box-shadow: 0 8px 0 0 #d22856, 0 16px 0 0 #d22856;
     border-radius: 1px;
+    z-index: 1;
   }
 
   &--closed .main-nav__toggle:active::before {
@@ -43,6 +48,7 @@
       0 8px 0 0 fade(#d22856, 30%),
       0 16px 0 0 fade(#d22856, 30%);
     border-radius: 1px;
+    z-index: 1;
   }
 
   &--opened .main-nav__toggle {
@@ -55,6 +61,7 @@
       width: 36px;
       height: 3px;
       background-color: #ffffff;
+      z-index: 1;
     }
 
     &::before {
