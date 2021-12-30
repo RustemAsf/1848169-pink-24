@@ -77,22 +77,18 @@
     &:active::after {
       background-color: fade(#ffffff, 30%);
     }
-  }
-}
 
-@media (min-width: $tablet-width) {
-  .main-nav {
-    min-height: 110px;
-    min-width: 100%;
-    background: rgba(0, 0, 0, 0.3);
-  }
-}
+    @media (min-width: $tablet-width) {
+      min-height: 110px;
+      min-width: 100%;
+      background: rgba(0, 0, 0, 0.3);
+    }
 
-@media (min-width: $desktop-width) {
-  .main-nav {
-    margin: 0;
-    min-height: 110px;
-    background: rgba(0, 0, 0, 0.3);
+    @media (min-width: $desktop-width) {
+      margin: 0;
+      min-height: 110px;
+      background: rgba(0, 0, 0, 0.3);
+    }
   }
 }
 
@@ -111,22 +107,18 @@
   padding-top: 22px;
   padding-left: 20px;
   padding-right: 20px;
-}
 
-@media (min-width: $tablet-width) {
-  .main-nav__logo-wrapper {
+  @media (min-width: $tablet-width) {
     display: flex;
     justify-content: space-between;
     padding-top: 27px;
     padding-left: 20px;
     padding-right: 20px;
-  }
-}
 
-@media (min-width: $desktop-width) {
-  .main-nav__logo-wrapper {
-    width: 147px;
-    padding-left: 130px;
+    @media (min-width: $desktop-width) {
+      width: 147px;
+      padding-left: 130px;
+    }
   }
 }
 
@@ -140,10 +132,20 @@
   background-color: rgba(0, 0, 0, 0);
   cursor: pointer;
   border: none;
-}
 
-@media (min-width: $desktop-width) {
-  .main-nav__toggle {
+  @media (min-width: $tablet-width) {
+    position: absolute;
+    top: 44px;
+    right: 20px;
+    z-index: 2;
+    width: 50px;
+    height: 24px;
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+    border: none;
+  }
+
+  @media (min-width: $desktop-width) {
     display: none;
   }
 }
@@ -177,28 +179,12 @@
   display: block;
 }
 
-@media (min-width: $tablet-width) {
-  .main-nav__toggle {
-    position: absolute;
-    top: 44px;
-    right: 20px;
-    z-index: 2;
-    width: 50px;
-    height: 24px;
-    background-color: rgba(0, 0, 0, 0);
-    cursor: pointer;
-    border: none;
-  }
-}
-
 .main-nav__list {
   margin: 0;
   padding: 0;
   list-style-type: none;
-}
 
-@media (min-width: $desktop-width) {
-  .main-nav__list {
+  @media (min-width: $desktop-width) {
     position: absolute;
     top: -40px;
     left: 449px;

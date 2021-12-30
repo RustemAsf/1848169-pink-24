@@ -8,10 +8,8 @@
   padding-left: 20px;
   padding-right: 20px;
   min-height: 271px;
-}
 
-@media (min-width: $tablet-width) {
-  .download__wrapper {
+  @media (min-width: $tablet-width) {
     position: absolute;
     top: 386px;
     left: 0;
@@ -20,17 +18,12 @@
     padding-right: 20px;
     min-height: 271px;
   }
-}
 
-@media (min-width: $desktop-width) {
-  .download__wrapper {
+  @media (min-width: $desktop-width) {
     position: absolute;
     top: 386px;
     left: 111px;
     width: 25%;
-    padding-left: 20px;
-    padding-right: 20px;
-    min-height: 271px;
   }
 }
 

@@ -14,16 +14,12 @@
   background: #ffffff;
   padding-top: 46px;
   padding-bottom: 42px;
-}
 
-@media (min-width: $tablet-width) {
-  .advantages__slogan-block {
+  @media (min-width: $tablet-width) {
     padding-top: 58px;
   }
-}
 
-@media (min-width: $desktop-width) {
-  .advantages__slogan-block {
+  @media (min-width: $desktop-width) {
     padding-top: 77px;
   }
 }
@@ -39,17 +35,13 @@
   color: #283645;
   margin: 0;
   margin-bottom: 28px;
-}
 
-@media (min-width: $tablet-width) {
-  .advantages__text {
+  @media (min-width: $tablet-width) {
     font-size: 40px;
     margin: 0;
   }
-}
 
-@media (min-width: $desktop-width) {
-  .advantages__text {
+  @media (min-width: $desktop-width) {
     font-size: 50px;
     margin: 0;
   }
@@ -130,7 +122,6 @@
   }
 }
 
-
 .advantages__title {
   font-family: $font-pink;
   font-style: normal;
@@ -147,24 +138,10 @@
     margin-bottom: 11px;
     text-align: left;
   }
-}
 
-@media (min-width: $tablet-width) {
-  .advantages__title {
-    text-align: left;
-  }
-}
-
-@media (min-width: $desktop-width) {
-  .advantages__title {
-    font-family: $font-pink;
-    font-style: normal;
-    font-weight: bold;
+  @media (min-width: $desktop-width) {
     font-size: 30px;
     line-height: 30px;
-    align-items: center;
-    text-align: center;
-    color: #000000;
   }
 }
 
@@ -190,38 +167,25 @@
   line-height: 24px;
   align-items: center;
   color: #283645;
-}
 
-@media (min-width: $desktop-width) {
-  .advantages__description {
-    font-family: $font-pink;
-    font-style: normal;
-    font-weight: normal;
+  @media (min-width: $desktop-width) {
     font-size: 18px;
     line-height: 30px;
-    align-items: center;
-    color: #283645;
   }
 }
 
 .advantages__block {
   display: none;
-}
 
-@media (min-width: $tablet-width) {
-  .advantages__block {
+  @media (min-width: $tablet-width) {
     display: block;
     width: 310px;
     margin-left: auto;
   }
-}
 
-@media (min-width: $desktop-width) {
-  .advantages__block {
+  @media (min-width: $desktop-width) {
     display: block;
     margin: 0 auto;
     background: #f2f2f2;
   }
 }
-
-

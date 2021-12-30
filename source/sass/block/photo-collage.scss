@@ -2,20 +2,16 @@
 .photo-collage__wrapper {
   padding-left: 20px;
   padding-right: 20px;
-}
 
-@media (min-width: $tablet-width) {
-  .photo-collage__wrapper {
+  @media (min-width: $tablet-width) {
     display: grid;
     grid-template-columns: 45% 45%;
     grid-template-rows: 455px 455px;
     grid-auto-flow: row;
     column-gap: 20px;
   }
-}
 
-@media (min-width: $desktop-width) {
-  .photo-collage__wrapper {
+  @media (min-width: $desktop-width) {
     display: grid;
     grid-template-columns: 25% 25% 25%;
     grid-template-rows: 555px 555px;
@@ -37,32 +33,20 @@
   color: #283645;
   margin: 0;
   padding: 54px 0 60px 0;
-}
 
-@media (min-width: $tablet-width) {
-  .photo-collage__slogan {
+  @media (min-width: $tablet-width) {
     width: 67%;
     display: block;
     margin: 0 auto;
-    font-family: $font-pink;
-    font-style: normal;
-    font-weight: normal;
     font-size: 18px;
     line-height: 30px;
-    text-align: center;
-    color: #283645;
   }
-}
 
-@media (min-width: $desktop-width) {
-  .photo-collage__slogan {
+  @media (min-width: $desktop-width) {
     width: 48%;
     display: block;
     margin: 0 auto;
     min-width: 67%;
-    font-family: $font-pink;
-    font-style: normal;
-    font-weight: normal;
     font-size: 18px;
     line-height: 30px;
     text-align: center;
@@ -76,49 +60,22 @@
   outline: 2px solid rgba(255, 99, 78, 0.5);
   outline-offset: -5px;
   margin-bottom: 26px;
-}
 
-.photo-collage__user-img {
-  width: 280px;
-  height: 180px;
-  outline: 2px solid rgba(255, 99, 78, 0.5);
-  outline-offset: -5px;
-}
-
-@media (min-width: $tablet-width) {
-  .photo-collage__user-img-one {
+  @media (min-width: $tablet-width) {
     width: 100%;
     height: 509px;
     margin: 0;
   }
-
-  .photo-collage__user-img {
-    width: 300px;
-    height: 300px;
-    padding: 0;
-    outline: 2px solid rgba(255, 99, 78, 0.5);
-    outline-offset: -5px;
-    margin: 0 auto;
-    margin-bottom: 26px;
-  }
 }
 
-@media (min-width: $desktop-width) {
-  .photo-collage__user-img-one {
-    width: 100%;
-    height: 506px;
-    margin: 0;
-  }
-
-  .photo-collage__user-img {
-    width: 300px;
-    height: 400px;
-    padding: 0;
-    outline: 2px solid rgba(255, 99, 78, 0.5);
-    outline-offset: -5px;
-    margin: 0 auto;
-    margin-bottom: 26px;
-  }
+.photo-collage__user-img {
+  width: 300px;
+  height: 300px;
+  padding: 0;
+  outline: 2px solid rgba(255, 99, 78, 0.5);
+  outline-offset: -5px;
+  margin: 0 auto;
+  margin-bottom: 26px;
 }
 
 .photo-collage__small-img-block {
@@ -133,19 +90,15 @@
   background: #f2f2f2;
   padding-left: 17px;
   margin-bottom: 50px;
-}
 
-@media (min-width: $tablet-width) {
-  .photo-collage__user-text-one {
+  @media (min-width: $tablet-width) {
     position: relative;
     width: 94%;
     padding-left: 30px;
     margin-bottom: 50px;
   }
-}
 
-@media (min-width: $desktop-width) {
-  .photo-collage__user-text-one {
+  @media (min-width: $desktop-width) {
     position: relative;
     width: 78%;
     padding-left: 27px;
@@ -157,10 +110,8 @@
   min-width: 300px;
   min-height: 155px;
   background: #f2f2f2;
-}
 
-@media (min-width: $desktop-width) {
-  .photo-collage__user-text {
+  @media (min-width: $desktop-width) {
     width: 78%;
     margin: 0 auto;
     background: #f2f2f2;
@@ -202,31 +153,26 @@
   color: #283645;
   margin: 0;
   margin-bottom: 25px;
-}
 
-@media (min-width: $tablet-width) {
-  .photo-collage__text-block {
+  @media (min-width: $tablet-width) {
     width: 87%;
     margin: 0;
   }
-}
 
-@media (min-width: $desktop-width) {
-  .photo-collage__text-block {
+  @media (min-width: $desktop-width) {
     padding: 0;
   }
 }
 
-@media (min-width: $tablet-width) {
-  .photo-collage__like-block-one {
+.photo-collage__like-block-one {
+
+  @media (min-width: $tablet-width) {
     position: absolute;
     top: -3px;
     left: 466px;
   }
-}
 
-@media (min-width: $desktop-width) {
-  .photo-collage__like-block-one {
+  @media (min-width: $desktop-width) {
     position: absolute;
     top: -3px;
     left: 787px;

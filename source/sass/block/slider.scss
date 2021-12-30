@@ -1,11 +1,10 @@
-@media (min-width: $tablet-width) {
-  .price__toggles {
+.price__toggles {
+
+  @media (min-width: $tablet-width) {
     display: none;
   }
-}
 
-@media (min-width: $desktop-width) {
-  .price__toggles {
+  @media (min-width: $desktop-width) {
     display: none;
   }
 }

@@ -27,16 +27,12 @@
   background: #f2f2f2;
   padding-left: 20px;
   padding-right: 20px;
-}
 
-@media (min-width: $tablet-width) {
-  .download-block__user-photo {
+  @media (min-width: $tablet-width) {
     margin: 0 auto;
   }
-}
 
-@media (min-width: $desktop-width) {
-  .download-block__user-photo {
+  @media (min-width: $desktop-width) {
     display: flex;
     padding-top: 57px;
     margin: 0 auto;
@@ -46,19 +42,15 @@
 .download-block__img {
   width: 280px;
   min-height: 374px;
-}
 
-@media (min-width: $tablet-width) {
-  .download-block__img {
+  @media (min-width: $tablet-width) {
     width: 300px;
     min-height: 400px;
     outline: 2px solid rgba(255, 99, 78, 0.5);
     outline-offset: -5px;
   }
-}
 
-@media (min-width: $desktop-width) {
-  .download-block__img {
+  @media (min-width: $desktop-width) {
     width: 300px;
     height: 400px;
     margin-bottom: 57px;
@@ -70,22 +62,16 @@
 .download-block__tools {
   list-style-type: none;
   display: flex;
-  // justify-content: center;
   margin: 0 auto;
   padding: 0;
   height: 100px;
-}
 
-@media (min-width: $tablet-width) {
-  .download-block__tools {
+  @media (min-width: $tablet-width) {
     width: 44%;
     padding-left: 47px;
   }
-}
 
-
-@media (min-width: $desktop-width) {
-  .download-block__tools {
+  @media (min-width: $desktop-width) {
     padding-left: 90px;
   }
 }
@@ -121,19 +107,15 @@
 
 .download-block__button-block {
   margin-bottom: 41px;
-}
 
-@media (min-width: $tablet-width) {
-  .download-block__button-block {
+  @media (min-width: $tablet-width) {
     position: absolute;
     top: 244px;
     left: 365px;
     right: 34px;
   }
-}
 
-@media (min-width: $desktop-width) {
-  .download-block__button-block {
+  @media (min-width: $desktop-width) {
     display: flex;
     padding-left: 36px;
     padding-top: 140px;

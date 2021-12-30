@@ -3,25 +3,18 @@
   text-align: center;
   padding-top: 40px;
   min-height: 284px;
-}
 
-@media (min-width: $tablet-width) {
-  .page-footer__social {
+  @media (min-width: $tablet-width) {
     display: flex;
     justify-content: space-between;
     min-height: 42px;
     padding: 36px 20px 51px 20px;
   }
-}
 
-@media (min-width: $desktop-width) {
-  .page-footer__social {
+  @media (min-width: $desktop-width) {
     display: flex;
-    // padding-left: 252px;
-    // padding-right: 252px;
     justify-content: space-between;
     padding: 70px 119px 87px 119px;
-
   }
 }
 

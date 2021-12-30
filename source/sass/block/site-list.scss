@@ -9,16 +9,11 @@
   text-align: center;
   color: #ffffff;
   text-decoration: none;
-}
 
-@media (min-width: $desktop-width) {
-  .site-list {
-    font-family: $font-pink;
-    font-style: normal;
+  @media (min-width: $desktop-width) {
     font-weight: normal;
     font-size: 18px;
     line-height: 18px;
-    color: #ffffff;
     text-decoration: none;
     text-transform: none;
   }
@@ -39,18 +34,8 @@
   border-top: 1px solid #485461;
   border-bottom: 1px solid #000000;
   background-size: cover;
-}
 
-@media (min-width: $tablet-width) {
-  .site-list a {
-    position: relative;
-    display: block;
-    width: 100%;
-    padding-top: 13px;
-    padding-bottom: 16px;
-    font-size: 18px;
-    line-height: 32px;
-    color: #ffffff;
+  @media (min-width: $tablet-width) {
     text-transform: uppercase;
     text-decoration: none;
     background-color: #283645;
@@ -58,10 +43,8 @@
     border-bottom: 1px solid #000000;
     background-size: cover;
   }
-}
 
-@media (min-width: $desktop-width) {
-  .site-list a {
+  @media (min-width: $desktop-width) {
     display: flex;
     background: none;
     border: none;
