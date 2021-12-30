@@ -36,6 +36,11 @@
 
 @media (min-width: $tablet-width) {
   .reviews__text {
+    font-family: $font-pink;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
     padding: 0;
   }
 }

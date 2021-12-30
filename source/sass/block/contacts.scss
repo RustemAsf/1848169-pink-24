@@ -34,41 +34,53 @@
   list-style-type: none;
   padding: 0;
   text-align: center;
-}
 
-@media (min-width: $tablet-width) {
-  .contacts__list {
+  @media (min-width: $tablet-width) {
     display: flex;
     flex-wrap: wrap;
-    margin: 0;
-    list-style-type: none;
+    justify-content: center;
+    width: 102%;
+    margin: 0 auto;
   }
 
-  .contacts__item {
-    &--one {
-      padding-left: 67px;
-      padding-right: 95px;
-    }
+  @media (min-width: $desktop-width) {
+    display: flex;
+    flex-wrap: wrap;
+    width: 78%;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+}
 
-    &--three {
-      padding-left: 0;
-      margin: 0 auto;
-    }
+.contacts__item-phone {
+  @media (min-width: $tablet-width) {
+    margin-right: 78px;
+  }
+
+  @media (min-width: $desktop-width) {
+    order: 1;
+  }
+}
+
+.contacts__item-write {
+  @media (min-width: $desktop-width) {
+    order: 3;
+  }
+}
+
+.contacts__item-visit {
+  @media (min-width: $desktop-width) {
+    order: 2;
   }
 }
 
 @media (min-width: $desktop-width) {
-  .contacts__list {
-    display: flex;
-    flex-wrap: wrap;
-    width: 863px;
-    justify-content: space-between;
-    margin: 0 auto;
-    list-style-type: none;
-  }
-
   .contacts__item-one {
     &--one {
+      padding: 0;
+    }
+
+    &--two {
       padding: 0;
     }
 
@@ -88,7 +100,7 @@
   text-align: center;
   color: #283645;
   margin: 0;
-  padding-top: 35px;
+  padding-top: 31px;
 }
 
 .contacts__phone {
@@ -101,7 +113,6 @@
   text-align: center;
   color: #d22856;
   margin: 0;
-  margin-bottom: 31px;
 }
 
 .contacts__mail {
