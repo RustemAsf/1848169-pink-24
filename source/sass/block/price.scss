@@ -41,12 +41,10 @@
   }
 
   @media (min-width: $desktop-width) {
-    .price__table {
-      position: relative;
-      top: 0;
-      left: -199px;
-      margin-top: 56px;
-    }
+    position: relative;
+    top: 0;
+    left: -199px;
+    margin-top: 56px;
   }
 }
 

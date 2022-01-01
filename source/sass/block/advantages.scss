@@ -66,12 +66,13 @@
     display: flex;
     min-height: 250px;
     width: 100%;
-    padding-top: 366px;
     text-align: center;
+    z-index: 1;
   }
 }
 
 .advantages__list-block {
+  position: relative;
   min-height: 817px;
   background: #f2f2f2;
 
@@ -79,7 +80,27 @@
     width: 102%;
     min-height: 495px;
     background: #f2f2f2;
-    margin-bottom: 102px;
+    border: none;
+  }
+}
+
+.advantages__list-image-block {
+  @media (min-width: $desktop-width) {
+    min-height: 302px;
+    background-image: url("../img/desktop-middle-phone.png");
+    background-repeat: no-repeat;
+    background-position: 49% -2%;
+  }
+}
+
+.advantages__list-image-block::before {
+  @media (min-width: $desktop-width) {
+    position: absolute;
+    content: url("../img/desktop-right-phone.png");
+    top: 3px;
+    left: 83%;
+    transform: translate(-50%);
+    z-index: 0;
   }
 }
 
@@ -92,18 +113,18 @@
 
   @media (min-width: $tablet-width) {
     position: absolute;
-    top: 10px;
-    left: -315px;
+    top: 2px;
+    left: 29px;
     display: block;
     z-index: 0;
   }
 
   @media (min-width: $desktop-width) {
     position: absolute;
-    top: 10px;
-    left: 126px;
+    top: 2px;
+    left: 104px;
     display: block;
-    z-index: 2;
+    z-index: 0;
   }
 }
 
@@ -178,14 +199,64 @@
   display: none;
 
   @media (min-width: $tablet-width) {
+    position: relative;
     display: block;
-    width: 310px;
-    margin-left: auto;
+    width: 100%;
+    background: #ffffff;
   }
 
   @media (min-width: $desktop-width) {
     display: block;
-    margin: 0 auto;
     background: #f2f2f2;
+    min-height: 429px;
   }
 }
+
+.advantages__block-wrapper {
+  @media (min-width: $tablet-width) {
+    width: 45%;
+    margin-left: 53%;
+    padding-top: 105px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 45%;
+    margin-left: 40%;
+    padding-top: 105px;
+  }
+}
+
+.advantages__block-img {
+
+  @media (min-width: $tablet-width) {
+    position: absolute;
+    top: 50px;
+    left: 131px;
+  }
+
+  @media (min-width: $desktop-width) {
+    position: absolute;
+    top: 50px;
+    left: 131px;
+  }
+}
+
+.advantages__block-img-watch {
+
+  @media (min-width: $tablet-width) {
+    width: 238px;
+    left: 276px;
+    position: absolute;
+    top: -26px;
+    left: -96px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 298px;
+    left: 345px;
+    position: absolute;
+    top: -26px;
+    left: -50px;
+  }
+}
+
