@@ -252,14 +252,6 @@
       240.624 134.857C252.729 152.971 259.188 174.267 259.186 196.051C259.184 225.261 247.575 253.274 226.915 273.927C206.254 294.581 178.234 306.184 149.016 306.184Z">
       </path>
       <circle cx="149" cy="196" r="117" stroke="#D22856" stroke-width="18"></circle>
-      <path fill="#D22856" d="M145.133 239H85.25V226.402L106.754 204.664C113.121 198.141 117.281 193.629 119.234 191.129C121.188 188.59 122.594 186.246 123.453 184.098C124.312 181.949 124.742 179.723
-      124.742 177.418C124.742 173.98 123.785 171.422 121.871 169.742C119.996 168.062 117.477 167.223 114.312 167.223C110.992 167.223 107.77 167.984 104.645 169.508C101.52 171.031 98.2578
-      173.199 94.8594 176.012L85.0156 164.352C89.2344 160.758 92.7305 158.219 95.5039 156.734C98.2773 155.25 101.305 154.117 104.586 153.336C107.867 152.516 111.539 152.105 115.602
-      152.105C120.953 152.105 125.68 153.082 129.781 155.035C133.883 156.988 137.066 159.723 139.332 163.238C141.598 166.754 142.73 170.777 142.73 175.309C142.73 179.254 142.027
-      182.965 140.621 186.441C139.254 189.879 137.105 193.414 134.176 197.047C131.285 200.68 126.168 205.855 118.824 212.574L107.809 222.945V223.766H145.133V239ZM215.621
-      221.246H205.309V239H187.613V221.246H151.051V208.648L188.609 153.336H205.309V207.184H215.621V221.246ZM187.613 207.184V192.652C187.613 190.23 187.711 186.715 187.906
-      182.105C188.102 177.496 188.258 174.82 188.375 174.078H187.906C186.461 177.281 184.723 180.406 182.691 183.453L166.988 207.184H187.613Z">
-      </path>
     </symbol>
   </svg>
   <header class="page-header">
@@ -349,15 +341,6 @@
           <p class="advantages__text">Нам есть, что вам<br>предложить!</p>
         </div>
         <div class="advantages__list-block">
-          <div class="advantages__list-image-block">
-            <picture>
-              <source media="(min-width: 1200px)"
-                srcset="img/desktop-left-phone.png 1x, img/desktop-left-phone@2x.png 2x">
-              <source media="(min-width: 660px)" srcset="img/tablet-smile.png 1x, img/tablet-smile@2x.png 2x">
-              <img class="advantages__image" src="img/mobile-smile.png" srcset="img/mobile-smile@2x.png 2x"
-                alt="Промо фото">
-            </picture>
-          </div>
           <ul class="advantages__list">
             <li class="advantages__item">
               <h3 class="advantages__title">Поднимает настроение</h3>
@@ -377,8 +360,16 @@
                 Ставьте лайки, комментируйте,<br>делитесь фотографиями с друзьями и<br>заводите новых
               </p>
             </li>
-
           </ul>
+          <div class="advantages__list-image-block">
+            <!-- <picture>
+              <source media="(min-width: 1200px)"
+                srcset="img/desktop-left-phone.png 1x, img/desktop-left-phone@2x.png 2x">
+              <source media="(min-width: 660px)" srcset="img/tablet-smile.png 1x, img/tablet-smile@2x.png 2x">
+              <img class="advantages__image" src="img/mobile-smile.png" srcset="img/mobile-smile@2x.png 2x"
+                alt="Промо фото">
+            </picture> -->
+          </div>
           <div class="advantages__block advantages__block--disabled">
             <div class="advantages__block-img">
             <svg class="advantages__block-img-watch" width="298" height="345">
@@ -416,11 +407,11 @@
           <button class="reviews__prev" type="button">Предыдущий отзыв</button>
           <button class="reviews__next" type="button">Следующий отзыв</button>
         </div>
-        <p class="reviews__toggles">
+        <div class="reviews__toggles">
           <button class="reviews__toggle reviews__toggle--current" type="button">1</button>
           <button class="reviews__toggle" type="button">2</button>
           <button class="reviews__toggle" type="button">3</button>
-        </p>
+        </div>
       </div>
     </section>
     <section class="price">
@@ -513,11 +504,11 @@
             </th>
           </tr>
         </table>
-        <p class="price__toggles slider__toggles">
-          <button class="slider__toggle" type="button">1</button>
-          <button class="slider__toggle slider__toggle--current" type="button">2</button>
-          <button class="slider__toggle" type="button">3</button>
-        </p>
+        <div class="price__toggles">
+          <button class="price__toggle" type="button">1</button>
+          <button class="price__toggle price__toggle--current" type="button">2</button>
+          <button class="price__toggle" type="button">3</button>
+        </div>
       </div>
     </section>
   </main>
