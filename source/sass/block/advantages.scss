@@ -91,7 +91,7 @@
   background-repeat: no-repeat;
   background-position: 54% 3px;
 
-  @media (-webkit-min-device-pixel-ratio: 2.0), (min-resolution: 144dpi), (min-resolution: 2.0dppx) {
+  @media (min-resolution: 2dppx) {
     background-image: url("../img/mobile-smile@2x.png");
     background-repeat: no-repeat;
     background-position: 54% 3px;
@@ -108,7 +108,7 @@
     background-repeat: no-repeat;
     background-position: 4% 29px;
 
-     @media (-webkit-min-device-pixel-ratio: 2.0), (min-resolution: 144dpi), (min-resolution: 2.0dppx) {
+    @media (min-resolution: 2dppx) {
       background-image: url("../img/desktop-left-phone@2x.png");
       background-repeat: no-repeat;
       background-position: 4% 29px;
@@ -123,7 +123,7 @@
     left: 473px;
     content: url("../img/desktop-middle-phone.png");
 
-    @media (-webkit-min-device-pixel-ratio: 2.0), (min-resolution: 144dpi), (min-resolution: 2.0dppx) {
+    @media (min-resolution: 2dppx) {
       position: absolute;
       top: 28px;
       left: 333px;
@@ -140,7 +140,7 @@
     left: 27%;
     transform: translate(-50%);
 
-    @media (-webkit-min-device-pixel-ratio: 2.0), (min-resolution: 144dpi), (min-resolution: 2.0dppx) {
+    @media (min-resolution: 2dppx) {
       background-image: url("../img/tablet-smile@2x.png");
       background-repeat: no-repeat;
       background-position: 54% 3px;
@@ -153,7 +153,7 @@
     left: 1046px;
     content: url("../img/desktop-right-phone.png");
 
-    @media (-webkit-min-device-pixel-ratio: 2.0), (min-resolution: 144dpi), (min-resolution: 2.0dppx) {
+    @media (min-resolution: 2dppx) {
       position: absolute;
       top: 28px;
       left: 1046px;
@@ -285,7 +285,7 @@
     content: "";
     width: 175px;
     height: 175px;
-    top: 128px;
+    top: 93px;
     left: 66px;
     background-color: #ffffff;
     border-radius: 50%;
@@ -303,11 +303,11 @@
   }
 }
 
-.advantages__link::after{
+.advantages__link::after {
   @media (min-width: $tablet-width) {
     position: absolute;
-    top: 130px;
-    left: 95px;
+    top: 97px;
+    left: 99px;
     content: "24";
     font-family: $font-pink;
     font-style: normal;
@@ -332,7 +332,6 @@
 }
 
 .advantages__block-img {
-
   @media (min-width: $tablet-width) {
     position: absolute;
     top: 50px;
@@ -347,10 +346,9 @@
 }
 
 .advantages__block-img-watch {
-
   @media (min-width: $tablet-width) {
     width: 238px;
-    left: 276px;
+    height: 276px;
     position: absolute;
     top: -26px;
     left: -96px;
@@ -358,10 +356,9 @@
 
   @media (min-width: $desktop-width) {
     width: 298px;
-    left: 345px;
+    height: 345px;
     position: absolute;
     top: -26px;
     left: -50px;
   }
 }
-
