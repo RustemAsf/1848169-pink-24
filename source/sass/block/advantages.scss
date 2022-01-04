@@ -68,22 +68,9 @@
     min-height: 250px;
     width: 100%;
     text-align: center;
-    order: 2;
+    z-index: 1;
   }
 }
-
-// @media (min-width: $desktop-width) {
-//   .advantages__list::after {
-//     content: "";
-//     position: absolute;
-//     top: 0;
-//     left: 0;
-//     min-height: 336px;
-//     background-image: url("../img/desktop-left-phone.png");
-//     background-repeat: no-repeat;
-//     background-position: 10% 3px;
-//   }
-// }
 
 .advantages__list-block {
   position: relative;
@@ -103,7 +90,6 @@
   background-image: url("../img/mobile-smile.png");
   background-repeat: no-repeat;
   background-position: 54% 3px;
-  order: 2;
 
   @media (-webkit-min-device-pixel-ratio: 2.0), (min-resolution: 144dpi), (min-resolution: 2.0dppx) {
     background-image: url("../img/mobile-smile@2x.png");
@@ -114,24 +100,37 @@
   @media (min-width: $tablet-width) {
     display: none;
   }
+
+  @media (min-width: $desktop-width) {
+    display: block;
+    min-height: 340px;
+    background-image: url("../img/desktop-left-phone.png");
+    background-repeat: no-repeat;
+    background-position: 4% 29px;
+
+     @media (-webkit-min-device-pixel-ratio: 2.0), (min-resolution: 144dpi), (min-resolution: 2.0dppx) {
+      background-image: url("../img/desktop-left-phone@2x.png");
+      background-repeat: no-repeat;
+      background-position: 4% 29px;
+    }
+  }
 }
 
-// .advantages__list-image-block::after {
+.advantages__list-image-block::after {
+  @media (min-width: $desktop-width) {
+    position: absolute;
+    top: 28px;
+    left: 473px;
+    content: url("../img/desktop-middle-phone.png");
 
-//   @media (min-width: $desktop-width) {
-//     display: block;
-//     min-height: 336px;
-//     background-image: url("../img/desktop-left-phone.png");
-//     background-repeat: no-repeat;
-//     background-position: 10% 3px;
-
-//     @media (-webkit-min-device-pixel-ratio: 2.0), (min-resolution: 144dpi), (min-resolution: 2.0dppx) {
-//       background-image: url("../img/desktop-left-phone@2x.png");
-//       background-repeat: no-repeat;
-//       background-position: 1% 3px;
-//     }
-//   }
-// }
+    @media (-webkit-min-device-pixel-ratio: 2.0), (min-resolution: 144dpi), (min-resolution: 2.0dppx) {
+      position: absolute;
+      top: 28px;
+      left: 333px;
+      content: url("../img/desktop-middle-phone@2x.png");
+    }
+  }
+}
 
 .advantages__list-block::before {
   @media (min-width: $tablet-width) {
@@ -140,7 +139,6 @@
     top: 0;
     left: 27%;
     transform: translate(-50%);
-    z-index: 0;
 
     @media (-webkit-min-device-pixel-ratio: 2.0), (min-resolution: 144dpi), (min-resolution: 2.0dppx) {
       background-image: url("../img/tablet-smile@2x.png");
@@ -150,7 +148,36 @@
   }
 
   @media (min-width: $desktop-width) {
-    display: none;
+    position: absolute;
+    top: 28px;
+    left: 1046px;
+    content: url("../img/desktop-right-phone.png");
+
+    @media (-webkit-min-device-pixel-ratio: 2.0), (min-resolution: 144dpi), (min-resolution: 2.0dppx) {
+      position: absolute;
+      top: 28px;
+      left: 1046px;
+      content: url("../img/desktop-right-phone@2x.png");
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .advantages__list-block {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .advantages__list-image-block {
+    order: 1;
+  }
+
+  .advantages__list {
+    order: 2;
+  }
+
+  .advantages__block {
+    order: 3;
   }
 }
 
