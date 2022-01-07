@@ -17,6 +17,10 @@
   padding-top: 49px;
   margin: 0;
   margin-bottom: 52px;
+
+  @media (min-width: $tablet-width) {
+    padding: 0;
+  }
 }
 
 .download-block__user-photo {
@@ -52,7 +56,8 @@
   }
 
   @media (min-width: $desktop-width) {
-    width: 25%;
+    padding: 0;
+    width: 300px;
     height: 400px;
     margin-bottom: 57px;
   }
@@ -85,6 +90,16 @@
     height: 2px;
     background-color: #283645;
   }
+
+  @media (min-width: $desktop-width) {
+    margin: 0 auto;
+    position: absolute;
+    top: 31px;
+    left: 172px;
+    width: 95%;
+    height: 2px;
+    background-color: #283645;
+  }
 }
 
 .scale__bar-two {
@@ -96,6 +111,15 @@
     height: 2px;
     background-color: #283645;
   }
+
+  @media (min-width: $desktop-width) {
+    position: absolute;
+    top: 108px;
+    left: 172px;
+    width: 95%;
+    height: 2px;
+    background-color: #283645;
+  }
 }
 
 .scale__bar-three {
@@ -103,6 +127,15 @@
     position: absolute;
     top: 190px;
     left: 97px;
+    width: 95%;
+    height: 2px;
+    background-color: #283645;
+  }
+
+  @media (min-width: $desktop-width) {
+    position: absolute;
+    top: 182px;
+    left: 172px;
     width: 95%;
     height: 2px;
     background-color: #283645;
@@ -131,6 +164,18 @@
     border: 2px solid #d22856;
     box-sizing: border-box;
   }
+
+  @media (min-width: $desktop-width) {
+    position: absolute;
+    top: -6px;
+    left: 240px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #ffffff;
+    border: 2px solid #d22856;
+    box-sizing: border-box;
+  }
 }
 
 .scale__range-toggle-two {
@@ -145,6 +190,18 @@
     border: 2px solid #d22856;
     box-sizing: border-box;
   }
+
+  @media (min-width: $desktop-width) {
+    position: absolute;
+    top: -6px;
+    left: 47px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #ffffff;
+    border: 2px solid #d22856;
+    box-sizing: border-box;
+  }
 }
 
 .scale__range-toggle-three {
@@ -152,6 +209,18 @@
     position: absolute;
     top: -6px;
     left: 100px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #ffffff;
+    border: 2px solid #d22856;
+    box-sizing: border-box;
+  }
+
+  @media (min-width: $desktop-width) {
+    position: absolute;
+    top: -6px;
+    left: 148px;
     width: 14px;
     height: 14px;
     border-radius: 50%;
@@ -211,6 +280,49 @@
       opacity: 0.1;
     }
   }
+
+  @media (min-width: $desktop-width) {
+    &--crop {
+      margin-bottom: 29px;
+    }
+
+    &--fill {
+      margin-bottom: 29px;
+    }
+
+    &--crop::before {
+      content: "";
+      position: absolute;
+      top: 56px;
+      left: 61px;
+      height: 1px;
+      width: 321%;
+      background: #283645;
+      opacity: 0.1;
+    }
+
+   &--fill::before {
+      content: "";
+      position: absolute;
+      top: 137px;
+      left: 61px;
+      height: 1px;
+      width: 321%;
+      background: #283645;
+      opacity: 0.1;
+    }
+
+    &--contrast::before {
+      content: "";
+      position: absolute;
+      top: 208px;
+      left: 61px;
+      height: 1px;
+      width: 321%;
+      background: #283645;
+      opacity: 0.1;
+    }
+  }
 }
 
 .download-block__tools {
@@ -232,7 +344,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    padding-left: 90px;
+    padding-left: 32px;
   }
 }
 
@@ -240,6 +352,10 @@
   @media (min-width: $tablet-width) {
     width: 22px;
     height: 22px;
+  }
+  @media (min-width: $desktop-width) {
+    width: 44px;
+    height: 44px;
   }
 }
 
@@ -250,6 +366,10 @@
     fill: #d22856;
     opacity: 1;
   }
+  @media (min-width: $desktop-width) {
+    width: 48px;
+    height: 43px;
+  }
 }
 
 .contrast-icon {
@@ -259,6 +379,10 @@
     fill: #d22856;
     opacity: 1;
   }
+  @media (min-width: $desktop-width) {
+    width: 32px;
+    height: 32px;
+  }
 }
 
 .download-block__button {
@@ -267,7 +391,6 @@
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
-  line-height: 18px;
   align-items: center;
   text-align: center;
   color: #d22856;
@@ -275,13 +398,13 @@
   &--submit {
     border: 3px solid #d22856;
     box-sizing: border-box;
-    border-radius: 30px;
-    padding: 21px 42px 21px 42px;
+    border-radius: 50px;
+    padding: 16px 42px 16px 42px;
     margin-bottom: 12px;
   }
 
   &--reset {
-    padding: 21px 42px 21px 42px;
+    padding: 16px 42px 16px 42px;
     color: #283645;
     opacity: 0.1;
     border: 3px solid #283645;
@@ -289,23 +412,39 @@
     border-radius: 30px;
     margin-bottom: 41px;
   }
+
+  @media (min-width: $desktop-width) {
+    width: 36%;
+    min-height: 55px;
+    padding: 0;
+
+    &--submit {
+      margin: 0;
+      margin-right: 44px;
+    }
+
+    &--reset {
+      margin: 0;
+    }
+  }
 }
 
 .download-block__button-block {
   margin-bottom: 41px;
-  padding-top: -9px;
+  padding-top: 10px;
 
   @media (min-width: $tablet-width) {
     position: absolute;
-    top: 285px;
+    top: 312px;
     left: 365px;
     right: 34px;
   }
 
   @media (min-width: $desktop-width) {
     display: flex;
+    min-width: 34%;
     padding-left: 36px;
-    padding-top: 140px;
+    padding-top: 92px;
   }
 }
 
