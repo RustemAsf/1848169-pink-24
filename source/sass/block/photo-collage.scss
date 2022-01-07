@@ -5,7 +5,7 @@
 
   @media (min-width: $tablet-width) {
     display: grid;
-    grid-template-columns: 45% 45%;
+    grid-template-columns: 49% 47%;
     grid-template-rows: 455px 455px;
     grid-auto-flow: row;
     column-gap: 20px;
@@ -55,11 +55,8 @@
 }
 
 .photo-collage__user-img-one {
-  width: 100%;
-  height: 137px;
-  outline: 2px solid rgba(255, 99, 78, 0.5);
-  outline-offset: -5px;
-  margin-bottom: 26px;
+  min-width: 100%;
+  min-height: 137px;
 
   @media (min-width: $tablet-width) {
     width: 100%;
@@ -69,19 +66,14 @@
 }
 
 .photo-collage__user-img {
-  width: 300px;
-  height: 300px;
+  // min-width: 88%;
   padding: 0;
-  outline: 2px solid rgba(255, 99, 78, 0.5);
-  outline-offset: -5px;
   margin: 0 auto;
-  margin-bottom: 26px;
-}
 
-.photo-collage__small-img-block {
-  min-width: 280px;
-  min-height: 180px;
-  margin: 0;
+  @media (min-width: $tablet-width) {
+    width: 300px;
+    height: 300px;
+  }
 }
 
 .photo-collage__user-text-one {
@@ -89,7 +81,7 @@
   margin: 0 auto;
   background: #f2f2f2;
   padding-left: 17px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 
   @media (min-width: $tablet-width) {
     position: relative;
@@ -107,7 +99,7 @@
 }
 
 .photo-collage__user-text {
-  min-width: 300px;
+  min-width: 88%;
   min-height: 155px;
   background: #f2f2f2;
 

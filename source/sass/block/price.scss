@@ -1,21 +1,17 @@
 .price {
   position: relative;
-  min-width: $mobile-width;
   background: #f2f2f2;
 
   @media (min-width: $tablet-width) {
-    min-width: $tablet-width;
     background: #f2f2f2;
   }
 
   @media (min-width: $desktop-width) {
-    min-width: $desktop-width;
     background: #f2f2f2;
   }
 }
 
 .price__wrapper {
-  width: 100%;
   overflow: hidden;
 
   @media (min-width: $tablet-width) {

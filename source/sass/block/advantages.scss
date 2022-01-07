@@ -78,7 +78,6 @@
   background: #f2f2f2;
 
   @media (min-width: $tablet-width) {
-    width: 102%;
     min-height: 495px;
     background: #f2f2f2;
     border: none;
@@ -111,7 +110,7 @@
     @media (min-resolution: 2dppx) {
       background-image: url("../img/desktop-left-phone@2x.png");
       background-repeat: no-repeat;
-      background-position: 4% 29px;
+      background-position: 2% 29px;
     }
   }
 }
@@ -119,14 +118,16 @@
 .advantages__list-image-block::after {
   @media (min-width: $desktop-width) {
     position: absolute;
+
     top: 28px;
     left: 473px;
     content: url("../img/desktop-middle-phone.png");
 
     @media (min-resolution: 2dppx) {
       position: absolute;
+      width: 39%;
       top: 28px;
-      left: 333px;
+      left: 298px;
       content: url("../img/desktop-middle-phone@2x.png");
     }
   }
@@ -141,22 +142,25 @@
     transform: translate(-50%);
 
     @media (min-resolution: 2dppx) {
-      background-image: url("../img/tablet-smile@2x.png");
-      background-repeat: no-repeat;
-      background-position: 54% 3px;
+      position: absolute;
+      content: url("../img/tablet-smile@2x.png");
+      top: 0;
+      left: 46%;
+      transform: translate(-50%);
     }
   }
 
   @media (min-width: $desktop-width) {
     position: absolute;
     top: 28px;
-    left: 1046px;
+    left: 1016px;
     content: url("../img/desktop-right-phone.png");
 
     @media (min-resolution: 2dppx) {
       position: absolute;
+      width: 25%;
       top: 28px;
-      left: 1046px;
+      left: 748px;
       content: url("../img/desktop-right-phone@2x.png");
     }
   }
@@ -169,6 +173,7 @@
   }
 
   .advantages__list-image-block {
+    width: 100%;
     order: 1;
   }
 
@@ -254,7 +259,6 @@
   @media (min-width: $tablet-width) {
     position: relative;
     display: block;
-    width: 100%;
     background: #ffffff;
   }
 
@@ -267,7 +271,6 @@
 
 .advantages__block-wrapper {
   @media (min-width: $tablet-width) {
-    width: 45%;
     margin-left: 53%;
     padding-top: 105px;
   }
