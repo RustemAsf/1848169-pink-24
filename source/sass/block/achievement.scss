@@ -180,6 +180,7 @@
   font-size: 14px;
   line-height: 30px;
   align-items: center;
+  text-transform: uppercase;
   color: #d22856;
   padding-left: 21px;
   margin-bottom: 17px;
@@ -240,15 +241,30 @@
   }
 }
 
-.achievement__label-check {
+.achievement__control {
+  position: relative
+}
+
+.achievement__control-label {
   font-family: $font-pink;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 30px;
+  line-height: 69px;
   align-items: center;
   color: #283645;
-  padding-left: 22px;
+  padding-left: 56px;
+}
+
+.achievement__control-label-radio {
+  font-family: $font-pink;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 69px;
+  align-items: center;
+  color: #283645;
+  padding-left: 66px;
 }
 
 .achievement__title {
@@ -331,15 +347,55 @@
   }
 }
 
-.achievement__checkbox {
-  margin: 0;
+.achievement__control-block {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.achievement__mark {
+  position: absolute;
+  top: -4px;
+  left: -4px;
   width: 35px;
   height: 35px;
-  background: #ffffff;
-  box-shadow: 0 0 0 3px #e5e5e5;
-  border-radius: 4px;
-  outline: none;
-  margin-bottom: 47px;
+  background: #FFFFFF;
+  border: 2px solid #e5e5e5;
+  border-radius: 1px;
+}
+
+.achievement__control-block[type="checkbox"]:checked + .achievement__mark::before {
+  position: absolute;
+  top: 4px;
+  left: 7px;
+  content: url("../img/check-icon.svg");
+}
+
+.achievement__control-block[type="radio"] + .achievement__mark {
+  position: absolute;
+  top: -7px;
+  left: -4px;
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+
+.achievement__control-block[type="radio"]:checked + .achievement__mark::before {
+  position: absolute;
+  display: block;
+  content: "";
+  top: 11px;
+  left: 11px;
+  width: 15px;
+  height: 15px;
+  background-color: #d22856;
+  border-radius: 50%;
 }
 
 .achievement__number-phone {
@@ -588,7 +644,6 @@
     display: flex;
     width: 78%;
     min-height: 158px;
-    // display: block;
     border: 2px solid #e5e5e5;
     border-radius: 1px;
     justify-content: space-between;

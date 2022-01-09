@@ -54,6 +54,10 @@
   }
 }
 
+.photo-collage__user {
+  position: relative;
+}
+
 .photo-collage__user-img-one {
   min-width: 100%;
   min-height: 137px;
@@ -66,7 +70,6 @@
 }
 
 .photo-collage__user-img {
-  // min-width: 88%;
   padding: 0;
   margin: 0 auto;
 
@@ -97,6 +100,31 @@
     margin-bottom: 50px;
   }
 }
+
+.photo-collage__marker {
+  font-size: 12px;
+  line-height: 7px;
+  color: #ffffff;
+  position: absolute;
+  top: 0px;
+  left: 165px;
+  padding: 13px 20px 14px 19px;
+  text-transform: uppercase;
+  background-color: #d22856;
+
+  @media (min-width: $tablet-width) {
+    position: absolute;
+    top: 57px;
+    left: 505px;
+  }
+
+   @media (min-width: $desktop-width) {
+    position: absolute;
+    top: 66px;
+    left: 934px;
+  }
+}
+
 
 .photo-collage__user-text {
   min-width: 88%;
