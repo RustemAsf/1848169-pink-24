@@ -258,7 +258,7 @@
       opacity: 0.1;
     }
 
-   &--fill::before {
+    &--fill::before {
       content: "";
       position: absolute;
       top: 101px;
@@ -301,7 +301,7 @@
       opacity: 0.1;
     }
 
-   &--fill::before {
+    &--fill::before {
       content: "";
       position: absolute;
       top: 137px;
@@ -447,5 +447,3 @@
     padding-top: 92px;
   }
 }
-
-
