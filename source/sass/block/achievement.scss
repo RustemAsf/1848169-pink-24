@@ -277,7 +277,6 @@
   text-align: center;
   text-transform: uppercase;
   color: #d22856;
-  padding-top: 42px;
   margin-bottom: 44px;
 
   @media (min-width: $tablet-width) {
@@ -387,18 +386,19 @@
 }
 
 .achievement__control-block[type="radio"]:checked + .achievement__mark::before {
-  position: absolute;
   display: block;
+  position: absolute;
   content: "";
-  top: 11px;
-  left: 11px;
   width: 15px;
   height: 15px;
+  top: 11px;
+  left: 11px;
   background-color: #d22856;
   border-radius: 50%;
 }
 
 .achievement__number-phone {
+  display: relative;
   width: 99%;
   height: 59px;
   box-shadow: 0 0 0 2px #e5e5e5;
@@ -464,6 +464,7 @@
   }
 
   @media (min-width: $desktop-width) {
+    position: relative;
     width: 371px;
     height: 59px;
     box-shadow: 0 0 0 2px #e5e5e5;
@@ -555,6 +556,7 @@
 }
 
 .achievement__filter {
+  display: block;
   border: none;
   background-color: #f2f2f2;
   padding: 0;
@@ -767,3 +769,64 @@
     display: none;
   }
 }
+
+.phone-icon {
+  display: none;
+
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 396px;
+  }
+}
+
+.mail-icon {
+  display: none;
+
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: block;
+    position: absolute;
+    top: 22px;
+    left: 854px;
+    z-index: 2;
+  }
+}
+
+.achievement__label {
+  &--phone::before {
+    @media (min-width: $desktop-width) {
+      position: absolute;
+      content: "";
+      top: -66px;
+      left: 303px;
+      width: 60px;
+      height: 61px;
+      background: #e5e5e5;
+    }
+  }
+}
+
+  .achievement__label {
+    &--mail::before {
+      @media (min-width: $desktop-width) {
+        position: absolute;
+        content: "";
+        top: -66px;
+        left: 301px;
+        width: 60px;
+        height: 61px;
+        background: #e5e5e5;
+        z-index: 1;
+    }
+  }
+}
+
