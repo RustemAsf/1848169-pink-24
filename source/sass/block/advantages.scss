@@ -59,14 +59,15 @@
   @media (min-width: $tablet-width) {
     padding-top: 80px;
     text-align: left;
-    width: 47%;
+    width: 310px;
     margin-left: auto;
   }
 
   @media (min-width: $desktop-width) {
     display: flex;
     min-height: 250px;
-    width: 100%;
+    width: 880px;
+    margin: 0 auto;
     text-align: center;
     z-index: 1;
   }
@@ -105,7 +106,7 @@
     min-height: 340px;
     background-image: url("../img/desktop-left-phone.png");
     background-repeat: no-repeat;
-    background-position: 4% 29px;
+    background-position: 15% 29px;
 
     @media (min-resolution: 2dppx) {
       background-image: url("../img/desktop-left-phone@2x.png");
@@ -120,7 +121,7 @@
     position: absolute;
 
     top: 28px;
-    left: 473px;
+    left: 427px;
     content: url("../img/desktop-middle-phone.png");
 
     @media (min-resolution: 2dppx) {
@@ -153,7 +154,7 @@
   @media (min-width: $desktop-width) {
     position: absolute;
     top: 28px;
-    left: 1016px;
+    left: 870px;
     content: url("../img/desktop-right-phone.png");
 
     @media (min-resolution: 2dppx) {
@@ -173,7 +174,6 @@
   }
 
   .advantages__list-image-block {
-    width: 100%;
     order: 1;
   }
 
@@ -197,7 +197,6 @@
   @media (min-width: $desktop-width) {
     width: 252px;
     margin: 0 auto;
-    margin-right: 68px;
   }
 }
 
@@ -276,8 +275,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    width: 45%;
-    margin-left: 40%;
+    margin-left: 486px;
     padding-top: 105px;
   }
 }

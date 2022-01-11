@@ -13,7 +13,7 @@
     position: absolute;
     top: 386px;
     left: 0;
-    width: 45%;
+    width: 300px;
     padding-left: 20px;
     padding-right: 20px;
     min-height: 271px;
@@ -23,7 +23,7 @@
     position: absolute;
     top: 386px;
     left: 111px;
-    width: 25%;
+    width: 300px;
   }
 }
 
@@ -45,10 +45,11 @@
 
 .download__list {
   display: flex;
+  padding: 0;
   list-style-type: none;
-  width: 71%;
+  width: 206px;
   justify-content: space-between;
-  margin: 0;
+  margin: 0 auto;
   margin-bottom: 28px;
 }
 

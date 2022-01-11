@@ -20,6 +20,11 @@
 
   @media (min-width: $tablet-width) {
     padding: 0;
+    padding-top: 73px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 0;
   }
 }
 
@@ -65,10 +70,10 @@
 
 .download-block__scale {
   position: relative;
-  width: 90%;
+  width: 240px;
 
   @media (min-width: $tablet-width) {
-    width: 34%;
+    width: 210px;
   }
 }
 
@@ -76,8 +81,8 @@
   margin: 0 auto;
   position: absolute;
   top: -59px;
-  left: 16px;
-  width: 100%;
+  left: 22px;
+  width: 240px;
   height: 2px;
   background-color: #283645;
 
@@ -86,7 +91,7 @@
     position: absolute;
     top: 75px;
     left: 97px;
-    width: 95%;
+    width: 200px;
     height: 2px;
     background-color: #283645;
   }
@@ -96,7 +101,7 @@
     position: absolute;
     top: 31px;
     left: 172px;
-    width: 95%;
+    width: 288px;
     height: 2px;
     background-color: #283645;
   }
@@ -107,7 +112,7 @@
     position: absolute;
     top: 132px;
     left: 97px;
-    width: 95%;
+    width: 200px;
     height: 2px;
     background-color: #283645;
   }
@@ -116,7 +121,7 @@
     position: absolute;
     top: 108px;
     left: 172px;
-    width: 95%;
+    width: 288px;
     height: 2px;
     background-color: #283645;
   }
@@ -127,7 +132,7 @@
     position: absolute;
     top: 190px;
     left: 97px;
-    width: 95%;
+    width: 200px;
     height: 2px;
     background-color: #283645;
   }
@@ -136,7 +141,7 @@
     position: absolute;
     top: 182px;
     left: 172px;
-    width: 95%;
+    width: 288px;
     height: 2px;
     background-color: #283645;
   }
@@ -236,7 +241,7 @@
   top: -25px;
   left: -21px;
   height: 1px;
-  width: 100%;
+  width: 320px;
   background: #283645;
   opacity: 0.1;
 
@@ -253,7 +258,7 @@
       top: 43px;
       left: 24px;
       height: 1px;
-      width: 420%;
+      width: 275px;
       background: #283645;
       opacity: 0.1;
     }
@@ -264,7 +269,7 @@
       top: 101px;
       left: 24px;
       height: 1px;
-      width: 420%;
+      width: 275px;
       background: #283645;
       opacity: 0.1;
     }
@@ -275,7 +280,7 @@
       top: 152px;
       left: 24px;
       height: 1px;
-      width: 420%;
+      width: 275px;
       background: #283645;
       opacity: 0.1;
     }
@@ -296,7 +301,7 @@
       top: 56px;
       left: 61px;
       height: 1px;
-      width: 321%;
+      width: 410px;
       background: #283645;
       opacity: 0.1;
     }
@@ -307,7 +312,7 @@
       top: 137px;
       left: 61px;
       height: 1px;
-      width: 321%;
+      width: 410px;
       background: #283645;
       opacity: 0.1;
     }
@@ -318,7 +323,7 @@
       top: 208px;
       left: 61px;
       height: 1px;
-      width: 321%;
+      width: 410px;
       background: #283645;
       opacity: 0.1;
     }
@@ -340,7 +345,7 @@
     top: 65px;
     left: 345px;
     flex-direction: column;
-    width: 10%;
+    width: 66px;
   }
 
   @media (min-width: $desktop-width) {
@@ -442,7 +447,7 @@
 
   @media (min-width: $desktop-width) {
     display: flex;
-    min-width: 34%;
+    min-width: 410px;
     padding-left: 36px;
     padding-top: 92px;
   }

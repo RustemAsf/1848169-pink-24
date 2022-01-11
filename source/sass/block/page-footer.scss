@@ -1,18 +1,20 @@
 
 .page-footer__social {
   text-align: center;
-  padding-top: 40px;
   min-height: 284px;
 
   @media (min-width: $tablet-width) {
     display: flex;
+    width: 596px;
     justify-content: space-between;
     min-height: 42px;
-    padding: 36px 20px 51px 20px;
+    margin: 0;
+    padding: 35px 20px 51px 28px;
   }
 
   @media (min-width: $desktop-width) {
     display: flex;
+    width: 952px;
     justify-content: space-between;
     padding: 70px 119px 87px 119px;
   }
@@ -49,7 +51,7 @@
   position: relative;
   display: flex;
   justify-content: space-between;
-  width: 50%;
+  width: 155px;
   margin: 0 auto;
   padding-bottom: 51px;
 

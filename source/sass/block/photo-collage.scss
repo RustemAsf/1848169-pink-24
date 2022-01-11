@@ -35,7 +35,7 @@
   padding: 54px 0 60px 0;
 
   @media (min-width: $tablet-width) {
-    width: 67%;
+    width: 572px;
     display: block;
     margin: 0 auto;
     font-size: 18px;
@@ -80,7 +80,7 @@
 }
 
 .photo-collage__user-text-one {
-  width: 94%;
+  width: 280px;
   margin: 0 auto;
   background: #f2f2f2;
   padding-left: 17px;
@@ -88,8 +88,7 @@
 
   @media (min-width: $tablet-width) {
     position: relative;
-    width: 94%;
-    padding-left: 30px;
+    width: 620px;
     margin-bottom: 50px;
   }
 
@@ -127,12 +126,12 @@
 
 
 .photo-collage__user-text {
-  min-width: 88%;
+  min-width: 280px;
   min-height: 155px;
   background: #f2f2f2;
 
   @media (min-width: $desktop-width) {
-    width: 78%;
+    width: 300px;
     margin: 0 auto;
     background: #f2f2f2;
     padding-left: 27px;
@@ -174,7 +173,6 @@
   margin-bottom: 25px;
 
   @media (min-width: $tablet-width) {
-    width: 87%;
     margin: 0;
   }
 
