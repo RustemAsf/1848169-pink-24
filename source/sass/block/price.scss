@@ -89,6 +89,27 @@
   }
 }
 
+.price__cell-one::before {
+  position: absolute;
+  content: url("../img/hit-ribbon.svg");
+  top: 85px;
+  left: 21px;
+
+  @media (min-width: $tablet-width) {
+    position: absolute;
+  content: url("../img/hit-ribbon-tablet.svg");
+  top: 58px;
+  left: 330px;
+  }
+
+  @media (min-width: $desktop-width) {
+    position: absolute;
+  content: url("../img/hit-ribbon.svg");
+  top: 147px;
+  left: 556px;
+  }
+}
+
 .price__cell-text {
   @media (min-width: $tablet-width) {
     display: none;

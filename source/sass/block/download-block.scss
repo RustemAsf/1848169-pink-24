@@ -14,13 +14,13 @@
   align-items: center;
   text-align: center;
   color: #283645;
-  padding-top: 49px;
+  padding-top: 29px;
   margin: 0;
   margin-bottom: 52px;
 
   @media (min-width: $tablet-width) {
     padding: 0;
-    padding-top: 73px;
+    padding-top: 53px;
   }
 
   @media (min-width: $desktop-width) {
@@ -44,6 +44,7 @@
 
   @media (min-width: $desktop-width) {
     padding-top: 57px;
+    padding-left: 60px;
   }
 }
 
@@ -71,56 +72,60 @@
 .download-block__scale {
   position: relative;
   width: 240px;
+  margin: 0 auto;
 
   @media (min-width: $tablet-width) {
-    width: 210px;
+    width: 202px;
+    height: 200px;
+    padding-top: 71px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-top: 19px;
+    width: 288px;
   }
 }
 
 .scale__bar {
-  margin: 0 auto;
-  position: absolute;
-  top: -59px;
-  left: 22px;
+  position: relative;
+  padding-left: 10px;
   width: 240px;
   height: 2px;
   background-color: #283645;
+  margin-bottom: 73px;
+
 
   @media (min-width: $tablet-width) {
     margin: 0 auto;
-    position: absolute;
-    top: 75px;
-    left: 97px;
-    width: 200px;
+    margin-bottom: 71px;
+    width: 188px;
     height: 2px;
     background-color: #283645;
   }
 
   @media (min-width: $desktop-width) {
     margin: 0 auto;
-    position: absolute;
-    top: 31px;
-    left: 172px;
-    width: 288px;
+    margin-bottom: 71px;
+    width: 278px;
     height: 2px;
     background-color: #283645;
   }
 }
 
 .scale__bar-two {
+  display: none;
+
   @media (min-width: $tablet-width) {
-    position: absolute;
-    top: 132px;
-    left: 97px;
+    position: relative;
+    display: block;
+    margin-bottom: 71px;
     width: 200px;
     height: 2px;
     background-color: #283645;
   }
 
   @media (min-width: $desktop-width) {
-    position: absolute;
-    top: 108px;
-    left: 172px;
+    margin-bottom: 71px;
     width: 288px;
     height: 2px;
     background-color: #283645;
@@ -128,19 +133,18 @@
 }
 
 .scale__bar-three {
+  display: none;
+
   @media (min-width: $tablet-width) {
-    position: absolute;
-    top: 190px;
-    left: 97px;
+    position: relative;
+    display: block;
     width: 200px;
     height: 2px;
     background-color: #283645;
   }
 
   @media (min-width: $desktop-width) {
-    position: absolute;
-    top: 182px;
-    left: 172px;
+    margin-bottom: 71px;
     width: 288px;
     height: 2px;
     background-color: #283645;
@@ -238,8 +242,8 @@
 .download-block__scale::before {
   content: "";
   position: absolute;
-  top: -25px;
-  left: -21px;
+  top: 34px;
+  left: -40px;
   height: 1px;
   width: 320px;
   background: #283645;
@@ -255,8 +259,8 @@
     &--crop::before {
       content: "";
       position: absolute;
-      top: 43px;
-      left: 24px;
+      top: 102px;
+      left: 362px;
       height: 1px;
       width: 275px;
       background: #283645;
@@ -266,8 +270,8 @@
     &--fill::before {
       content: "";
       position: absolute;
-      top: 101px;
-      left: 24px;
+      top: 178px;
+      left: 362px;
       height: 1px;
       width: 275px;
       background: #283645;
@@ -277,8 +281,8 @@
     &--contrast::before {
       content: "";
       position: absolute;
-      top: 152px;
-      left: 24px;
+      top: 248px;
+      left: 360px;
       height: 1px;
       width: 275px;
       background: #283645;
@@ -298,8 +302,8 @@
     &--crop::before {
       content: "";
       position: absolute;
-      top: 56px;
-      left: 61px;
+      top: 114px;
+      left: 451px;
       height: 1px;
       width: 410px;
       background: #283645;
@@ -309,8 +313,8 @@
     &--fill::before {
       content: "";
       position: absolute;
-      top: 137px;
-      left: 61px;
+      top: 189px;
+      left: 451px;
       height: 1px;
       width: 410px;
       background: #283645;
@@ -320,8 +324,8 @@
     &--contrast::before {
       content: "";
       position: absolute;
-      top: 208px;
-      left: 61px;
+      top: 253px;
+      left: 451px;
       height: 1px;
       width: 410px;
       background: #283645;
@@ -331,26 +335,34 @@
 }
 
 .download-block__tools {
-  list-style-type: none;
-  width: 79%;
-  margin: 0 auto;
-  padding: 0;
-  text-align: center;
-  display: flex;
-  justify-content: space-between;
-  min-height: 140px;
+    list-style-type: none;
+    width: 200px;
+    height: 45px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 44px;
 
   @media (min-width: $tablet-width) {
-    position: absolute;
-    top: 65px;
-    left: 345px;
     flex-direction: column;
-    width: 66px;
+    margin: 0;
+    margin-left: 32px;
+    padding-top: 61px;
+    width: 50px;
+    height: 190px;
   }
 
   @media (min-width: $desktop-width) {
-    padding-left: 32px;
+    margin: 0;
+    padding-left: 90px;
+    padding-top: 0px;
   }
+}
+
+.download-block__item {
+  height: 45px;
 }
 
 .crop-icon {
@@ -446,8 +458,8 @@
 
   @media (min-width: $desktop-width) {
     display: flex;
-    min-width: 410px;
-    padding-left: 36px;
+    width: 499px;
+    padding-left: 90px;
     padding-top: 92px;
   }
 }
