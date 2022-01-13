@@ -127,18 +127,20 @@
   line-height: 30px;
   align-items: center;
   color: #283645;
-  width: 276px;
+  width: 259px;
   height: 59px;
   border: 2px solid #e5e5e5;
   border-radius: 1px;
   margin-bottom: 29px;
+  padding-left: 20px;
+  outline: none;
 
   &--three {
     margin-bottom: 44px;
   }
 
   @media (min-width: $tablet-width) {
-    min-width: 528px;
+    min-width: 509px;
     height: 59px;
     border: 2px solid #e5e5e5;
     border-radius: 1px;
@@ -154,15 +156,10 @@
   }
 }
 
-.achievement__input::placeholder {
-  padding-left: 20px;
-  color: #283645;
-}
-
 @media (min-width: $tablet-width) {
   .achievement__input {
     &--two {
-      width: 568px;
+      width: 550px;
       height: 59px;
       border: 2px solid #e5e5e5;
       border-radius: 1px;
@@ -186,7 +183,7 @@
 @media (min-width: $tablet-width) {
   .achievement__input {
     &--three {
-      min-width: 528px;
+      min-width: 510px;
       height: 59px;
       border: 2px solid #e5e5e5;
       border-radius: 1px;
