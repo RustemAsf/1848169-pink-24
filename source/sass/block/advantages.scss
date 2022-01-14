@@ -1,3 +1,18 @@
+.advantages__wrapper {
+  width: 210px;
+  margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    width: 586px;
+    margin: 0 auto;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 828px;
+    margin: 0 auto;
+  }
+}
+
 .advantages__link {
   font-family: $font-pink;
   font-style: normal;
@@ -105,6 +120,8 @@
 
 .advantages__list-image-block {
   position: relative;
+  width: 240px;
+  margin: 0 auto;
 
   @media (min-width: $desktop-width) {
     width: 1152px;
@@ -118,7 +135,7 @@
 .advantages__item-image-one {
   position: absolute;
   top: -14px;
-  left: 86px;
+  left: 44px;
   z-index: 0;
 
   @media (min-width: $tablet-width) {
@@ -132,8 +149,8 @@
   @media (min-width: $tablet-width) {
     display: block;
     position: absolute;
-    top: -470px;
-    left: 24px;
+    top: -475px;
+    left: -180px;
     z-index: 0;
   }
 

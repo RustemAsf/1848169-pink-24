@@ -609,56 +609,59 @@
       </section>
       <section class="download-block">
         <h2 class="visually-hidden">Меню загрузки фотографии</h2>
-        <div class="download-block__wrapper">
+
           <div class="download-block__content-block">
             <p class="download-block__slogan-text">
               Затмите их всех!<br>Выкладывайте все, что накопилось в<br>телефоне!
             </p>
           </div>
           <form class="download-block__user-photo" action="echo" method="post">
-            <picture>
-              <source media="(min-width: 1200px)"
-                srcset="img/photo-seven-desktop.jpg 1x, img/photo-seven-desktop@2x.jpg 2x">
-              <source media="(min-width: 660px)"
-                srcset="img/photo-seven-tablet.jpg 1x, img/photo-seven-tablet@2x.jpg 2x">
-              <img class="download-block__img" src="img/photo-seven-mobile.jpg"
-                srcset="img/photo-seven-mobile@2x.jpg 2x" alt="Фотогалерея">
-            </picture>
-            <ul class="download-block__tools">
-              <li class="download-block__item download-block__item--crop">
-                <svg class="crop-icon" width="44" height="44">
-                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#crop-icon"></use>
-                </svg>
-              </li>
-              <li class="download-block__item download-block__item--fill">
-                <svg class="fill-icon" width="48" height="43">
-                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#fill-icon"></use>
-                </svg>
-              </li>
-              <li class="download-block__item download-block__item--contrast">
-                <svg class="contrast-icon" width="32" height="32">
-                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#contrast-icon"></use>
-                </svg>
-              </li>
-            </ul>
-            <div class="download-block__scale scale">
-              <div class="scale__bar">
-                <div class="scale__range-toggle">
+            <div class="download-block__wrapper">
+              <picture>
+                <source media="(min-width: 1200px)"
+                  srcset="img/photo-seven-desktop.jpg 1x, img/photo-seven-desktop@2x.jpg 2x">
+                <source media="(min-width: 660px)"
+                  srcset="img/photo-seven-tablet.jpg 1x, img/photo-seven-tablet@2x.jpg 2x">
+                <img class="download-block__img" src="img/photo-seven-mobile.jpg"
+                  srcset="img/photo-seven-mobile@2x.jpg 2x" alt="Фотогалерея">
+              </picture>
+              <div class="download-block__tools-block">
+              <ul class="download-block__tools">
+                <li class="download-block__item download-block__item--crop">
+                  <svg class="crop-icon" width="44" height="44">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#crop-icon"></use>
+                  </svg>
+                </li>
+                <li class="download-block__item download-block__item--fill">
+                  <svg class="fill-icon" width="48" height="43">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#fill-icon"></use>
+                  </svg>
+                </li>
+                <li class="download-block__item download-block__item--contrast">
+                  <svg class="contrast-icon" width="32" height="32">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#contrast-icon"></use>
+                  </svg>
+                </li>
+              </ul>
+              <div class="download-block__scale scale">
+                <div class="scale__bar">
+                  <div class="scale__range-toggle">
+                  </div>
+                </div>
+                <div class="scale__bar-two">
+                  <div class="scale__range-toggle-two">
+                  </div>
+                </div>
+                <div class="scale__bar-three">
+                  <div class="scale__range-toggle-three">
+                  </div>
                 </div>
               </div>
-              <div class="scale__bar-two">
-                <div class="scale__range-toggle-two">
-                </div>
+              <div class="download-block__button-block">
+                <input class="download-block__button download-block__button--submit" type="submit" value="Запостить">
+                <input class="download-block__button download-block__button--reset" type="reset" value="Отмена">
               </div>
-              <div class="scale__bar-three">
-                <div class="scale__range-toggle-three">
-                </div>
               </div>
-            </div>
-            <div class="download-block__button-block">
-              <input class="download-block__button download-block__button--submit" type="submit" value="Запостить">
-              <input class="download-block__button download-block__button--reset" type="reset" value="Отмена">
-            </div>
           </form>
         </div>
       </section>

@@ -1,4 +1,14 @@
 
+.achievement__wrapper {
+  width: 300px;
+  margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    width: 660px;
+    // margin: 0 auto;
+  }
+}
+
 .achievement__slogan {
   margin: 0;
   font-family: $font-pink;
@@ -30,7 +40,7 @@
   list-style-type: none;
   padding: 0;
   margin: 0;
-  padding-left: 22px;
+  padding-left: 6px;
 
   @media (min-width: $tablet-width) {
     padding: 0;
@@ -140,7 +150,7 @@
   }
 
   @media (min-width: $tablet-width) {
-    min-width: 509px;
+    min-width: 497px;
     height: 59px;
     border: 2px solid #e5e5e5;
     border-radius: 1px;
@@ -159,7 +169,7 @@
 @media (min-width: $tablet-width) {
   .achievement__input {
     &--two {
-      width: 550px;
+      width: 536px;
       height: 59px;
       border: 2px solid #e5e5e5;
       border-radius: 1px;
@@ -183,7 +193,7 @@
 @media (min-width: $tablet-width) {
   .achievement__input {
     &--three {
-      min-width: 510px;
+      min-width: 497px;
       height: 59px;
       border: 2px solid #e5e5e5;
       border-radius: 1px;

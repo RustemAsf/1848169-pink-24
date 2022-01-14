@@ -16,8 +16,12 @@
 }
 
 .reviews__list {
+  width: 300px;
+  margin: 0 auto;
+
   @media (min-width: $tablet-width) {
     margin: 0 auto;
+    width: 630px;
   }
 
   @media (min-width: $desktop-width) {

@@ -1,10 +1,11 @@
 
 .page-header {
   position: relative;
+  width: 100%;
   background-color: #1d2631;
   background-image: url("../img/back-mobile.jpg");
-  background-position: 50% 0;
-  background-repeat: no-repeat;
+  background-size: 100%, cover;
+  background-position: -7% -2;
   color: #ffffff;
 
   @media (min-resolution: 2dppx) {
@@ -82,7 +83,7 @@
   @media (min-width: $tablet-width) {
     width: 200px;
     display: block;
-    padding-left: 74px;
+    padding-left: 65px;
     margin: 0;
     text-align: center;
     padding-top: 102px;
@@ -92,7 +93,18 @@
   }
 
   @media (min-width: $desktop-width) {
-    padding-left: 180px;
+    padding-left: 168px;
     padding-top: 102px;
+  }
+}
+
+.page-header__wrapper {
+  @media (min-width: $tablet-width) {
+    width: 300px;
+    z-index: 2;
+  }
+  @media (min-width: $desktop-width) {
+    margin: 0;
+    width: 300px;
   }
 }
