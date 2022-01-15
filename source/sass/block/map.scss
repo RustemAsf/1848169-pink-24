@@ -52,7 +52,7 @@
   }
 }
 
-.triangle-footer-desktop{
+.triangle-footer-desktop {
   display: none;
 
   @media (min-width: $tablet-width) {
@@ -71,8 +71,8 @@
 .map__block {
   position: absolute;
   border: 0;
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
   min-width: 100%;
   z-index: 0;
 

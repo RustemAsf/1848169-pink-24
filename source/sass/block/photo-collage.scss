@@ -124,9 +124,6 @@
   position: relative;
   top: 1px;
   left: -47px;
-}
-
-.photo-collage__like-block-one::before {
 
   @media (min-width: $tablet-width) {
     content: url("../img/heart-like.svg");
