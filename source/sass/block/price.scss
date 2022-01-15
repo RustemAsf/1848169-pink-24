@@ -24,9 +24,13 @@
 }
 
 .price__wrapper {
+  width: 100%;
+  margin: 0 auto;
   overflow: hidden;
 
   @media (min-width: $tablet-width) {
+    margin: 0 auto;
+    width: 624px;
     min-height: 346px;
   }
 
@@ -37,20 +41,20 @@
 }
 
 .price__table {
+  position: relative;
   width: 1214px;
   display: flex;
   box-sizing: border-box;
   border-collapse: collapse;
   margin-top: 83px;
   margin-bottom: 45px;
-  top: 0;
-  left: -356px;
   margin-left: -375px;
+  overflow: hidden;
 
   @media (min-width: $tablet-width) {
-    width: 632px;
+    margin: 0 auto;
+    width: 624px;
     margin-top: 56px;
-    margin-left: 18px;
   }
 
   @media (min-width: $desktop-width) {
@@ -89,24 +93,24 @@
   }
 }
 
-.price__cell-one::before {
+.price__table::before {
   position: absolute;
   content: url("../img/hit-ribbon.svg");
-  top: 85px;
-  left: 21px;
+  top: 2px;
+  left: 398px;
 
   @media (min-width: $tablet-width) {
     position: absolute;
-  content: url("../img/hit-ribbon-tablet.svg");
-  top: 58px;
-  left: 330px;
+    content: url("../img/hit-ribbon-tablet.svg");
+    top: 2px;
+    left: 312px;
   }
 
   @media (min-width: $desktop-width) {
     position: absolute;
-  content: url("../img/hit-ribbon.svg");
-  top: 147px;
-  left: 556px;
+    content: url("../img/hit-ribbon.svg");
+    top: 2px;
+    left: 394px;
   }
 }
 

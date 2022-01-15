@@ -442,11 +442,11 @@
     <main class="page-main">
       <section class="achievement">
         <h2 class="visually-hidden">Заполнение данных для участия в конкурсе</h2>
-        <div class="achievement__wrapper">
-          <form class="achievement__form" action="https://echo.htmlacademy.ru/" method="post">
-            <p class="achievement__slogan">Поделитесь своей историей и получите<br>
-              шанс выиграть ценный приз - 1000<br>миль на вашу бонусную карту!</p>
-            <fieldset class="achievement__field">
+        <form class="achievement__form" action="https://echo.htmlacademy.ru/" method="post">
+          <p class="achievement__slogan">Поделитесь своей историей и получите<br>
+            шанс выиграть ценный приз - 1000<br>миль на вашу бонусную карту!</p>
+          <fieldset class="achievement__field">
+            <div class="achievement__wrapper">
               <ul class="achievement__list">
                 <li class="achievement__item">
                   <label class="achievement__label" for="surname">Фамилия:</label>
@@ -463,126 +463,137 @@
                     placeholder="Ну и отчество тоже*">
                 </li>
               </ul>
-        </div>
-        </fieldset>
-        <div class="achievement__filter-block">
-          <fieldset class="achievement__filter">
-            <legend class="achievement__title">Ваши безбашенные достижения в путешествии</legend>
-            <ul class="achievement__list-check">
-              <li class="achievement__item">
-                <label class="achievement__control">
-                  <input class="achievement__control-block" id="one-check" type="checkbox" checked>
-                  <span class="achievement__mark"></span>
-                  <span class="achievement__control-label">Сделал селфи с акулой</span>
-                </label>
-              </li>
-              <li class="achievement__item">
-                <label class="achievement__control">
-                  <input class="achievement__control-block" id="two-check" type="checkbox" checked>
-                  <span class="achievement__mark"></span>
-                  <span class="achievement__control-label">Обгорел на пляже</span>
-                </label>
-              </li>
-              <li class="achievement__item">
-                <label class="achievement__control">
-                  <input class="achievement__control-block" id="three-check" type="checkbox">
-                  <span class="achievement__mark"></span>
-                  <span class="achievement__control-label">Видел Чак Норриса</span>
-                </label>
-              </li>
-              <li class="achievement__item">
-                <label class="achievement__control">
-                  <input class="achievement__control-block" id="four-check" type="checkbox">
-                  <span class="achievement__mark"></span>
-                  <span class="achievement__control-label">Накупил сувениров</span>
-                </label>
-              </li>
-              <li class="achievement__item">
-                <label class="achievement__control">
-                  <input class="achievement__control-block" id="five-check" type="checkbox" checked>
-                  <span class="achievement__mark"></span>
-                  <span class="achievement__control-label">Удержал башню</span>
-                </label>
-              </li>
-              <li class="achievement__item">
-                <label class="achievement__control">
-                  <input class="achievement__control-block" id="six-check" type="checkbox">
-                  <span class="achievement__mark"></span>
-                  <span class="achievement__control-label">Разгромил отель</span>
-                </label>
-              </li>
-            </ul>
+            </div>
           </fieldset>
-        </div>
-        <fieldset class="achievement__contacts-app">
-          <legend class="achievement__title-contacts">Контактная информация</legend>
-          <ul class="achievement__list-app">
-            <li class="achievement__item-app">
-              <label class="achievement__label achievement__label--phone" for="phone-app">Номер телефона</label>
-              <input class="achievement__number-phone" id="phone-app" type="tel" placeholder="Номер, пожалуйста">
-              <svg class="phone-icon" width="20" height="19">
-                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#phone-icon"></use>
-              </svg>
-            </li>
-            <li class="achievement__item-app">
-              <label class="achievement__label achievement__label--mail" for="mail-app">Адрес почты</label>
-              <input class="achievement__mail" id="mail-app" type="email" placeholder="Введите почту*">
-              <svg class="mail-icon" width="18" height="13">
-                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#mail-icon"></use>
-              </svg>
-            </li>
-          </ul>
-        </fieldset>
-        <div class="achievement__gadget-block">
-          <fieldset class="achievement__gadget">
-            <legend class="achievement__title-gadget">С каким приложением путешествовали?</legend>
-            <ul class="achievement__list-device">
-              <li class="achievement__item">
-                <label class="achievement__control">
-                  <input class="visually-hidden achievement__control-block" type="radio" id="ios"
-                    name="mobile-application" value="pink-ios" checked>
-                  <span class="achievement__mark"></span>
-                  <span class="achievement__control-label-radio">Pink для iOS</span>
-                </label>
-              </li>
-              <li class="achievement__item">
-                <label class="achievement__control">
-                  <input class="visually-hidden achievement__control-block" type="radio" id="android"
-                    name="mobile-application" value="pink-android">
-                  <span class="achievement__mark"></span>
-                  <span class="achievement__control-label-radio">Pink для Android</span>
-                </label>
-              </li>
-              <li class="achievement__item">
-                <label class="achievement__control">
-                  <input class="visually-hidden achievement__control-block" type="radio" id="phone_radio-app"
-                    name="mobile-application" value="pink-windows">
-                  <span class="achievement__mark"></span>
-                  <span class="achievement__control-label-radio">Windows Phone</span>
-                </label>
-              </li>
-            </ul>
-          </fieldset>
-        </div>
-        <fieldset class="achievement__feedback achievement__feedback--emotion">
-          <legend class="achievement__title-feedback">Опишите свои эмоции</legend>
-          <textarea class="achievement__text-emotion" placeholder="Можно прям в красках, не стесняясь в выражениях"
-            name="emotion" id="emotion"></textarea>
-        </fieldset>
+          <div class="achievement__filter-block">
+            <div class="achievement__filter-wrapper">
+              <fieldset class="achievement__filter">
+                <legend class="achievement__title">Ваши безбашенные достижения в путешествии</legend>
+                <ul class="achievement__list-check">
+                  <li class="achievement__item">
+                    <label class="achievement__control">
+                      <input class="achievement__control-block" id="one-check" type="checkbox" checked>
+                      <span class="achievement__mark"></span>
+                      <span class="achievement__control-label">Сделал селфи с акулой</span>
+                    </label>
+                  </li>
+                  <li class="achievement__item">
+                    <label class="achievement__control">
+                      <input class="achievement__control-block" id="two-check" type="checkbox" checked>
+                      <span class="achievement__mark"></span>
+                      <span class="achievement__control-label">Обгорел на пляже</span>
+                    </label>
+                  </li>
+                  <li class="achievement__item">
+                    <label class="achievement__control">
+                      <input class="achievement__control-block" id="three-check" type="checkbox">
+                      <span class="achievement__mark"></span>
+                      <span class="achievement__control-label">Видел Чак Норриса</span>
+                    </label>
+                  </li>
+                  <li class="achievement__item">
+                    <label class="achievement__control">
+                      <input class="achievement__control-block" id="four-check" type="checkbox">
+                      <span class="achievement__mark"></span>
+                      <span class="achievement__control-label">Накупил сувениров</span>
+                    </label>
+                  </li>
+                  <li class="achievement__item">
+                    <label class="achievement__control">
+                      <input class="achievement__control-block" id="five-check" type="checkbox" checked>
+                      <span class="achievement__mark"></span>
+                      <span class="achievement__control-label">Удержал башню</span>
+                    </label>
+                  </li>
+                  <li class="achievement__item">
+                    <label class="achievement__control">
+                      <input class="achievement__control-block" id="six-check" type="checkbox">
+                      <span class="achievement__mark"></span>
+                      <span class="achievement__control-label">Разгромил отель</span>
+                    </label>
+                  </li>
+                </ul>
+              </fieldset>
+            </div>
+          </div>
+          <div class="achievement__contacts-wrapper">
+            <fieldset class="achievement__contacts-app">
+              <legend class="achievement__title-contacts">Контактная информация</legend>
+              <ul class="achievement__list-app">
+                <li class="achievement__item-app">
+                  <label class="achievement__label achievement__label--phone" for="phone-app">Номер телефона</label>
+                  <input class="achievement__number-phone" id="phone-app" type="tel" placeholder="Номер, пожалуйста">
+                  <svg class="phone-icon" width="20" height="19">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#phone-icon"></use>
+                  </svg>
+                </li>
+                <li class="achievement__item-app">
+                  <label class="achievement__label achievement__label--mail" for="mail-app">Адрес почты</label>
+                  <input class="achievement__mail" id="mail-app" type="email" placeholder="Введите почту*">
+                  <svg class="mail-icon" width="18" height="13">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#mail-icon"></use>
+                  </svg>
+                </li>
+              </ul>
+            </fieldset>
+          </div>
 
-        <div class="achievement__form-wrapper">
-          <button class="achievement__button" type="button">Отправить форму</button>
-          <p class="achievement__text">
-            <small>
-              * — обязательные поля
-            </small>
-          </p>
-          <p class="achievement__text-desktop">
-            <small>
-              * — обязательные для заполнения поля
-            </small>
-          </p>
-        </div>
+          <div class="achievement__gadget-block">
+            <div class="achievement__gadget-wrapper">
+              <fieldset class="achievement__gadget">
+                <legend class="achievement__title-gadget">С каким приложением путешествовали?</legend>
+                <ul class="achievement__list-device">
+                  <li class="achievement__item">
+                    <label class="achievement__control">
+                      <input class="visually-hidden achievement__control-block" type="radio" id="ios"
+                        name="mobile-application" value="pink-ios" checked>
+                      <span class="achievement__mark"></span>
+                      <span class="achievement__control-label-radio">Pink для iOS</span>
+                    </label>
+                  </li>
+                  <li class="achievement__item">
+                    <label class="achievement__control">
+                      <input class="visually-hidden achievement__control-block" type="radio" id="android"
+                        name="mobile-application" value="pink-android">
+                      <span class="achievement__mark"></span>
+                      <span class="achievement__control-label-radio">Pink для Android</span>
+                    </label>
+                  </li>
+                  <li class="achievement__item">
+                    <label class="achievement__control">
+                      <input class="visually-hidden achievement__control-block" type="radio" id="phone_radio-app"
+                        name="mobile-application" value="pink-windows">
+                      <span class="achievement__mark"></span>
+                      <span class="achievement__control-label-radio">Windows Phone</span>
+                    </label>
+                  </li>
+                </ul>
+              </fieldset>
+            </div>
+          </div>
+          <div class="achievement__feedback-wrapper">
+          <fieldset class="achievement__feedback achievement__feedback--emotion">
+            <legend class="achievement__title-feedback">Опишите свои эмоции</legend>
+            <textarea class="achievement__text-emotion" placeholder="Можно прям в красках, не стесняясь в выражениях"
+              name="emotion" id="emotion"></textarea>
+          </fieldset>
+          </div>
+
+          <div class="achievement__form-wrapper">
+            <button class="achievement__button" type="button">Отправить форму</button>
+            <p class="achievement__text">
+              <small>
+                * — обязательные поля
+              </small>
+            </p>
+            <p class="achievement__text-desktop">
+              <small>
+                * — обязательные для заполнения поля
+              </small>
+            </p>
+          </div>
+
+
         </form>
 
       </section>

@@ -18,7 +18,7 @@
 
   &--opened .main-nav__wrapper {
     display: block;
-    min-width: 320px;
+    width: 100%;
     position: absolute;
     top: 66px;
     left: 0;
@@ -27,7 +27,7 @@
 
   &--closed .main-nav__wrapper {
     display: none;
-    min-width: 320px;
+    width: 100%;
     position: absolute;
     top: 66px;
     left: 0;
@@ -154,7 +154,7 @@
   .main-nav {
     &--opened .main-nav__wrapper {
       display: block;
-      min-width: 100%;
+      width: 100%;
       position: absolute;
       top: 109px;
       left: 0;
