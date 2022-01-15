@@ -30,9 +30,9 @@
   }
 }
 
-
 .reviews__next {
   display: none;
+
   @media (min-width: $desktop-width) {
     display: block;
     border: none;
@@ -53,6 +53,7 @@
 
 .reviews__prev {
   display: none;
+
   @media (min-width: $desktop-width) {
     display: block;
     border: none;
