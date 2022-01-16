@@ -101,6 +101,7 @@
     min-height: 250px;
     width: 940px;
     text-align: center;
+    padding-top: 46px;
     z-index: 1;
   }
 }
@@ -149,6 +150,11 @@
 
 .advantages__list-image {
   list-style-type: none;
+
+  @media (min-width: $desktop-width) {
+    height: 304px;
+    padding: 0;
+  }
 }
 
 .advantages__item-image-one {
@@ -183,17 +189,17 @@
 
   @media (min-width: $tablet-width) {
     display: none;
+  }
 
-    @media (min-width: $desktop-width) {
-      display: block;
-      height: 254px;
-    }
+  @media (min-width: $desktop-width) {
+    display: block;
   }
 }
 
 @media (min-width: $desktop-width) {
   .advantages__list-image-block {
     order: 1;
+    text-align: center;
   }
 
   .advantages__list {
