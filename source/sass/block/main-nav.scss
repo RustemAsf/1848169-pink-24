@@ -10,28 +10,39 @@
     background: rgba(0, 0, 0, 0.3);
   }
 
-  @media (min-width: $desktop-width) {
-    margin: 0;
-    min-height: 110px;
-    background: rgba(0, 0, 0, 0.3);
-  }
-
   &--opened .main-nav__wrapper {
     display: block;
     width: 100%;
+    z-index: 10;
     position: absolute;
-    top: 66px;
-    left: 0;
-    z-index: 1;
+    padding-top: 15px;
+
+    @media (min-width: $tablet-width) {
+      padding: 0;
+    }
+
+    @media (min-width: $desktop-width) {
+      display: none;
+      width: 100px;
+    }
+  }
+
+  @media (min-width: $desktop-width) {
+    &--opened .main-nav__wrapper-desktop {
+      display: flex;
+      margin: 0 auto;
+      width: 940px;
+      justify-content: space-between;
+      padding-top: 26px;
+    }
+
+    &--opened .main-nav__list {
+      width: 622px;
+    }
   }
 
   &--closed .main-nav__wrapper {
     display: none;
-    width: 100%;
-    position: absolute;
-    top: 66px;
-    left: 0;
-    z-index: 1;
   }
 
   &--closed .main-nav__toggle::before {
@@ -114,11 +125,10 @@
     padding-top: 27px;
     padding-left: 20px;
     padding-right: 20px;
+  }
 
-    @media (min-width: $desktop-width) {
-      width: 147px;
-      padding-left: 130px;
-    }
+  @media (min-width: $desktop-width) {
+    padding: 0;
   }
 }
 
@@ -155,9 +165,7 @@
     &--opened .main-nav__wrapper {
       display: block;
       width: 100%;
-      position: absolute;
-      top: 109px;
-      left: 0;
+      padding-top: 30px;
     }
   }
 }
@@ -178,17 +186,30 @@
   display: block;
 }
 
+.main-nav__wrapper {
+  @media (min-width: $desktop-width) {
+    width: 622px;
+  }
+}
+
+.main-nav__wrapper-desktop {
+  @media (min-width: $desktop-width) {
+    display: flex;
+    margin: 0 auto;
+    width: 940px;
+    justify-content: space-between;
+    padding-top: 26px;
+  }
+}
+
 .main-nav__list {
   margin: 0;
   padding: 0;
   list-style-type: none;
 
   @media (min-width: $desktop-width) {
-    position: absolute;
-    top: -40px;
-    left: 449px;
     display: flex;
-    width: 620px;
     justify-content: space-between;
+    margin: 0;
   }
 }

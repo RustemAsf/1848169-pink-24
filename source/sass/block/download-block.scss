@@ -16,7 +16,6 @@
   color: #283645;
   padding-top: 29px;
   margin: 0;
-  margin-bottom: 52px;
 
   @media (min-width: $tablet-width) {
     padding: 0;
@@ -24,6 +23,8 @@
   }
 
   @media (min-width: $desktop-width) {
+    width: 422px;
+    margin: 0 auto;
     padding: 0;
   }
 }
@@ -279,7 +280,7 @@
       content: "";
       position: absolute;
       top: 102px;
-      left: 362px;
+      left: 1px;
       height: 1px;
       width: 275px;
       background: #283645;
@@ -290,7 +291,7 @@
       content: "";
       position: absolute;
       top: 178px;
-      left: 362px;
+      left: 1px;
       height: 1px;
       width: 275px;
       background: #283645;
@@ -301,7 +302,7 @@
       content: "";
       position: absolute;
       top: 248px;
-      left: 360px;
+      left: 1px;
       height: 1px;
       width: 275px;
       background: #283645;
@@ -321,8 +322,8 @@
     &--crop::before {
       content: "";
       position: absolute;
-      top: 114px;
-      left: 451px;
+      top: 57px;
+      left: 0px;
       height: 1px;
       width: 410px;
       background: #283645;
@@ -332,9 +333,9 @@
     &--fill::before {
       content: "";
       position: absolute;
-      top: 189px;
-      left: 451px;
-      height: 1px;
+      top: 130px;
+      left: 1px;
+      height: -18px;
       width: 410px;
       background: #283645;
       opacity: 0.1;
@@ -343,8 +344,8 @@
     &--contrast::before {
       content: "";
       position: absolute;
-      top: 253px;
-      left: 451px;
+      top: 193px;
+      left: 1px;
       height: 1px;
       width: 410px;
       background: #283645;
@@ -354,6 +355,7 @@
 }
 
 .download-block__tools {
+  position: relative;
   list-style-type: none;
   width: 200px;
   height: 45px;

@@ -47,7 +47,7 @@
     border: none;
     position: absolute;
     left: 1047px;
-    top: 213px;
+    top: 194px;
   }
 }
 
@@ -68,7 +68,7 @@
     border: none;
     position: absolute;
     left: 130px;
-    top: 213px;
+    top: 194px;
   }
 }
 
@@ -84,6 +84,7 @@
   color: #283645;
   margin: 0;
   margin-bottom: 21px;
+  width: 280px;
 
   @media (min-width: $tablet-width) {
     font-size: 18px;
@@ -91,18 +92,22 @@
     line-height: 30px;
     padding: 0;
   }
-}
 
-@media (min-width: $tablet-width) {
-  .reviews__text {
-    font-family: $font-pink;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 30px;
-    padding: 0;
+  @media (min-width: $desktop-width) {
+    width: 688px;
   }
 }
+
+// @media (min-width: $tablet-width) {
+//   .reviews__text {
+//     font-family: $font-pink;
+//     font-style: normal;
+//     font-weight: normal;
+//     font-size: 18px;
+//     line-height: 30px;
+//     padding: 0;
+//   }
+// }
 
 .reviews__legend {
   display: none;
