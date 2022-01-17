@@ -253,7 +253,7 @@
 }
 
 .achievement__wrapper {
-  width: 300px;
+  width: 280px;
   margin: 0 auto;
 
   @media (min-width: $tablet-width) {
@@ -268,7 +268,7 @@
 }
 
 .achievement__filter-wrapper {
-  width: 285px;
+  width: 280px;
   margin: 0 auto;
 
   @media (min-width: $tablet-width) {
@@ -283,12 +283,12 @@
 }
 
 .achievement__contacts-wrapper {
-  width: 285px;
+  width: 280px;
   margin: 0 auto;
 
   @media (min-width: $tablet-width) {
     order: 2;
-    width: 650px;
+    width: 620px;
   }
 
   @media (min-width: $desktop-width) {
@@ -298,7 +298,7 @@
 }
 
 .achievement__gadget-wrapper {
-  width: 275px;
+  width: 280px;
   margin: 0 auto;
 
   @media (min-width: $tablet-width) {
@@ -326,13 +326,13 @@
 }
 
 .achievement__form-wrapper {
-  width: 285px;
+  width: 280px;
   margin: 0 auto;
 
   @media (min-width: $tablet-width) {
     order: 6;
     display: flex;
-    width: 607px;
+    width: 620px;
   }
 
   @media (min-width: $desktop-width) {
@@ -481,7 +481,6 @@
 
   @media (min-width: $desktop-width) {
     justify-content: space-between;
-    padding-right: 113px;
     list-style-type: none;
     display: flex;
   }
@@ -495,7 +494,7 @@
   line-height: 30px;
   align-items: center;
   color: #283645;
-  width: 259px;
+  width: 248px;
   height: 59px;
   border: 2px solid #e5e5e5;
   border-radius: 1px;
@@ -794,7 +793,7 @@
 
 .achievement__number-phone {
   display: relative;
-  width: 260px;
+  width: 256px;
   height: 59px;
   box-shadow: 0 0 0 2px #e5e5e5;
   border-radius: 1px;
@@ -843,7 +842,7 @@
 }
 
 .achievement__mail {
-  width: 260px;
+  width: 256px;
   height: 59px;
   box-shadow: 0 0 0 2px #e5e5e5;
   border-radius: 1px;
@@ -1004,7 +1003,6 @@
   margin: 0 auto;
 
   @media (min-width: $tablet-width) {
-    width: 608px;
     border: 2px solid #e5e5e5;
     border-radius: 1px;
     padding: 0;
@@ -1034,8 +1032,6 @@
     border-radius: 1px;
     padding: 0;
     margin-bottom: 51px;
-    margin-left: 20px;
-    margin-right: 20px;
   }
 
   @media (min-width: $desktop-width) {

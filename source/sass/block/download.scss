@@ -9,13 +9,12 @@
 }
 
 .download__wrapper {
-  width: 277px;
+  width: 280px;
   margin: 0 auto;
   min-height: 245px;
   padding-top: 49px;
 
   @media (min-width: $tablet-width) {
-    position: absolute;
     padding-left: 20px;
     margin: 0 auto;
     z-index: 2;

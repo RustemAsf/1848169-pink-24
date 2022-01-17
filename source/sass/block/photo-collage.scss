@@ -2,8 +2,6 @@
 .photo-collage__wrapper {
   width: 280px;
   margin: 0 auto;
-  // padding-left: 20px;
-  // padding-right: 20px;
 
   @media (min-width: $tablet-width) {
     width: 620px;
@@ -175,7 +173,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  width: 263px;
+  width: 260px;
   margin: 0 auto;
   background: #f2f2f2;
   padding-left: 17px;
