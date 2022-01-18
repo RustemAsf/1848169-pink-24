@@ -15,14 +15,14 @@
   padding-top: 49px;
 
   @media (min-width: $tablet-width) {
+    min-height: 312px;
     padding-left: 20px;
-    margin: 0 auto;
-    z-index: 2;
+    margin: 0;
+    width: 300px;
   }
 
   @media (min-width: $desktop-width) {
-    padding-left: 130px;
-    width: 276px;
+    min-height: 435px;
   }
 }
 

@@ -16,7 +16,7 @@
 
   @media (min-width: $tablet-width) {
     position: relative;
-    min-height: 729px;
+    min-height: 660px;
     background-color: #1d2631;
     background-image: url("../img/back-tablet.jpg");
     background-repeat: no-repeat;
@@ -80,6 +80,7 @@
   line-height: 120%;
   text-align: center;
   color: #ffffff;
+  margin-bottom: 22px;
 
   @media (min-width: $tablet-width) {
     width: 200px;
@@ -94,19 +95,39 @@
   }
 
   @media (min-width: $desktop-width) {
-    padding-left: 168px;
     padding-top: 102px;
   }
 }
 
 .page-header__wrapper {
+  position: relative;
+  width: 320px;
+  margin: 0 auto;
+  background-image: url("../img/mobile-phone.png");
+  background-repeat: no-repeat;
+  background-position: 0px 110px;
+  background-size: 100% cover;
+  z-index: 2;
+
   @media (min-width: $tablet-width) {
-    width: 300px;
+    width: 620px;
+    margin: 0 auto;
     z-index: 2;
+    position: relative;
+    background-image: url("../img/tablet-phone.png");
+    background-repeat: no-repeat;
+    background-position: 0px 110px;
+    background-size: 100%, cover;
   }
 
   @media (min-width: $desktop-width) {
-    margin: 0;
-    width: 300px;
+    margin: 0 auto;
+    width: 940px;
+    z-index: 2;
+    position: relative;
+    background-image: url("../img/desktop-phone.png");
+    background-repeat: no-repeat;
+    background-position: 63px 167px;
+    background-size: 100%, cover;
   }
 }
