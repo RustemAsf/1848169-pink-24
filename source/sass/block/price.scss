@@ -29,14 +29,12 @@
   overflow: hidden;
 
   @media (min-width: $tablet-width) {
-    margin: 0 auto;
-    width: 624px;
     min-height: 346px;
   }
 
   @media (min-width: $desktop-width) {
     padding: 0;
-    width: 1200px;
+    width: 940px;
   }
 }
 
@@ -58,9 +56,8 @@
   }
 
   @media (min-width: $desktop-width) {
-    width: 874px;
+    width: 868px;
     padding: 0;
-    margin: 0 auto;
     margin-top: 145px;
     margin-bottom: 98px;
   }

@@ -25,8 +25,8 @@
   }
 
   @media (min-width: $desktop-width) {
+    position: relative;
     margin: 0 auto;
-    width: 615px;
   }
 }
 
@@ -41,12 +41,12 @@
   }
 }
 
-.reviews__next::before {
+.reviews__item::before {
   @media (min-width: $desktop-width) {
     content: url("../img/right-arrow.svg");
     border: none;
     position: absolute;
-    left: 1047px;
+    left: 794px;
     top: 194px;
   }
 }
@@ -62,12 +62,12 @@
   }
 }
 
-.reviews__prev::before {
+.reviews__list::before {
   @media (min-width: $desktop-width) {
     content: url("../img/left-arrow.svg");
     border: none;
     position: absolute;
-    left: 130px;
+    left: -156px;
     top: 194px;
   }
 }

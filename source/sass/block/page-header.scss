@@ -85,7 +85,7 @@
   @media (min-width: $tablet-width) {
     width: 200px;
     display: block;
-    padding-left: 65px;
+    padding-left: 47px;
     margin: 0;
     text-align: center;
     padding-top: 102px;
@@ -100,20 +100,16 @@
 }
 
 .page-header__wrapper {
-  position: relative;
-  width: 320px;
   margin: 0 auto;
   background-image: url("../img/mobile-phone.png");
   background-repeat: no-repeat;
-  background-position: 0px 110px;
+  background-position: center 110px;
   background-size: 100% cover;
   z-index: 2;
 
   @media (min-width: $tablet-width) {
     width: 620px;
     margin: 0 auto;
-    z-index: 2;
-    position: relative;
     background-image: url("../img/tablet-phone.png");
     background-repeat: no-repeat;
     background-position: 0px 110px;
@@ -123,8 +119,7 @@
   @media (min-width: $desktop-width) {
     margin: 0 auto;
     width: 940px;
-    z-index: 2;
-    position: relative;
+
     background-image: url("../img/desktop-phone.png");
     background-repeat: no-repeat;
     background-position: 63px 167px;
