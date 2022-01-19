@@ -24,11 +24,11 @@
 }
 
 .price__wrapper {
-  width: 100%;
   margin: 0 auto;
   overflow: hidden;
 
   @media (min-width: $tablet-width) {
+    width: 620px;
     min-height: 346px;
   }
 
@@ -51,7 +51,6 @@
 
   @media (min-width: $tablet-width) {
     margin: 0 auto;
-    width: 624px;
     margin-top: 56px;
   }
 

@@ -312,7 +312,7 @@
 }
 
 .achievement__feedback-wrapper {
-  width: 285px;
+  width: 280px;
   margin: 0 auto;
 
   @media (min-width: $tablet-width) {
@@ -400,7 +400,6 @@
   list-style-type: none;
   padding: 0;
   margin: 0;
-  padding-left: 6px;
 
   @media (min-width: $tablet-width) {
     padding: 0;
@@ -494,7 +493,7 @@
   line-height: 30px;
   align-items: center;
   color: #283645;
-  width: 248px;
+  width: 255px;
   height: 59px;
   border: 2px solid #e5e5e5;
   border-radius: 1px;
@@ -903,6 +902,7 @@
 .achievement__field {
   border: none;
   padding: 0;
+  margin: 0;
   display: block;
 
   @media (min-width: $tablet-width) {
@@ -969,10 +969,6 @@
     padding: 0;
     order: 4;
   }
-
-  @media (min-width: $desktop-width) {
-    width: 1200px;
-  }
 }
 
 .achievement__filter {
@@ -992,7 +988,6 @@
 
   @media (min-width: $desktop-width) {
     display: flex;
-    width: 936px;
     height: 228px;
   }
 }
@@ -1011,7 +1006,6 @@
   }
 
   @media (min-width: $desktop-width) {
-    width: 936px;
     height: 230px;
     border: 2px solid #e5e5e5;
     border-radius: 1px;

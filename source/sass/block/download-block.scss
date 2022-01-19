@@ -5,6 +5,15 @@
   }
 }
 
+.download-block__content-block {
+  width: 320px;
+
+  @media (min-width: $tablet-width) {
+    width: 620px;
+    margin: 0 auto;
+  }
+}
+
 .download-block__slogan-text {
   font-family: $font-pink;
   font-style: normal;
@@ -24,7 +33,6 @@
   }
 
   @media (min-width: $desktop-width) {
-    width: 422px;
     margin: 0 auto;
     padding: 0;
     margin-bottom: 75px;
@@ -40,7 +48,6 @@
   @media (min-width: $tablet-width) {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 auto;
   }
 
   @media (min-width: $desktop-width) {
@@ -54,7 +61,6 @@
 
   @media (min-width: $tablet-width) {
     display: flex;
-    flex-wrap: wrap;
     width: 620px;
     margin: 0 auto;
   }
@@ -113,7 +119,7 @@
   @media (min-width: $tablet-width) {
     margin: 0 auto;
     margin-bottom: 71px;
-    width: 188px;
+    width: 200px;
     height: 2px;
     background-color: #283645;
   }
@@ -474,7 +480,6 @@
   @media (min-width: $tablet-width) {
     padding-top: 37px;
     padding-left: 50px;
-    width: 260px;
   }
 
   @media (min-width: $desktop-width) {
