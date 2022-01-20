@@ -105,7 +105,13 @@
   background-repeat: no-repeat;
   background-position: center 110px;
   background-size: 100% cover;
-  z-index: 2;
+
+  @media (min-resolution: 2dppx) {
+    background-image: url("../img/mobile-phone@2x.png");
+    background-size: 640px auto;
+    background-position: 4px 55px;
+  }
+
 
   @media (min-width: $tablet-width) {
     width: 620px;
@@ -114,6 +120,12 @@
     background-repeat: no-repeat;
     background-position: 0px 110px;
     background-size: 100%, cover;
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/tablet-phone@2x.png");
+      background-size: 1320px auto;
+      background-position: -546px 27px;
+    }
   }
 
   @media (min-width: $desktop-width) {
@@ -123,5 +135,11 @@
     background-repeat: no-repeat;
     background-position: 111px 167px;
     background-size: 100%, cover;
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/desktop-phone@2x.png");
+      background-size: 2100px cover;
+      background-position: 111px 167px;
+    }
   }
 }

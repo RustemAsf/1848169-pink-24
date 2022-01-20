@@ -6,6 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>HTML Academy: Пинк</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="icon" href="img/favicon-16x16.png" type="image/16x16">
+  <link rel="icon" href="img/favicon-32x32.png" type="image/32x32">
+  <link rel="icon" href="img/favicon-96x96.png" type="image/96x96">
 </head>
 <body class="page__body">
   <svg version="1.1" style="display: none">
@@ -523,23 +527,25 @@
             <ul class="advantages__list-image">
               <li class="advantages__item-image advantages__item-image--left">
                 <picture>
-                  <!-- <source media="(min-width: 1200px)" srcset="img/left-phone.png, img/left-phone@2x.png 2x"> -->
+                  <source media="(min-width: 1200px)" srcset="img/left-phone.png 1x, img/left-phone@2x.png 2x">
+                  <source media="(min-width: 660px)" srcset="img/left-phone.png 1x, img/left-phone@2x.png 2x">
                   <img class="advantages__left-phone" src="img/left-phone.png"
                     srcset="img/left-phone@2x.png 2x" alt="Фото преимущества">
                 </picture>
               </li>
               <li class="advantages__item-image advantages__item-image--middle">
                 <picture>
-                  <!-- <source media="(min-width: 1200px)" srcset="img/middle-phone.png, img/middle-phone@2x.png 2x"> -->
+                  <source media="(min-width: 1200px)" srcset="img/middle-phone.png 1x, img/middle-phone@2x.png 2x">
+                  <source media="(min-width: 660px)" srcset="img/middle-phone.png 1x, img/middle-phone@2x.png 2x">
                   <img class="advantages__image-middle" src="img/middle-phone.png"
                     srcset="img/middle-phone@2x.png 2x" alt="Фото преимущества">
                 </picture>
               </li>
               <li class="advantages__item-image advantages__item-image--right">
                   <picture>
-                    <source media="(min-width: 1200px)" srcset="img/right-phone-desktop.png, img/right-phone-desktop@2x.png">
-                    <source media="(min-width: 660px)" srcset="img/right-phone-tablet.png, img/right-phone-tablet@2x.png">
-                    <img class="advantages__image-right" src="img/right-phone.png" srcset="img/right-phone@2x 2x.png" alt="Фото преимущества">
+                    <source media="(min-width: 1200px)" srcset="img/right-phone-desktop.png 1x, img/right-phone-desktop@2x.png 2x">
+                    <source media="(min-width: 660px)" srcset="img/right-phone-tablet.png 1x, img/right-phone-tablet@2x.png 2x">
+                    <img class="advantages__image-right" src="img/right-phone.png" srcset="img/right-phone@2x.png 2x" alt="Фото преимущества">
                   </picture>
               </li>
             </ul>
