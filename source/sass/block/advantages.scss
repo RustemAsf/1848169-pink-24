@@ -87,7 +87,6 @@
 
   @media (min-width: $desktop-width) {
     position: relative;
-    width: 832px;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
@@ -98,10 +97,22 @@
 .advantages__item-image {
   &--left {
     display: none;
+
+    @media (min-width: $desktop-width) {
+      width: 308px;
+      display: block;
+      height: 300px;
+    }
   }
 
   &--middle {
     display: none;
+
+    @media (min-width: $desktop-width) {
+      width: 308px;
+      display: block;
+      height: 300px;
+    }
   }
 
   &--right {
@@ -112,11 +123,12 @@
       height: 486px;
       z-index: 0;
     }
-  }
 
-  @media (min-width: $desktop-width) {
-    display: block;
-    height: 300px;
+    @media (min-width: $desktop-width) {
+      display: block;
+      width: 308px;
+      height: 300px;
+    }
   }
 }
 
@@ -127,7 +139,7 @@
       content: url("../img/shadow.svg");
       position: absolute;
       top: 286px;
-      left: -69px;
+      left: 0px;
       z-index: 0;
     }
   }
@@ -139,8 +151,8 @@
     @media (min-width: $desktop-width) {
       content: url("../img/shadow.svg");
       position: absolute;
-      top: 285px;
-      left: 276px;
+      top: 286px;
+      left: 313px;
       z-index: 0;
     }
   }
@@ -152,13 +164,12 @@
     @media (min-width: $desktop-width) {
       content: url("../img/shadow.svg");
       position: absolute;
-      top: 285px;
-      left: 604px;
+      top: 284px;
+      left: 614px;
       z-index: 0;
     }
   }
 }
-
 
 .advantages__list {
   padding-top: 70px;
@@ -185,7 +196,6 @@
 }
 
 .advantages__list-block {
-  position: relative;
   min-height: 817px;
   background: #f2f2f2;
   background-image: url("../img/bg-triangle-white.svg");
@@ -213,7 +223,6 @@
 }
 
 @media (min-width: $desktop-width) {
-
   .advantages__list {
     order: 2;
   }
@@ -257,7 +266,7 @@
     font-size: 30px;
     line-height: 30px;
     text-align: center;
-    width: 234px;
+    width: 254px;
   }
 }
 
