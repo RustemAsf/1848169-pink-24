@@ -84,6 +84,7 @@
 
   @media (min-width: $desktop-width) {
     padding: 0;
+    padding-left: 80px;
     width: 300px;
     height: 400px;
     margin-bottom: 57px;
@@ -206,9 +207,7 @@
     border: 2px solid #d22856;
     box-sizing: border-box;
   }
-}
 
-.scale__range-toggle {
   &--two {
     @media (min-width: $tablet-width) {
       position: absolute;
@@ -234,9 +233,7 @@
       box-sizing: border-box;
     }
   }
-}
 
-.scale__range-toggle {
   &--three {
     @media (min-width: $tablet-width) {
       position: absolute;
@@ -330,7 +327,7 @@
       content: "";
       position: absolute;
       top: 57px;
-      left: 0px;
+      left: 0;
       height: 1px;
       width: 410px;
       background: #283645;
@@ -488,7 +485,6 @@
     width: 420px;
     padding-left: 0;
     height: 55px;
-    padding-top: 60x;
   }
 }
 

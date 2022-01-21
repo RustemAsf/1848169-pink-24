@@ -130,24 +130,18 @@
       height: 300px;
     }
   }
-}
 
-.advantages__item-image {
   &--left::before {
-
     @media (min-width: $desktop-width) {
       content: url("../img/shadow.svg");
       position: absolute;
       top: 286px;
-      left: 0px;
+      left: 0;
       z-index: 0;
     }
   }
-}
 
-.advantages__item-image {
   &--middle::before {
-
     @media (min-width: $desktop-width) {
       content: url("../img/shadow.svg");
       position: absolute;
@@ -156,11 +150,8 @@
       z-index: 0;
     }
   }
-}
 
-.advantages__item-image {
   &--right::before {
-
     @media (min-width: $desktop-width) {
       content: url("../img/shadow.svg");
       position: absolute;
@@ -177,7 +168,6 @@
   text-align: center;
   padding-left: 0;
   margin: 0;
-
 
   @media (min-width: $tablet-width) {
     padding-top: 80px;

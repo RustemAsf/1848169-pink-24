@@ -11,7 +11,7 @@
 
   @media (min-resolution: 2dppx) {
     background-image: url("../img/back-mobile@2x.jpg");
-    background-size: 640px auto;
+    background-size: 100%, cover;
   }
 
   @media (min-width: $tablet-width) {
@@ -25,7 +25,7 @@
 
     @media (min-resolution: 2dppx) {
       background-image: url("../img/back-tablet@2x.jpg");
-      background-size: 1320px auto;
+      background-size: 100%, cover;
     }
   }
 
@@ -41,7 +41,7 @@
 
     @media (min-resolution: 2dppx) {
       background-image: url("../img/back-desktop@2x.jpg");
-      background-size: 2400px auto;
+      background-size: 100%, cover;
     }
   }
 }
@@ -108,23 +108,22 @@
 
   @media (min-resolution: 2dppx) {
     background-image: url("../img/mobile-phone@2x.png");
-    background-size: 640px auto;
-    background-position: 4px 55px;
+    background-size: 321px auto;
+    background-position: 0px 111px;
   }
-
 
   @media (min-width: $tablet-width) {
     width: 620px;
     margin: 0 auto;
     background-image: url("../img/tablet-phone.png");
     background-repeat: no-repeat;
-    background-position: 0px 110px;
+    background-position: 0 110px;
     background-size: 100%, cover;
 
     @media (min-resolution: 2dppx) {
       background-image: url("../img/tablet-phone@2x.png");
-      background-size: 1320px auto;
-      background-position: -546px 27px;
+      background-size: 619px auto;
+      background-position: 2px 111px;
     }
   }
 
