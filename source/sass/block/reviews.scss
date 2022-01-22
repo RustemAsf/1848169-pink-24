@@ -38,20 +38,22 @@
   display: none;
 
   @media (min-width: $desktop-width) {
+    color: rgba(40, 54, 69, 0.6);
+    cursor: pointer;
     display: block;
     border: none;
-    outline: none;
     background: none;
-  }
-}
-
-.reviews__item::before {
-  @media (min-width: $desktop-width) {
-    content: url("../img/right-arrow.svg");
-    border: none;
     position: absolute;
-    left: 794px;
-    top: 194px;
+    top: 211px;
+    left: 784px;
+  }
+
+  &:hover {
+    color: rgba(40, 54, 69, 1);
+  }
+
+  &:active {
+    color: rgba(40, 54, 69, 0.1);
   }
 }
 
@@ -59,20 +61,22 @@
   display: none;
 
   @media (min-width: $desktop-width) {
+    color: rgba(40, 54, 69, 0.6);
+    cursor: pointer;
     display: block;
     border: none;
-    outline: none;
     background: none;
-  }
-}
-
-.reviews__list::before {
-  @media (min-width: $desktop-width) {
-    content: url("../img/left-arrow.svg");
-    border: none;
     position: absolute;
-    left: -156px;
-    top: 194px;
+    top: 211px;
+    left: -131px;
+  }
+
+  &:hover {
+    color: rgba(40, 54, 69, 1);
+  }
+
+  &:active {
+    color: rgba(40, 54, 69, 0.1);
   }
 }
 
@@ -132,6 +136,14 @@
   opacity: 0.3;
   margin-right: 16px;
   border-radius: 50%;
+  cursor: pointer;
+
+  &:hover {
+    width: 6px;
+    height: 6px;
+    background: #283645;
+    opacity: 0.6;
+  }
 
   &--current {
     width: 12px;
@@ -141,6 +153,14 @@
     opacity: 1;
     border-radius: 50%;
     margin-right: 16px;
+
+    &:hover {
+      width: 12px;
+      height: 12px;
+      opacity: 1;
+      background-color: #ffffff;
+      border-radius: 50%;
+    }
   }
 
   @media (min-width: $desktop-width) {
@@ -165,6 +185,10 @@
 .reviews__author-info {
   display: flex;
   flex-direction: column;
+
+  @media (min-width: $desktop-width) {
+    position: relative;
+  }
 }
 
 .reviews__author-name {

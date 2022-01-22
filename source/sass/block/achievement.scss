@@ -500,6 +500,16 @@
   padding-left: 20px;
   outline: none;
 
+  &:hover {
+    outline: #283645;
+    box-shadow: 0 0 0 2px #283645;
+  }
+
+  &:active {
+    outline: #d22856;
+    box-shadow: 0 0 0 2px #d22856;
+  }
+
   &--three {
     margin-bottom: 44px;
   }
@@ -750,6 +760,14 @@
   background: #ffffff;
   border: 2px solid #e5e5e5;
   border-radius: 1px;
+
+  &:hover {
+    box-shadow: 0 0 0 2px #283645;
+  }
+
+  &:active {
+    box-shadow: 0 0 0 2px #d22856;
+  }
 }
 
 .achievement__control-block[type="checkbox"]:checked + .achievement__mark::before {
@@ -799,6 +817,17 @@
   margin: 0 auto;
   margin-bottom: 29px;
   padding-left: 20px;
+  outline: none;
+
+  &:hover {
+    outline: #283645;
+    box-shadow: 0 0 0 2px #283645;
+  }
+
+  &:active {
+    outline: #d22856;
+    box-shadow: 0 0 0 2px #d22856;
+  }
 
   @media (min-width: $tablet-width) {
     width: 480px;
@@ -848,6 +877,16 @@
   margin-bottom: 44px;
   padding-left: 20px;
 
+  &:hover {
+    outline: #283645;
+    box-shadow: 0 0 0 2px #283645;
+  }
+
+  &:active {
+    outline: #d22856;
+    box-shadow: 0 0 0 2px #d22856;
+  }
+
   @media (min-width: $tablet-width) {
     width: 480px;
     height: 59px;
@@ -861,7 +900,7 @@
 
   @media (min-width: $desktop-width) {
     position: relative;
-    width: 351px;
+    width: 353px;
     height: 59px;
     box-shadow: 0 0 0 2px #e5e5e5;
     border-radius: 1px;
@@ -1111,12 +1150,42 @@
   padding: 23px 45px 23px 45px;
   margin-bottom: 44px;
 
+  &:hover {
+    background: #1c9b5e;
+  }
+
+  &:active {
+    background: #1c9b5e;
+    color: rgba(255, 255, 255, 0.3);
+  }
+
+  &:disabled {
+    background: #e5e5e5;
+    color: rgba(255, 255, 255, 0.3);
+  }
+
   @media (min-width: $tablet-width) {
     margin-right: auto;
   }
 }
 
-.achievement__text {
+.achievement__text-box {
+  text-align: center;
+
+  @media (min-width: $desktop-width) {
+    display: none;
+  }
+}
+
+.achievement__text-desktop-box {
+  display: none;
+
+  @media (min-width: $desktop-width) {
+    display: block;
+  }
+}
+
+.achievement__text-flash {
   margin: 0;
   font-family: $font-pink;
   font-style: normal;
@@ -1129,6 +1198,21 @@
   text-align: center;
   margin-bottom: 27px;
 }
+
+.achievement__text {
+  margin: 0;
+  font-family: $font-pink;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  align-items: center;
+  text-transform: uppercase;
+  color: #283645;
+  text-align: center;
+}
+
+
 
 .achievement__text-desktop {
   display: none;
@@ -1214,7 +1298,7 @@
       position: absolute;
       content: "";
       top: -66px;
-      left: 303px;
+      left: 301px;
       width: 60px;
       height: 61px;
       background: #e5e5e5;

@@ -1,3 +1,7 @@
+.main-nav__logo-link {
+  color: #ffffff;
+}
+
 .main-nav {
   min-height: 66px;
   min-width: 320px;
@@ -65,6 +69,10 @@
     z-index: 1;
   }
 
+  &--closed .main-nav__toggle:hover:active {
+    opacity: 0.3;
+  }
+
   &--closed .main-nav__toggle:active::before {
     background-color: fade(#d22856, 30%);
     box-shadow:
@@ -81,7 +89,7 @@
       position: absolute;
       top: 11px;
       left: 19px;
-      width: 36px;
+      width: 31px;
       height: 3px;
       background-color: #ffffff;
       z-index: 1;
@@ -99,6 +107,21 @@
     &:active::before,
     &:active::after {
       background-color: fade(#ffffff, 30%);
+    }
+  }
+
+  &--opened .main-nav__toggle:hover {
+    &::before,
+    &::after {
+      background-color: #d22856;
+    }
+  }
+
+  &--opened .main-nav__toggle:active {
+    &::before,
+    &::after {
+      opacity: 0.3;
+      background-color: #d22856;
     }
   }
 }

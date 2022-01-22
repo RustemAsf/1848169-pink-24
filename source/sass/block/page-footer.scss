@@ -52,6 +52,10 @@
   margin-bottom: 41px;
   padding-top: 50px;
 
+  &:active {
+    opacity: 0.3;
+  }
+
   @media (min-width: $tablet-width) {
     height: 40px;
     margin: 0;
@@ -62,6 +66,15 @@
 .logotype-blue-tablet {
   display: block;
   margin: 0 auto;
+  color: #283645;
+
+  &:hover {
+    color: #d22856;
+  }
+
+  &:active {
+    color:#283645;
+  }
 
   @media (min-width: $desktop-width) {
     display: none;
@@ -71,8 +84,32 @@
 .logotype-blue-desktop {
   display: none;
 
+  &:hover {
+    color: #d22856;
+  }
+
+  &:active {
+    color:#283645;
+  }
+
   @media (min-width: $desktop-width) {
     display: block;
+    color: #283645;
+  }
+}
+
+.copyright__link {
+  color: #d22856;
+}
+
+.html-academy {
+  &:hover {
+    color:#283645;
+  }
+
+  &:active {
+    color: #283645;
+    opacity: 0.3;
   }
 }
 

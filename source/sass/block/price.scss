@@ -219,6 +219,14 @@
   opacity: 0.3;
   margin-right: 16px;
   border-radius: 50%;
+  cursor: pointer;
+
+  &:hover {
+    width: 6px;
+    height: 6px;
+    background: #283645;
+    opacity: 0.6;
+  }
 
   &--current {
     width: 12px;
@@ -228,6 +236,17 @@
     opacity: 1;
     border-radius: 50%;
     margin-right: 16px;
+
+    &:hover {
+      opacity: 1;
+      background-color: #ffffff;
+      border-radius: 50%;
+      width: 12px;
+      height: 12px;
+      background-color: #ffffff;
+      border: 3px solid #283645;
+      opacity: 1;
+    }
   }
 }
 

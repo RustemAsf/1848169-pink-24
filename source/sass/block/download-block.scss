@@ -116,7 +116,6 @@
   background-color: #283645;
   margin-bottom: 73px;
 
-
   @media (min-width: $tablet-width) {
     margin: 0 auto;
     margin-bottom: 71px;
@@ -183,6 +182,11 @@
   background: #ffffff;
   border: 2px solid #d22856;
   box-sizing: border-box;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #d22856;
+  }
 
   @media (min-width: $tablet-width) {
     position: absolute;
@@ -277,9 +281,17 @@
 }
 
 .download-block__item {
-  height: 45px;
+  cursor: pointer;
+
+  &--contrast {
+    padding-top: 5px;
+  }
 
   @media (min-width: $tablet-width) {
+    &--contrast {
+      padding-top: 0;
+    }
+
     &--crop::before {
       content: "";
       position: absolute;
@@ -305,7 +317,7 @@
     &--contrast::before {
       content: "";
       position: absolute;
-      top: 248px;
+      top: 253px;
       left: 1px;
       height: 1px;
       width: 275px;
@@ -348,7 +360,7 @@
     &--contrast::before {
       content: "";
       position: absolute;
-      top: 193px;
+      top: 198px;
       left: 1px;
       height: 1px;
       width: 410px;
@@ -380,42 +392,82 @@
   }
 
   @media (min-width: $desktop-width) {
+    color: #d22856;
     margin: 0;
     padding-top: 0;
   }
 }
 
 .crop-icon {
+  color:#d22856;
+
+  &:hover {
+    color: #283645;
+    opacity: 0.5;
+  }
+
+  &:active {
+    color:#d22856;
+    opacity: 1;
+  }
+
   @media (min-width: $tablet-width) {
+    color: #d22856;
     width: 22px;
     height: 22px;
   }
 
   @media (min-width: $desktop-width) {
+    color: #d22856;
     width: 44px;
     height: 44px;
   }
 }
 
 .fill-icon {
+  opacity: 0.3;
+
+  &:hover {
+    color: #283645;
+    opacity: 0.5;
+  }
+
+  &:active {
+    color:#d22856;
+    opacity: 1;
+  }
+
   @media (min-width: $tablet-width) {
     width: 24px;
     height: 22px;
-    fill: #d22856;
+    color: #d22856;
     opacity: 1;
   }
 
   @media (min-width: $desktop-width) {
+    color: #d22856;
     width: 48px;
     height: 43px;
   }
 }
 
 .contrast-icon {
+  opacity: 0.3;
+
+  &:hover {
+    color: #283645;
+    opacity: 0.5;
+  }
+
+  &:active {
+    color:#d22856;
+    opacity: 1;
+  }
+
   @media (min-width: $tablet-width) {
     width: 16px;
     height: 16px;
-    fill: #d22856;
+    color: #d22856;
     opacity: 1;
   }
 
@@ -441,6 +493,16 @@
     border-radius: 50px;
     padding: 16px 42px 16px 42px;
     margin-bottom: 12px;
+    cursor: pointer;
+
+    &:hover {
+      color: #ffffff;
+      background-color: #d22856;
+    }
+
+    &:active {
+      color: rgba(255, 255, 255, 0.3);
+    }
   }
 
   &--reset {
@@ -451,6 +513,17 @@
     box-sizing: border-box;
     border-radius: 30px;
     margin-bottom: 41px;
+    cursor: pointer;
+
+    &:hover {
+      color: rgba(40, 54, 69, 1);
+      opacity: 0.3;
+    }
+
+    &:active {
+      background-color: rgba(40, 54, 69, 1);
+      color: rgba(255, 255, 255, 0.3);
+    }
   }
 
   @media (min-width: $desktop-width) {

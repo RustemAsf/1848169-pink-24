@@ -37,6 +37,16 @@
   border: 3px solid #ffffff;
   border-radius: 29px;
   text-align: center;
+
+  &:hover {
+    color: #d22856;
+    background-color: #ffffff;
+  }
+
+  &:active {
+    color: rgba(210, 40, 86, 0.3);
+    background-color: #ffffff;
+  }
 }
 
 .download__list {
