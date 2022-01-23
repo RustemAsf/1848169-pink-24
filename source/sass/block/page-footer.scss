@@ -35,14 +35,14 @@
     min-height: 42px;
     margin: 0;
     padding-top: 26px;
-    padding-bottom: 28px;
   }
 
   @media (min-width: $desktop-width) {
     display: flex;
     justify-content: space-between;
+    width: 939px;
     padding: 0;
-    padding-top: 70px;
+    padding-top: 51px;
     padding-bottom: 87px;
   }
 }
@@ -50,7 +50,7 @@
 .page-footer__logo {
   display: block;
   margin-bottom: 41px;
-  padding-top: 50px;
+  padding-top: 24px;
 
   &:active {
     opacity: 0.3;
@@ -73,7 +73,7 @@
   }
 
   &:active {
-    color:#283645;
+    color: #283645;
   }
 
   @media (min-width: $desktop-width) {
@@ -89,7 +89,7 @@
   }
 
   &:active {
-    color:#283645;
+    color: #283645;
   }
 
   @media (min-width: $desktop-width) {
@@ -100,11 +100,14 @@
 
 .copyright__link {
   color: #d22856;
+  @media (min-width: $tablet-width) {
+    padding-top: 13px;
+  }
 }
 
 .html-academy {
   &:hover {
-    color:#283645;
+    color: #283645;
   }
 
   &:active {
@@ -117,19 +120,35 @@
   position: relative;
   display: flex;
   justify-content: space-between;
-  width: 155px;
+  width: 131px;
   margin: 0 auto;
   padding-bottom: 51px;
 
   @media (min-width: $tablet-width) {
-    padding-top: 20px;
-    width: 158px;
+    width: 132px;
     margin: 0;
+    padding: 0;
   }
 
   @media (min-width: $desktop-width) {
-    width: 17%;
+    width: 152px;
     padding: 0;
     margin: 0;
+  }
+}
+
+.copyright__text {
+  font-family: $font-pink;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #283645;
+
+  @media (min-width: $desktop-width) {
+    font-size: 18px;
+    line-height: 18px;
   }
 }

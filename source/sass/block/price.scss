@@ -44,20 +44,20 @@
   display: flex;
   box-sizing: border-box;
   border-collapse: collapse;
-  margin-top: 83px;
-  margin-bottom: 45px;
+  margin-top: 100px;
+  margin-bottom: 39px;
   margin-left: -375px;
   overflow: hidden;
 
   @media (min-width: $tablet-width) {
     margin: 0 auto;
-    margin-top: 56px;
+    margin-top: 103px;
   }
 
   @media (min-width: $desktop-width) {
-    width: 868px;
+    width: 942px;
     padding: 0;
-    margin-top: 145px;
+    margin-top: 158px;
     margin-bottom: 98px;
   }
 }
@@ -74,18 +74,20 @@
   color: #283645;
   border: 2px solid #e5e5e5;
   border-radius: 1px 0 0 0;
-  height: 59px;
+  height: 55px;
   padding-left: 20px;
   padding-right: 19px;
 
   @media (min-width: $tablet-width) {
     padding: 0;
     background: #ffffff;
+    height: 45px;
   }
 
   @media (min-width: $desktop-width) {
     padding: 0;
     background: #ffffff;
+    height: 59px;
   }
 }
 
@@ -106,7 +108,7 @@
     position: absolute;
     content: url("../img/hit-ribbon.svg");
     top: 2px;
-    left: 394px;
+    left: 467px;
   }
 }
 
@@ -130,8 +132,15 @@
     color: #283645;
     background: #ffffff;
     border: 2px solid #e5e5e5;
-    border-radius: 1px 0 0 0;
-    min-width: 153px;
+    min-width: 132px;
+    text-align: left;
+    padding-left: 19px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 234px;
+    font-size: 18px;
+    line-height: 30px;
   }
 }
 
@@ -142,11 +151,21 @@
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 7px;
   align-items: center;
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
+
+  @media (min-width: $tablet-width) {
+    padding-top: 15px;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: 18px;
+    line-height: 30px;
+    padding-top: 0;
+  }
 }
 
 .price__text {
@@ -157,7 +176,7 @@
   font-style: normal;
   font-weight: 300;
   font-size: 18px;
-  line-height: 30px;
+  line-height: 41px;
   align-items: center;
   text-align: center;
   text-transform: uppercase;
@@ -168,7 +187,22 @@
   }
 
   @media (min-width: $desktop-width) {
+    font-size: 24px;
+    line-height: 30px;
     width: 233px;
+  }
+}
+
+.price__cell-inactive-text {
+
+  @media (min-width: $desktop-width) {
+    font-family: $font-pink;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    align-items: center;
+    color: #283645;
   }
 }
 
@@ -177,7 +211,7 @@
   border-radius: 1px 0 0 0;
   background: #283645;
   width: 276px;
-  height: 94px;
+  height: 98px;
 
   @media (min-width: $tablet-width) {
     background: #283645;
@@ -188,7 +222,7 @@
   @media (min-width: $desktop-width) {
     background: #283645;
     width: 233px;
-    height: 75px;
+    height: 94px;
   }
 }
 
@@ -217,7 +251,7 @@
   height: 6px;
   background-color: #283645;
   opacity: 0.3;
-  margin-right: 16px;
+  margin-right: 10px;
   border-radius: 50%;
   cursor: pointer;
 
@@ -235,7 +269,7 @@
     border: 3px solid #283645;
     opacity: 1;
     border-radius: 50%;
-    margin-right: 16px;
+    margin-right: 11px;
 
     &:hover {
       opacity: 1;
@@ -243,9 +277,7 @@
       border-radius: 50%;
       width: 12px;
       height: 12px;
-      background-color: #ffffff;
       border: 3px solid #283645;
-      opacity: 1;
     }
   }
 }

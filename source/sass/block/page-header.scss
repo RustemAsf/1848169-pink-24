@@ -72,7 +72,7 @@
 
 .page-header__slogan {
   margin: 0;
-  padding-top: 29px;
+  padding-top: 24px;
   font-family: $font-pink;
   font-style: normal;
   font-weight: 300;
@@ -81,21 +81,27 @@
   text-align: center;
   color: #ffffff;
   margin-bottom: 22px;
+  width: 225px;
+  margin: 0 auto;
 
   @media (min-width: $tablet-width) {
     width: 200px;
     display: block;
-    padding-left: 47px;
+    padding-left: 49px;
     margin: 0;
     text-align: center;
-    padding-top: 102px;
+    padding-top: 95px;
     font-size: 40px;
     line-height: 120%;
     color: #ffffff;
   }
 
   @media (min-width: $desktop-width) {
+    width: 237px;
+    font-size: 50px;
+    line-height: 68px;
     padding-top: 102px;
+    padding-left: 30px;
   }
 }
 
@@ -109,7 +115,7 @@
   @media (min-resolution: 2dppx) {
     background-image: url("../img/mobile-phone@2x.png");
     background-size: 321px auto;
-    background-position: 0px 111px;
+    background-position: 0 111px;
   }
 
   @media (min-width: $tablet-width) {
@@ -117,13 +123,13 @@
     margin: 0 auto;
     background-image: url("../img/tablet-phone.png");
     background-repeat: no-repeat;
-    background-position: 0 110px;
-    background-size: 100%, cover;
+    background-position: -8px 86px;
+    background-size: 104%, cover;
 
     @media (min-resolution: 2dppx) {
       background-image: url("../img/tablet-phone@2x.png");
-      background-size: 619px auto;
-      background-position: 2px 111px;
+      background-size: 646px auto;
+      background-position: -9px 86px;
     }
   }
 
@@ -132,13 +138,13 @@
     width: 940px;
     background-image: url("../img/desktop-phone.png");
     background-repeat: no-repeat;
-    background-position: 111px 167px;
-    background-size: 100%, cover;
+    background-position: 19px 102px;
+    background-size: 111%, cover;
 
     @media (min-resolution: 2dppx) {
       background-image: url("../img/desktop-phone@2x.png");
       background-size: 2100px cover;
-      background-position: 111px 167px;
+      background-position: 18px 102px;
     }
   }
 }

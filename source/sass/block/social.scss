@@ -6,7 +6,8 @@
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  margin-bottom: 53px;
+  margin-bottom: 17px;
+  padding-top: 10px;
 
   @media (min-width: $tablet-width) {
     width: 180px;
@@ -32,8 +33,7 @@
   &:hover {
     width: 48px;
     height: 48px;
-    background: #FFFFFF;
-    // border: 3px solid #283645;
+    background: #ffffff;
     box-shadow: 0 0 0 3px #283645;
   }
 }

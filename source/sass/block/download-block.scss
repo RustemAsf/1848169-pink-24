@@ -23,9 +23,9 @@
   align-items: center;
   text-align: center;
   color: #283645;
-  padding-top: 29px;
+  padding-top: 25px;
   margin: 0;
-  margin-bottom: 52px;
+  margin-bottom: 42px;
 
   @media (min-width: $tablet-width) {
     padding: 0;
@@ -74,7 +74,7 @@
 .download-block__img {
   min-height: 374px;
   padding-top: 20px;
-  margin-bottom: 42px;
+  margin-bottom: 35px;
 
   @media (min-width: $tablet-width) {
     padding-top: 57px;
@@ -111,10 +111,10 @@
 .scale__bar {
   position: relative;
   padding-left: 10px;
-  width: 240px;
+  width: 231px;
   height: 2px;
   background-color: #283645;
-  margin-bottom: 73px;
+  margin-bottom: 60px;
 
   @media (min-width: $tablet-width) {
     margin: 0 auto;
@@ -175,7 +175,7 @@
 .scale__range-toggle {
   position: absolute;
   top: -6px;
-  left: 216px;
+  left: 192px;
   width: 14px;
   height: 14px;
   border-radius: 50%;
@@ -373,14 +373,14 @@
 .download-block__tools {
   position: relative;
   list-style-type: none;
-  width: 200px;
+  width: 195px;
   height: 45px;
   margin: 0 auto;
   padding: 0;
   text-align: center;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 44px;
+  margin-bottom: 37px;
 
   @media (min-width: $tablet-width) {
     flex-direction: column;
@@ -399,7 +399,7 @@
 }
 
 .crop-icon {
-  color:#d22856;
+  color: #d22856;
 
   &:hover {
     color: #283645;
@@ -407,7 +407,7 @@
   }
 
   &:active {
-    color:#d22856;
+    color: #d22856;
     opacity: 1;
   }
 
@@ -433,7 +433,7 @@
   }
 
   &:active {
-    color:#d22856;
+    color: #d22856;
     opacity: 1;
   }
 
@@ -460,7 +460,7 @@
   }
 
   &:active {
-    color:#d22856;
+    color: #d22856;
     opacity: 1;
   }
 
@@ -491,7 +491,7 @@
     border: 3px solid #d22856;
     box-sizing: border-box;
     border-radius: 50px;
-    padding: 16px 42px 16px 42px;
+    padding: 15px 42px 13px 42px;
     margin-bottom: 12px;
     cursor: pointer;
 
@@ -506,13 +506,13 @@
   }
 
   &--reset {
-    padding: 16px 42px 16px 42px;
+    padding: 16px 42px 10px 42px;
     color: #283645;
     opacity: 0.1;
     border: 3px solid #283645;
     box-sizing: border-box;
     border-radius: 30px;
-    margin-bottom: 41px;
+    margin-bottom: 54px;
     cursor: pointer;
 
     &:hover {

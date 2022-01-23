@@ -2,7 +2,7 @@
   cursor: pointer;
 
   &:hover {
-    color:#d22856;
+    color: #d22856;
   }
 
   &:active {
@@ -23,7 +23,7 @@
 
   &:hover {
     @media (min-width: $tablet-width) {
-      color:#d22856;
+      color: #d22856;
     }
   }
 
@@ -56,7 +56,7 @@
     margin: 0;
 
     &:hover {
-      color:#d22856;
+      color: #d22856;
     }
 
     &:active {

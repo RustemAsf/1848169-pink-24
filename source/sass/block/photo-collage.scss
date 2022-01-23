@@ -34,7 +34,9 @@
   text-align: center;
   color: #283645;
   margin: 0;
-  padding: 54px 0 60px 0;
+  width: 280px;
+  margin: 0 auto;
+  padding: 47px 0 50px 0;
 
   @media (min-width: $tablet-width) {
     width: 572px;
@@ -157,7 +159,7 @@
   background: #f2f2f2;
   padding-left: 17px;
   margin-bottom: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 17px;
 
   @media (min-width: $tablet-width) {
     position: relative;
@@ -182,8 +184,8 @@
   color: #ffffff;
   position: absolute;
   top: 0;
-  left: 165px;
-  padding: 13px 20px 14px 19px;
+  left: 161px;
+  padding: 13px 25px 14px 19px;
   text-transform: uppercase;
   background-color: #d22856;
 
@@ -208,7 +210,7 @@
   min-width: 263px;
   background: #f2f2f2;
   padding-left: 17px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 
   @media (min-width: $tablet-width) {
     display: flex;
@@ -233,7 +235,7 @@
   align-items: center;
   color: #283645;
   margin: 0;
-  padding-top: 25px;
+  padding-top: 17px;
 }
 
 .photo-collage__remark {
@@ -257,6 +259,11 @@
   align-items: center;
   color: #283645;
   margin: 0;
+  margin-bottom: 2px;
+
+  &--one {
+    margin-bottom: 7px;
+  }
 
   @media (min-width: $tablet-width) {
     margin: 0;

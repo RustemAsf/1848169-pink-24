@@ -11,23 +11,25 @@
 .download__wrapper {
   width: 280px;
   margin: 0 auto;
-  min-height: 245px;
-  padding-top: 49px;
+  min-height: 229px;
+  padding-top: 42px;
 
   @media (min-width: $tablet-width) {
-    min-height: 312px;
+    min-height: 333px;
     margin: 0;
     width: 300px;
+    padding-top: 26px;
   }
 
   @media (min-width: $desktop-width) {
-    min-height: 435px;
+    min-height: 386px;
+    padding-top: 51px;
   }
 }
 
 .download__link {
-  padding: 16px 27px 16px 27px;
-  font-family: $font-pink;
+  padding: 16px 30px 16px 38px;
+  font-family: "Open Sans", "Arial", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -47,6 +49,16 @@
     color: rgba(210, 40, 86, 0.3);
     background-color: #ffffff;
   }
+
+  @media (min-width: $tablet-width) {
+    padding: 17px 44px 12px 44px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 17px 28px 12px 29px;
+    font-size: 21px;
+    line-height: 18px;
+  }
 }
 
 .download__list {
@@ -57,7 +69,17 @@
   justify-content: space-between;
   margin: 0 auto;
   padding-top: 12px;
-  margin-bottom: 28px;
+  margin-bottom: 15px;
+
+  @media (min-width: $tablet-width) {
+    padding-top: 23px;
+    margin-bottom: 26px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-top: 47px;
+    margin-bottom: 43px;
+  }
 }
 
 .download__legend {
@@ -71,6 +93,11 @@
   color: #ffffff;
   display: block;
   margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    font-size: 18px;
+    line-height: 24px;
+  }
 }
 
 .apple-logo {
