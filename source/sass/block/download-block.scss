@@ -28,14 +28,17 @@
   margin-bottom: 42px;
 
   @media (min-width: $tablet-width) {
+    font-size: 18px;
+    line-height: 30px;
     padding: 0;
-    padding-top: 53px;
+    padding-top: 56px;
+    margin-bottom: 71px;
   }
 
   @media (min-width: $desktop-width) {
     margin: 0 auto;
-    padding: 0;
-    margin-bottom: 75px;
+    padding-top: 2px;
+    margin-bottom: 65px;
   }
 }
 
@@ -63,11 +66,13 @@
     display: flex;
     width: 620px;
     margin: 0 auto;
+    margin-bottom: 13px;
   }
 
   @media (min-width: $desktop-width) {
     display: flex;
     width: 940px;
+    margin-bottom: 42px;
   }
 }
 
@@ -97,9 +102,9 @@
   margin: 0 auto;
 
   @media (min-width: $tablet-width) {
-    width: 202px;
+    width: 187px;
     height: 200px;
-    padding-top: 71px;
+    padding-top: 74px;
   }
 
   @media (min-width: $desktop-width) {
@@ -119,7 +124,7 @@
   @media (min-width: $tablet-width) {
     margin: 0 auto;
     margin-bottom: 71px;
-    width: 200px;
+    width: 188px;
     height: 2px;
     background-color: #283645;
   }
@@ -127,7 +132,7 @@
   @media (min-width: $desktop-width) {
     margin: 0 auto;
     margin-bottom: 71px;
-    width: 287px;
+    width: 280px;
     height: 2px;
     background-color: #283645;
   }
@@ -138,8 +143,8 @@
     @media (min-width: $tablet-width) {
       position: relative;
       display: block;
-      margin-bottom: 71px;
-      width: 200px;
+      margin-bottom: 69px;
+      width: 191px;
       height: 2px;
       background-color: #283645;
     }
@@ -158,7 +163,7 @@
     @media (min-width: $tablet-width) {
       position: relative;
       display: block;
-      width: 200px;
+      width: 192px;
       height: 2px;
       background-color: #283645;
     }
@@ -175,7 +180,7 @@
 .scale__range-toggle {
   position: absolute;
   top: -6px;
-  left: 192px;
+  left: 235px;
   width: 14px;
   height: 14px;
   border-radius: 50%;
@@ -203,7 +208,7 @@
   @media (min-width: $desktop-width) {
     position: absolute;
     top: -6px;
-    left: 240px;
+    left: 235px;
     width: 14px;
     height: 14px;
     border-radius: 50%;
@@ -216,7 +221,7 @@
     @media (min-width: $tablet-width) {
       position: absolute;
       top: -6px;
-      left: 25px;
+      left: 24px;
       width: 14px;
       height: 14px;
       border-radius: 50%;
@@ -228,7 +233,7 @@
     @media (min-width: $desktop-width) {
       position: absolute;
       top: -6px;
-      left: 47px;
+      left: 37px;
       width: 14px;
       height: 14px;
       border-radius: 50%;
@@ -242,7 +247,7 @@
     @media (min-width: $tablet-width) {
       position: absolute;
       top: -6px;
-      left: 100px;
+      left: 95px;
       width: 14px;
       height: 14px;
       border-radius: 50%;
@@ -254,7 +259,7 @@
     @media (min-width: $desktop-width) {
       position: absolute;
       top: -6px;
-      left: 148px;
+      left: 139px;
       width: 14px;
       height: 14px;
       border-radius: 50%;
@@ -328,7 +333,7 @@
 
   @media (min-width: $desktop-width) {
     &--crop {
-      margin-bottom: 29px;
+      margin-bottom: 21px;
     }
 
     &--fill {
@@ -385,10 +390,10 @@
   @media (min-width: $tablet-width) {
     flex-direction: column;
     margin: 0;
-    margin-left: 32px;
-    padding-top: 61px;
+    margin-left: 34px;
+    padding-top: 65px;
     width: 50px;
-    height: 190px;
+    height: 171px;
   }
 
   @media (min-width: $desktop-width) {
@@ -526,6 +531,11 @@
     }
   }
 
+  @media (min-width: $tablet-width) {
+    &--submit {
+      margin-bottom: 20px;
+    }
+  }
   @media (min-width: $desktop-width) {
     min-height: 55px;
     padding: 0;
@@ -548,14 +558,14 @@
   width: 281px;
 
   @media (min-width: $tablet-width) {
-    padding-top: 37px;
+    padding-top: 46px;
     padding-left: 50px;
   }
 
   @media (min-width: $desktop-width) {
     display: flex;
-    padding-top: 20px;
-    width: 420px;
+    padding-top: 68px;
+    width: 409px;
     padding-left: 0;
     height: 55px;
   }
@@ -563,7 +573,7 @@
 
 .download-block__tools-block {
   @media (min-width: $tablet-width) {
-    width: 300px;
+    width: 307px;
     display: flex;
     flex-wrap: wrap;
   }

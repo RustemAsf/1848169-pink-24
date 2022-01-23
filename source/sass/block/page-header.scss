@@ -68,6 +68,12 @@
       min-height: 394px;
     }
   }
+
+  .page-header {
+    &--catalog{
+      min-height: 394px;
+    }
+  }
 }
 
 .page-header__slogan {
@@ -123,8 +129,8 @@
     margin: 0 auto;
     background-image: url("../img/tablet-phone.png");
     background-repeat: no-repeat;
-    background-position: -8px 86px;
-    background-size: 104%, cover;
+    background-position: -22px 76px;
+    background-size: 107%, cover;
 
     @media (min-resolution: 2dppx) {
       background-image: url("../img/tablet-phone@2x.png");

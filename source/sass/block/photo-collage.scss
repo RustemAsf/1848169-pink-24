@@ -9,7 +9,7 @@
     grid-template-columns: 49% 49%;
     grid-template-rows: 475px 475px;
     grid-auto-flow: row;
-    column-gap: 20px;
+    column-gap: 14px;
   }
 
   @media (min-width: $desktop-width) {
@@ -39,11 +39,16 @@
   padding: 47px 0 50px 0;
 
   @media (min-width: $tablet-width) {
-    width: 572px;
+    width: 565px;
     display: block;
     margin: 0 auto;
     font-size: 18px;
     line-height: 30px;
+    padding: 91px 0 78px 0;
+
+    br {
+      display: none;
+    }
   }
 
   @media (min-width: $desktop-width) {
@@ -54,6 +59,7 @@
     line-height: 30px;
     text-align: center;
     color: #283645;
+    padding: 91px 0 88px 0;
   }
 }
 
@@ -97,6 +103,10 @@
 .photo-collage__two-block {
   @media (min-width: $tablet-width) {
     order: 3;
+
+    br {
+      display: none;
+    }
   }
 }
 
@@ -106,6 +116,10 @@
   display: block;
   height: 29px;
   margin-right: 18px;
+
+  @media (min-width: $tablet-width) {
+    margin-right: 34px;
+  }
 }
 
 .photo-collage__like-block-one {
@@ -117,12 +131,12 @@
     padding: 0;
     margin-left: auto;
     margin-bottom: 0;
-    padding-top: 23px;
+    padding-top: 19px;
   }
 
   @media (min-width: $desktop-width) {
     margin-left: auto;
-    padding-right: 22px;
+    padding-right: 0;
     height: 20px;
   }
 }
@@ -135,7 +149,7 @@
   @media (min-width: $tablet-width) {
     flex-direction: row-reverse;
     margin: 0;
-    width: 240px;
+    width: 274px;
     justify-content: space-between;
     padding: 0;
     margin-top: auto;
@@ -165,16 +179,16 @@
     position: relative;
     min-width: 596px;
     padding-bottom: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 54px;
+    padding-left: 34px;
   }
 
   @media (min-width: $desktop-width) {
     position: relative;
     width: 917px;
-    padding-left: 27px;
-    margin-bottom: 50px;
+    padding-left: 31px;
+    margin-bottom: 48px;
     min-height: 76px;
-    padding-bottom: 21px;
   }
 }
 
@@ -197,11 +211,10 @@
 
   @media (min-width: $desktop-width) {
     position: absolute;
-    top: 66px;
-    left: 934px;
+    top: 54px;
+    left: 931px;
   }
 }
-
 
 .photo-collage__user-text {
   display: flex;
@@ -215,14 +228,16 @@
   @media (min-width: $tablet-width) {
     display: flex;
     flex-direction: column;
-    min-height: 140px;
+    min-height: 133px;
     padding-bottom: 15px;
+    padding-left: 31px;
   }
 
   @media (min-width: $desktop-width) {
     margin: 0 auto;
     background: #f2f2f2;
     padding-left: 27px;
+    padding-bottom: 22px;
   }
 }
 
@@ -236,6 +251,10 @@
   color: #283645;
   margin: 0;
   padding-top: 17px;
+
+  @media (min-width: $tablet-width) {
+    padding-top: 22px;
+  }
 }
 
 .photo-collage__remark {

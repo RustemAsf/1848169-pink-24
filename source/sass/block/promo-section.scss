@@ -9,17 +9,32 @@
   text-align: center;
   color: #ffffff;
   margin: 0;
-  padding: 28px 0 74px 0;
+  padding: 28px 0 45px 0;
+
+  &--catalog {
+    padding: 28px 0 75px 0;
+  }
 
   @media (min-width: $tablet-width) {
     font-weight: 300;
     font-size: 50px;
     line-height: 68px;
-    padding: 81px 0 143px 0;
+    padding: 68px 0 58px 0;
   }
 
   @media (min-width: $desktop-width) {
-    margin: 0;
-    padding: 74px 0 104px 0;
+    margin: 0 auto;
+    padding: 59px 0 19px 0;
+    width: 747px;
+
+    br {
+      display: none;
+    }
+
+    &--catalog {
+      br {
+        display: block;
+      }
+    }
   }
 }
