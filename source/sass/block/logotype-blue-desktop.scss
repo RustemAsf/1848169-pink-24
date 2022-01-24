@@ -1,0 +1,16 @@
+.logotype-blue-desktop {
+  display: none;
+
+  &:hover {
+    color: #d22856;
+  }
+
+  &:active {
+    color: #283645;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: block;
+    color: #283645;
+  }
+}

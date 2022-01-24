@@ -1,4 +1,3 @@
-
 .page-header {
   position: relative;
   width: 100%;
@@ -67,17 +66,14 @@
     &--form {
       min-height: 394px;
     }
-  }
 
-  .page-header {
-    &--catalog{
+    &--catalog {
       min-height: 394px;
     }
   }
 }
 
 .page-header__slogan {
-  margin: 0;
   padding-top: 24px;
   font-family: $font-pink;
   font-style: normal;
@@ -86,9 +82,9 @@
   line-height: 120%;
   text-align: center;
   color: #ffffff;
+  margin: 0 auto;
   margin-bottom: 22px;
   width: 225px;
-  margin: 0 auto;
 
   @media (min-width: $tablet-width) {
     width: 200px;

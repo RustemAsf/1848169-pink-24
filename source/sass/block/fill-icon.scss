@@ -1,0 +1,26 @@
+.fill-icon {
+  opacity: 0.3;
+
+  &:hover {
+    color: #283645;
+    opacity: 0.5;
+  }
+
+  &:active {
+    color: #d22856;
+    opacity: 1;
+  }
+
+  @media (min-width: $tablet-width) {
+    width: 24px;
+    height: 22px;
+    color: #d22856;
+    opacity: 1;
+  }
+
+  @media (min-width: $desktop-width) {
+    color: #d22856;
+    width: 48px;
+    height: 43px;
+  }
+}

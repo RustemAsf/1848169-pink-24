@@ -1,0 +1,19 @@
+.mail-icon {
+  display: none;
+
+  @media (min-width: $tablet-width) {
+    display: block;
+    position: absolute;
+    top: 155px;
+    left: 518px;
+    z-index: 2;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: block;
+    position: absolute;
+    top: 23px;
+    left: 838px;
+    z-index: 2;
+  }
+}

@@ -1,0 +1,17 @@
+.logotype-blue-tablet {
+  display: block;
+  margin: 0 auto;
+  color: #283645;
+
+  &:hover {
+    color: #d22856;
+  }
+
+  &:active {
+    color: #283645;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: none;
+  }
+}

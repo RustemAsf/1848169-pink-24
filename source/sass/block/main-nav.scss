@@ -106,21 +106,14 @@
 
     &:active::before,
     &:active::after {
-      background-color: fade(#ffffff, 30%);
+      opacity: 0.3;
+      background-color: #d22856;
     }
   }
 
   &--opened .main-nav__toggle:hover {
     &::before,
     &::after {
-      background-color: #d22856;
-    }
-  }
-
-  &--opened .main-nav__toggle:active {
-    &::before,
-    &::after {
-      opacity: 0.3;
       background-color: #d22856;
     }
   }

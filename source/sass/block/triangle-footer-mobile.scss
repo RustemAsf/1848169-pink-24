@@ -1,0 +1,14 @@
+.triangle-footer-mobile {
+  position: absolute;
+  top: -1px;
+  left: 0;
+  z-index: 1;
+
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: none;
+  }
+}

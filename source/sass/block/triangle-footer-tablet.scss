@@ -1,0 +1,15 @@
+.triangle-footer-tablet {
+  display: none;
+
+  @media (min-width: $tablet-width) {
+    display: block;
+    position: absolute;
+    top: -1px;
+    left: 0;
+    z-index: 1;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: none;
+  }
+}

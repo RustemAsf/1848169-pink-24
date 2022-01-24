@@ -1,0 +1,19 @@
+.no-icon {
+  &--three {
+    margin-left: 124px;
+
+    @media (min-width: $tablet-width) {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+
+  &--four {
+    margin-left: 98px;
+
+    @media (min-width: $tablet-width) {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+}

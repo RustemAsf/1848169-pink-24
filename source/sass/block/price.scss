@@ -51,7 +51,7 @@
 
   @media (min-width: $tablet-width) {
     margin: 0 auto;
-    margin-top: 103px;
+    margin-top: 95px;
   }
 
   @media (min-width: $desktop-width) {
@@ -134,7 +134,7 @@
     border: 2px solid #e5e5e5;
     min-width: 132px;
     text-align: left;
-    padding-left: 19px;
+    padding-left: 18px;
   }
 
   @media (min-width: $desktop-width) {
@@ -194,7 +194,6 @@
 }
 
 .price__cell-inactive-text {
-
   @media (min-width: $desktop-width) {
     font-family: $font-pink;
     font-style: normal;
@@ -229,7 +228,7 @@
 .price__toggles {
   margin: 0;
   text-align: center;
-  margin-bottom: 49px;
+  margin-bottom: 35px;
 
   @media (min-width: $tablet-width) {
     display: none;
@@ -278,77 +277,6 @@
       width: 12px;
       height: 12px;
       border: 3px solid #283645;
-    }
-  }
-}
-
-.hit-ribbon {
-  position: absolute;
-  top: 85px;
-  left: 21px;
-
-  @media (min-width: $tablet-width) {
-    position: absolute;
-    width: 61px;
-    height: 61px;
-    top: 58px;
-    left: 330px;
-  }
-
-  @media (min-width: $desktop-width) {
-    position: absolute;
-    width: 74px;
-    height: 74px;
-    top: 147px;
-    left: 556px;
-  }
-}
-
-.yes-icon {
-  &--two {
-    margin-left: 73px;
-
-    @media (min-width: $tablet-width) {
-      display: block;
-      margin: 0 auto;
-    }
-  }
-
-  &--three {
-    margin-left: 122px;
-
-    @media (min-width: $tablet-width) {
-      display: block;
-      margin: 0 auto;
-    }
-  }
-
-  &--four {
-    margin-left: 89px;
-
-    @media (min-width: $tablet-width) {
-      display: block;
-      margin: 0 auto;
-    }
-  }
-}
-
-.no-icon {
-  &--three {
-    margin-left: 124px;
-
-    @media (min-width: $tablet-width) {
-      display: block;
-      margin: 0 auto;
-    }
-  }
-
-  &--four {
-    margin-left: 98px;
-
-    @media (min-width: $tablet-width) {
-      display: block;
-      margin: 0 auto;
     }
   }
 }

@@ -1,0 +1,28 @@
+.yes-icon {
+  &--two {
+    margin-left: 73px;
+
+    @media (min-width: $tablet-width) {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+
+  &--three {
+    margin-left: 122px;
+
+    @media (min-width: $tablet-width) {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+
+  &--four {
+    margin-left: 89px;
+
+    @media (min-width: $tablet-width) {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+}
