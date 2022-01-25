@@ -734,6 +734,17 @@
   overflow: hidden;
 }
 
+.achievement__control-block[type="checkbox"]:focus + .achievement__mark {
+  border-radius: 4px;
+  box-shadow: 0 0 0 2px #283645;
+}
+
+.achievement__control-block[type="radio"]:focus + .achievement__mark {
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.6);
+  box-shadow: 0 0 0 3px #283645;
+}
+
 .achievement__mark {
   position: absolute;
   top: -4px;
