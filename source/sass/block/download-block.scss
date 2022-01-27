@@ -66,13 +66,13 @@
     display: flex;
     width: 620px;
     margin: 0 auto;
-    margin-bottom: 13px;
+    margin-bottom: -4px;
   }
 
   @media (min-width: $desktop-width) {
     display: flex;
     width: 940px;
-    margin-bottom: 42px;
+    margin-bottom: 26px;
   }
 }
 

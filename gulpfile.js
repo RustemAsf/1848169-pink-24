@@ -16,11 +16,11 @@ import browser from 'browser-sync';
 
 export const styles = () => {
   return gulp.src('source/sass/style.scss', { sourcemaps: true })
-    .pipe(plumber()) //2. Обработка ошибок
-    .pipe(sass().on('error', sass.logError)) //style.scss ==> style.css
-    .pipe(postcss([ //style.css
-      autoprefixer(), //style.css ==> style.css {prefics}
-      csso() // style.css {prefics} ==> style.css {prefics min}
+    .pipe(plumber())
+    .pipe(sass().on('error', sass.logError))
+    .pipe(postcss([
+      autoprefixer(),
+      csso()
     ]))
     .pipe(rename('style.min.css'))
     .pipe(gulp.dest('build/css', { sourcemaps: '.' }))
@@ -37,7 +37,7 @@ export const html = () => {
 
 //Script
 
-export const script = () => {
+export const scripts = () => {
   return gulp.src('source/js/*.js')
   .pipe(terser())
   .pipe(gulp.dest('build/js'))
@@ -49,6 +49,11 @@ export const images = () => {
   return gulp.src('source/img/**/*.{jpg,png}')
   .pipe(squoosh())
   .pipe(gulp.dest('build/img'))
+}
+
+const copyimages = () => {
+  return gulp.src('source/img/**/*.{png,jpg}')
+    .pipe(gulp.dest('build/img'))
 }
 
 //WebP
@@ -63,12 +68,12 @@ export const createwebp = () => {
 
 //Svg
 
-export const svg = () =>
+const svg = () =>
   gulp.src(['source/img/*.svg', '!source/img/icons/*.svg'])
   .pipe(svgo())
   .pipe(gulp.dest('build/img'));
 
-   const sprite = () => {
+  export const sprite = () => {
     return gulp.src('source/img/icons/*.svg')
       .pipe(svgo())
       .pipe(svgstore({
@@ -96,10 +101,45 @@ const server = (done) => {
 
 const watcher = () => {
   gulp.watch('source/sass/**/*.scss', gulp.series(styles));
-  gulp.watch('source/*.html').on('change', browser.reload);
+  gulp.watch('source/js/script.js', gulp.series(scripts));
+  gulp.watch('source/*.html', gulp.series(html, reload));
 }
-
 
 export default gulp.series(
   html, styles, server, watcher
+);
+
+// Copy
+
+const copy = (done) => {
+  gulp.src([
+    'source/fonts/*.{woff2,woff}',
+    'source/*.ico',
+  ], {
+    base: 'source'
+  })
+    .pipe(gulp.dest('build'))
+  done();
+}
+
+// Reload
+
+const reload = (done) => {
+  browser.reload();
+  done();
+}
+
+// Build
+
+export const build = gulp.series(
+  copy,
+  images,
+  gulp.parallel(
+    styles,
+    html,
+    scripts,
+    svg,
+    sprite,
+    createwebp
+  ),
 );

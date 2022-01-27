@@ -334,7 +334,7 @@
     order: 6;
     display: flex;
     width: 620px;
-    margin-bottom: 22px;
+    margin-bottom: 9px;
   }
 
   @media (min-width: $desktop-width) {
@@ -342,7 +342,7 @@
     display: flex;
     justify-content: space-between;
     width: 940px;
-    margin-bottom: 22px;
+    margin-bottom: 7px;
   }
 }
 
@@ -491,11 +491,11 @@
   color: #283645;
   width: 255px;
   height: 57px;
-  border: 2px solid #e5e5e5;
+  box-shadow: 0 0 0 2px #e5e5e5;
   border-radius: 1px;
   margin-bottom: 22px;
   padding-left: 20px;
-  outline: none;
+  border: 0;
 
   &:hover {
     outline: #283645;
@@ -514,19 +514,21 @@
   @media (min-width: $tablet-width) {
     min-width: 498px;
     height: 57px;
-    border: 2px solid #e5e5e5;
+    box-shadow: 0 0 0 2px #e5e5e5;
     border-radius: 1px;
     margin-bottom: 51px;
     padding-left: 21px;
     margin-left: 13px;
+    border: 0;
   }
 
   @media (min-width: $desktop-width) {
     min-width: 314px;
     height: 59px;
-    border: 2px solid #e5e5e5;
+    box-shadow: 0 0 0 2px #e5e5e5;
     border-radius: 1px;
     margin-bottom: 53px;
+    border: 0;
   }
 }
 
@@ -535,9 +537,10 @@
     &--two {
       width: 538px;
       height: 59px;
-      border: 2px solid #e5e5e5;
+      box-shadow: 0 0 0 2px #e5e5e5;
       border-radius: 1px;
       margin-bottom: 49px;
+      border: 0;
     }
   }
 }
@@ -547,9 +550,10 @@
     &--two {
       width: 354px;
       height: 59px;
-      border: 2px solid #e5e5e5;
+      box-shadow: 0 0 0 2px #e5e5e5;
       border-radius: 1px;
       margin-bottom: 49px;
+      border: 0;
     }
   }
 }
@@ -559,9 +563,10 @@
     &--three {
       min-width: 498px;
       height: 59px;
-      border: 2px solid #e5e5e5;
+      box-shadow: 0 0 0 2px #e5e5e5;
       border-radius: 1px;
       margin-bottom: 59px;
+      border: 0;
     }
   }
 }
@@ -571,9 +576,10 @@
     &--three {
       min-width: 313px;
       height: 59px;
-      border: 2px solid #e5e5e5;
+      box-shadow: 0 0 0 2px #e5e5e5;
       border-radius: 1px;
       margin-bottom: 23px;
+      border: 0;
     }
   }
 }
