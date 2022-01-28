@@ -105,10 +105,6 @@ const watcher = () => {
   gulp.watch('source/*.html', gulp.series(html, reload));
 }
 
-export default gulp.series(
-  html, styles, server, watcher
-);
-
 // Copy
 
 const copy = (done) => {
@@ -121,6 +117,12 @@ const copy = (done) => {
     .pipe(gulp.dest('build'))
   done();
 }
+
+// Clean
+
+// const clean = () => {
+//   return del('build');
+// };
 
 // Reload
 
@@ -143,3 +145,21 @@ export const build = gulp.series(
     createwebp
   ),
 );
+
+// Default
+
+export default gulp.series(
+  copy,
+  copyimages,
+  gulp.parallel(
+    styles,
+    html,
+    scripts,
+    svg,
+    sprite,
+    createwebp
+  ),
+  gulp.series(
+    server,
+    watcher
+  ));
