@@ -370,7 +370,7 @@
   padding-top: 44px;
   width: 280px;
   margin: 0 auto;
-  margin-bottom: 36px;
+  margin-bottom: 35px;
 
   @media (min-width: $tablet-width) {
     padding-top: 92px;
@@ -400,7 +400,7 @@
 
   @media (min-width: $desktop-width) {
     margin: 0;
-    padding-top: 15px;
+    padding-top: 17px;
   }
 }
 
@@ -409,7 +409,7 @@
   padding: 0;
 
   @media (min-width: $tablet-width) {
-    padding-top: 8px;
+    padding-top: 12px;
     padding-bottom: 19px;
   }
 
@@ -516,7 +516,7 @@
     height: 57px;
     box-shadow: 0 0 0 2px #e5e5e5;
     border-radius: 1px;
-    margin-bottom: 51px;
+    margin-bottom: 57px;
     padding-left: 21px;
     margin-left: 13px;
     border: 0;
@@ -527,7 +527,7 @@
     height: 59px;
     box-shadow: 0 0 0 2px #e5e5e5;
     border-radius: 1px;
-    margin-bottom: 53px;
+    margin-bottom: 57px;
     border: 0;
   }
 }
@@ -539,7 +539,7 @@
       height: 59px;
       box-shadow: 0 0 0 2px #e5e5e5;
       border-radius: 1px;
-      margin-bottom: 49px;
+      margin-bottom: 53px;
       border: 0;
     }
   }
@@ -552,7 +552,7 @@
       height: 59px;
       box-shadow: 0 0 0 2px #e5e5e5;
       border-radius: 1px;
-      margin-bottom: 49px;
+      margin-bottom: 54px;
       border: 0;
     }
   }
@@ -698,7 +698,7 @@
     padding-top: 0;
     display: block;
     margin: 0;
-    margin-bottom: 37px;
+    margin-bottom: 35px;
   }
 
   @media (min-width: $desktop-width) {
@@ -818,7 +818,7 @@
   margin-bottom: 16px;
   padding-left: 20px;
   outline: none;
-  margin-top: 8px;
+  margin-top: 4px;
 
   &:hover {
     outline: #283645;
@@ -877,7 +877,7 @@
   border-radius: 1px;
   border: none;
   margin-bottom: 44px;
-  margin-top: 8px;
+  margin-top: 4px;
   padding-left: 20px;
 
   &:hover {
@@ -1256,7 +1256,7 @@
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 30px;
+  line-height: 34px;
   align-items: center;
   text-transform: uppercase;
   color: #d22856;
@@ -1290,7 +1290,7 @@
     @media (min-width: $tablet-width) {
       position: absolute;
       content: "";
-      top: 131px;
+      top: 130px;
       left: 499px;
       width: 60px;
       height: 61px;
@@ -1312,7 +1312,7 @@
 
   @media (min-width: $tablet-width) {
     order: 2;
-    margin-bottom: 31px;
+    margin-bottom: 26px;
     padding-left: 0;
   }
 
