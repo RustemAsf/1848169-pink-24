@@ -1,7 +1,7 @@
 .achievement__modal-block {
   display: none;
   position: absolute;
-  top: 1226px;
+  top: 1163px;
   left: 0;
   width: 320px;
   background: #ffffff;
@@ -10,8 +10,8 @@
 
   @media (min-width: $tablet-width) {
     position: absolute;
-    top: 1022px;
-    left: 104px;
+    top: 898px;
+    left: 99px;
     z-index: 1;
     width: 460px;
   }
@@ -19,16 +19,20 @@
   @media (min-width: $desktop-width) {
     width: 780px;
     position: absolute;
-    top: 970px;
+    top: 795px;
     left: 212px;
-    z-index: 2;
+    z-index: 3;
+
+    br {
+      display: none;
+    }
   }
 }
 
 .achievement__modal-active {
   display: none;
   position: absolute;
-  top: 1710px;
+  top: 1633px;
   left: 0;
   width: 320px;
   background: #ffffff;
@@ -39,7 +43,7 @@
   @media (min-width: $tablet-width) {
     width: 460px;
     position: absolute;
-    top: 1487px;
+    top: 1385px;
     left: 98px;
     z-index: 3;
   }
@@ -47,7 +51,7 @@
   @media (min-width: $desktop-width) {
     width: 780px;
     position: absolute;
-    top: 1398px;
+    top: 1254px;
     left: 212px;
     z-index: 3;
   }
@@ -56,10 +60,10 @@
 .achievement__modal-wrapper {
   margin: 0 auto;
   width: 280px;
-  padding-top: 44px;
+  padding-top: 42px;
 
   @media (min-width: $tablet-width) {
-    width: 282px;
+    width: 300px;
     padding-top: 49px;
   }
 
@@ -81,11 +85,33 @@
   text-align: center;
   color: #000000;
   margin: 0;
-  margin-bottom: 37px;
+  margin-bottom: 24px;
+
+  &--active {
+    margin-bottom: 27px;
+  }
 
   @media (min-width: $tablet-width) {
+    padding-left: 19px;
+    width: 260px;
     font-size: 30px;
     line-height: 40px;
+
+    &--active {
+      padding-left: 22px;
+      margin-bottom: 23px;
+    }
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-top: 13px;
+    padding-left: 8px;
+    width: 330px;
+    margin-bottom: 23px;
+
+    &--active {
+      width: 440px;
+    }
   }
 }
 
@@ -99,43 +125,36 @@
   text-align: center;
   color: #283645;
   margin: 0;
-  margin-bottom: 50px;
+  margin-bottom: 44px;
+
+  &--active {
+    margin-bottom: 33px;
+  }
 
   @media (min-width: $tablet-width) {
+    margin-bottom: 36px;
     font-size: 18px;
     line-height: 24px;
+
+    &--active {
+      width: 310px;
+      margin-bottom: 30px;
+
+      br {
+        display: none;
+      }
+    }
   }
 
   @media (min-width: $desktop-width) {
     font-size: 18px;
     line-height: 24px;
-  }
-}
+    margin-bottom: 63px;
 
-.achievement__modal-text-active {
-  width: 266px;
-  font-family: $font-pink;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  align-items: center;
-  text-align: center;
-  color: #283645;
-  margin-bottom: 41px;
-
-  @media (min-width: $tablet-width) {
-    width: 297px;
-    font-size: 18px;
-    line-height: 24px;
-  }
-
-  @media (min-width: $desktop-width) {
-    margin: 0;
-    width: 466px;
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 44px;
+    &--active {
+      width: 460px;
+      margin-bottom: 38px;
+    }
   }
 }
 
@@ -179,6 +198,7 @@
 
   @media (min-width: $tablet-width) {
     text-align: center;
+    width: 302px;
   }
 
   @media (min-width: $desktop-width) {
@@ -193,7 +213,7 @@
 
   @media (min-width: $tablet-width) {
     width: 304px;
-    padding-top: 48px;
+    padding-top: 38px;
     margin: 0 auto;
   }
 
@@ -249,6 +269,11 @@
 
   @media (min-width: $tablet-width) {
     margin-bottom: 52px;
+    width: 296px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 457px;
   }
 }
 
@@ -334,7 +359,7 @@
     order: 6;
     display: flex;
     width: 620px;
-    margin-bottom: 9px;
+    margin-bottom: 19px;
   }
 
   @media (min-width: $desktop-width) {
@@ -817,7 +842,6 @@
   margin: 0 auto;
   margin-bottom: 16px;
   padding-left: 20px;
-  outline: none;
   margin-top: 4px;
 
   &:hover {
@@ -1127,7 +1151,7 @@
     display: block;
     resize: none;
     width: 476px;
-    height: 172px;
+    height: 174px;
     margin: 0 auto;
     margin-bottom: 52px;
   }

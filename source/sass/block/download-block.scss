@@ -1,5 +1,5 @@
-@media (min-width: $desktop-width) {
-  .download-block {
+.download-block {
+  @media (min-width: $desktop-width) {
     padding-left: 130px;
     padding-right: 130px;
   }
@@ -67,7 +67,7 @@
     display: flex;
     width: 620px;
     margin: 0 auto;
-    margin-bottom: -4px;
+    margin-bottom: 2px;
   }
 
   @media (min-width: $desktop-width) {

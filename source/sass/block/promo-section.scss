@@ -1,3 +1,18 @@
+.promo-section {
+  width: 280px;
+  margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    width: 620px;
+    margin: 0 auto;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 940px;
+    margin: 0 auto;
+  }
+}
+
 .promo-section__title {
   font-family: $font-pink;
   font-style: normal;
@@ -26,6 +41,10 @@
   @media (min-width: $desktop-width) {
     margin: 0 auto;
     padding: 59px 0 19px 0;
-    width: 747px;
+    width: 357px;
+
+    &--form {
+      width: 747px;
+    }
   }
 }

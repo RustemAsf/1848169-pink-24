@@ -18,7 +18,7 @@
     min-height: 333px;
     margin: 0;
     width: 300px;
-    padding-top: 26px;
+    padding-top: 24px;
   }
 
   @media (min-width: $desktop-width) {
@@ -29,7 +29,7 @@
 
 .download__link {
   padding: 15px 30px 13px 38px;
-  font-family: "Open Sans", "Arial", sans-serif;
+  font-family: $font-pink;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;

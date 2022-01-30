@@ -33,7 +33,7 @@
     justify-content: space-between;
     min-height: 42px;
     margin: 0;
-    padding-top: 40px;
+    padding-top: 32px;
   }
 
   @media (min-width: $desktop-width) {
@@ -65,6 +65,7 @@
 .page-footer__copyright {
   position: relative;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   width: 131px;
   margin: 0 auto;
