@@ -118,12 +118,6 @@ const copy = (done) => {
   done();
 }
 
-// Clean
-
-// const clean = () => {
-//   return del('build');
-// };
-
 // Reload
 
 const reload = (done) => {
