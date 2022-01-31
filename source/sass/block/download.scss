@@ -28,15 +28,15 @@
 }
 
 .download__link {
-  padding: 15px 30px 13px 38px;
+  padding: 14px 30px 13px 38px;
   font-family: $font-pink;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 18px;
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
-  border: 3px solid #ffffff;
+  border: 3px solid #fff;
   border-radius: 29px;
   text-align: center;
 
@@ -51,11 +51,11 @@
   }
 
   @media (min-width: $tablet-width) {
-    padding: 17px 44px 12px 44px;
+    padding: 13px 45px;
   }
 
   @media (min-width: $desktop-width) {
-    padding: 17px 28px 12px 29px;
+    padding: 11px 28px 11px 29px;
     font-size: 21px;
     line-height: 18px;
   }

@@ -21,7 +21,7 @@
 }
 
 .site-list__item {
-  height: 63px;
+  height: 64px;
 
   @media (min-width: $desktop-width) {
     &--active-one {
@@ -80,7 +80,7 @@
 .site-list a {
   position: relative;
   display: block;
-  padding-top: 13px;
+  padding-top: 14px;
   padding-bottom: 16px;
   font-size: 18px;
   line-height: 32px;

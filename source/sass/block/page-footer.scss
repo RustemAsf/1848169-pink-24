@@ -41,8 +41,16 @@
     justify-content: space-between;
     width: 939px;
     padding: 0;
-    padding-top: 65px;
+    padding-top: 96px;
     padding-bottom: 87px;
+
+    &--index {
+      padding-top: 66px;
+    }
+
+    &--form {
+      padding-top: 67px;
+    }
   }
 }
 

@@ -833,6 +833,13 @@
 }
 
 .achievement__number-phone {
+  font-family: $font-pink;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  align-items: center;
+  color: #283645;
   display: relative;
   width: 256px;
   height: 59px;
@@ -875,16 +882,6 @@
   }
 }
 
-.achievement__number-phone::placeholder {
-  font-family: $font-pink;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 30px;
-  align-items: center;
-  color: #283645;
-}
-
 .achievement__block-check {
   background-color: #f2f2f2;
 }
@@ -895,6 +892,13 @@
 }
 
 .achievement__mail {
+  font-family: $font-pink;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  align-items: center;
+  color: #283645;
   width: 256px;
   height: 59px;
   box-shadow: 0 0 0 2px #e5e5e5;
@@ -937,16 +941,6 @@
     margin-right: 4px;
     padding-left: 19px;
   }
-}
-
-.achievement__mail::placeholder {
-  font-family: $font-pink;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 30px;
-  align-items: center;
-  color: #283645;
 }
 
 .achievement__form {
