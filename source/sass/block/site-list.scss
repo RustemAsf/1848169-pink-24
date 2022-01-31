@@ -65,6 +65,10 @@
 
     &--active-three {
       .site-list__link::after {
+        position: absolute;
+        bottom: 11px;
+        left: 0;
+        content: "";
         width: 70px;
         border: 1px solid #ffffff;
         border-radius: 10%;

@@ -126,10 +126,10 @@
   &--opened {
     background: #283645;
 
-  @media (min-width: $tablet-width) {
-    min-height: 110px;
-    background: #283645;
-  }
+    @media (min-width: $tablet-width) {
+      min-height: 110px;
+      background: #283645;
+    }
 
     @media (min-width: $desktop-width) {
       background: rgba(0, 0, 0, 0.3);
