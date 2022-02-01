@@ -1,0 +1,339 @@
+.photo-collage__wrapper {
+  width: 280px;
+  margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    width: 620px;
+    display: grid;
+    grid-template-columns: 49% 49%;
+    grid-template-rows: 475px 475px;
+    grid-auto-flow: row;
+    column-gap: 14px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 940px;
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    grid-template-rows: 610px 610px;
+    grid-auto-flow: row;
+    column-gap: 20px;
+    justify-content: center;
+    padding: 0;
+  }
+}
+
+.photo-collage__slogan {
+  font-family: $font-pink;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  align-items: center;
+  text-align: center;
+  color: #283645;
+  width: 280px;
+  margin: 0 auto;
+  padding: 47px 0 50px 0;
+
+  @media (min-width: $tablet-width) {
+    width: 565px;
+    display: block;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 91px 0 78px 0;
+
+    br {
+      display: none;
+    }
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 572px;
+    display: block;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #283645;
+    padding: 91px 0 88px 0;
+  }
+}
+
+.photo-collage__user-wrapper {
+  position: relative;
+  margin: 0 auto;
+  width: 280px;
+
+  @media (min-width: $tablet-width) {
+    width: 620px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 940px;
+  }
+}
+
+.photo-collage__user-img-one {
+  display: block;
+  min-width: 100%;
+  min-height: 137px;
+
+  @media (min-width: $tablet-width) {
+    width: 100%;
+    height: 509px;
+    margin: 0;
+  }
+}
+
+.photo-collage__user-img {
+  padding: 0;
+  margin: 0 auto;
+  display: block;
+
+  @media (min-width: $tablet-width) {
+    width: 300px;
+  }
+}
+
+.photo-collage__first-block {
+  @media (min-width: $tablet-width) {
+    min-width: 140px;
+    order: 1;
+  }
+
+  @media (min-width: $desktop-width) {
+    height: 20px;
+  }
+}
+
+.photo-collage__two-block {
+  @media (min-width: $tablet-width) {
+    order: 3;
+
+    br {
+      display: none;
+    }
+  }
+}
+
+.photo-collage__heart-like {
+  margin: 0;
+  display: block;
+  height: 29px;
+  margin-right: 18px;
+  color: #d22856;
+
+  @media (min-width: $tablet-width) {
+    margin-right: 34px;
+  }
+}
+
+.photo-collage__like-block-one {
+  display: flex;
+
+  @media (min-width: $tablet-width) {
+    flex-direction: row-reverse;
+    order: 2;
+    padding: 0;
+    margin-left: auto;
+    margin-bottom: 0;
+    padding-top: 19px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-left: auto;
+    padding-right: 0;
+    height: 20px;
+  }
+}
+
+.photo-collage__like-block {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 18px;
+
+  @media (min-width: $tablet-width) {
+    flex-direction: row-reverse;
+    margin: 0;
+    width: 274px;
+    justify-content: space-between;
+    padding: 0;
+    margin-top: auto;
+  }
+}
+
+.photo-collage__like-count {
+  &--one {
+    @media (min-width: $tablet-width) {
+      margin-right: 16px;
+    }
+  }
+}
+
+.photo-collage__user-text-one {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 260px;
+  margin: 0 auto;
+  background: #f2f2f2;
+  padding-left: 17px;
+  margin-bottom: 20px;
+  padding-bottom: 17px;
+
+  @media (min-width: $tablet-width) {
+    position: relative;
+    min-width: 596px;
+    padding-bottom: 20px;
+    margin-bottom: 54px;
+    padding-left: 34px;
+  }
+
+  @media (min-width: $desktop-width) {
+    position: relative;
+    width: 917px;
+    padding-left: 31px;
+    margin-bottom: 48px;
+    min-height: 76px;
+  }
+}
+
+.photo-collage__marker {
+  font-size: 12px;
+  line-height: 7px;
+  color: #ffffff;
+  position: absolute;
+  top: 0;
+  left: 140px;
+  padding: 13px 25px 14px 19px;
+  text-transform: uppercase;
+  background-color: #d22856;
+
+  @media (min-width: $tablet-width) {
+    position: absolute;
+    top: 57px;
+    left: 480px;
+  }
+
+  @media (min-width: $desktop-width) {
+    position: absolute;
+    top: 54px;
+    left: 800px;
+  }
+}
+
+.photo-collage__user-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-width: 263px;
+  background: #f2f2f2;
+  padding-left: 17px;
+  margin-bottom: 15px;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    flex-direction: column;
+    min-height: 133px;
+    padding-bottom: 15px;
+    padding-left: 31px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin: 0 auto;
+    background: #f2f2f2;
+    padding-left: 27px;
+    padding-bottom: 22px;
+  }
+}
+
+.photo-collage__user-title {
+  font-family: $font-pink;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  align-items: center;
+  color: #283645;
+  margin: 0;
+  padding-top: 17px;
+
+  @media (min-width: $tablet-width) {
+    padding-top: 22px;
+  }
+}
+
+.photo-collage__remark {
+  font-family: $font-pink;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 24px;
+  align-items: center;
+  text-transform: uppercase;
+  color: #283645;
+  margin: 0;
+}
+
+.photo-collage__text-block {
+  font-family: $font-pink;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  align-items: center;
+  color: #283645;
+  margin: 0;
+  margin-bottom: 2px;
+
+  &--one {
+    margin-bottom: 7px;
+  }
+
+  @media (min-width: $tablet-width) {
+    margin: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 0;
+  }
+}
+
+.photo-collage__like-text {
+  font-family: $font-pink;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  align-items: center;
+  text-align: right;
+  text-transform: uppercase;
+  color: #d22856;
+  order: 1;
+  padding-top: 2px;
+
+  @media (min-width: $tablet-width) {
+    padding-left: 0;
+  }
+}
+
+.photo-collage__like-counter {
+  font-family: $font-pink;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  align-items: center;
+  text-align: right;
+  text-transform: uppercase;
+  color: #d22856;
+  order: 2;
+}
+
+.photo-collage__heart-button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+}

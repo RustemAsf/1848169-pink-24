@@ -1,0 +1,47 @@
+.social__list {
+  list-style-type: none;
+  width: 178px;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-bottom: 36px;
+  padding-top: 0;
+
+  @media (min-width: $tablet-width) {
+    width: 180px;
+    height: 50px;
+    margin: 0;
+    padding-top: 5px;
+    padding-right: 11px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-top: 5px;
+    padding-left: 17px;
+  }
+}
+
+.social__link {
+  position: relative;
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  border: 3px solid #d7d9dd;
+  border-radius: 50%;
+
+  &:hover {
+    width: 48px;
+    height: 48px;
+    border: 3px solid #ffffff;
+    background: #ffffff;
+    box-shadow: 0 0 0 3px #283645;
+  }
+
+  &:active {
+    width: 48px;
+    height: 48px;
+    box-shadow: 0 0 0 3px #283645;
+    opacity: 0.1;
+  }
+}

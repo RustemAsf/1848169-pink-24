@@ -1,0 +1,93 @@
+.page-footer__wrapper {
+  width: 280px;
+  margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    width: 620px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 940px;
+  }
+}
+
+.page-footer__contacts-wrapper {
+  width: 280px;
+  margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    width: 620px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 940px;
+  }
+}
+
+.page-footer__social {
+  text-align: center;
+  min-height: 284px;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    justify-content: space-between;
+    min-height: 42px;
+    margin: 0;
+    padding-top: 32px;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+    justify-content: space-between;
+    width: 939px;
+    padding: 0;
+    padding-top: 96px;
+    padding-bottom: 87px;
+
+    &--index {
+      padding-top: 66px;
+    }
+
+    &--form {
+      padding-top: 67px;
+    }
+  }
+}
+
+.page-footer__logo {
+  display: block;
+  margin-bottom: 41px;
+  padding-top: 24px;
+
+  &:active {
+    opacity: 0.3;
+  }
+
+  @media (min-width: $tablet-width) {
+    height: 40px;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.page-footer__copyright {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 131px;
+  margin: 0 auto;
+  padding-bottom: 51px;
+
+  @media (min-width: $tablet-width) {
+    width: 132px;
+    margin: 0;
+    padding: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 152px;
+    padding: 0;
+    margin: 0;
+  }
+}

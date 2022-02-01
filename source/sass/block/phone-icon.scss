@@ -1,0 +1,19 @@
+.phone-icon {
+  display: none;
+  color: #d22856;
+
+  @media (min-width: $tablet-width) {
+    display: block;
+    position: absolute;
+    top: 21px;
+    left: 517px;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 393px;
+    z-index: 2;
+  }
+}

@@ -1,0 +1,67 @@
+.logo-pink__mobile {
+  cursor: pointer;
+
+  &:hover {
+    color: #d22856;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: none;
+  }
+}
+
+.logo-pink__tablet {
+  display: none;
+
+  &:hover {
+    @media (min-width: $tablet-width) {
+      color: #d22856;
+    }
+  }
+
+  &:active {
+    @media (min-width: $tablet-width) {
+      color: #ffffff;
+      opacity: 0.3;
+    }
+  }
+
+  @media (min-width: $tablet-width) {
+    color: #ffffff;
+    display: block;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: none;
+  }
+}
+
+.logo-pink__desktop {
+  display: none;
+
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: block;
+    margin: 0;
+
+    &:hover {
+      color: #d22856;
+    }
+
+    &:active {
+      color: #ffffff;
+      opacity: 0.3;
+    }
+  }
+}
