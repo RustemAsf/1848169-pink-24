@@ -61,8 +61,18 @@
   }
 }
 
-.photo-collage__user {
+.photo-collage__user-wrapper {
   position: relative;
+  margin: 0 auto;
+  width: 280px;
+
+  @media (min-width: $tablet-width) {
+    width: 620px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 940px;
+  }
 }
 
 .photo-collage__user-img-one {
@@ -196,7 +206,7 @@
   color: #ffffff;
   position: absolute;
   top: 0;
-  left: 161px;
+  left: 140px;
   padding: 13px 25px 14px 19px;
   text-transform: uppercase;
   background-color: #d22856;
@@ -204,13 +214,13 @@
   @media (min-width: $tablet-width) {
     position: absolute;
     top: 57px;
-    left: 505px;
+    left: 480px;
   }
 
   @media (min-width: $desktop-width) {
     position: absolute;
     top: 54px;
-    left: 931px;
+    left: 800px;
   }
 }
 
