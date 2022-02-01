@@ -351,3 +351,36 @@
     padding-left: 90px;
   }
 }
+
+.download-block__button-crop {
+  outline: none;
+  border: none;
+
+  &:focus {
+    box-shadow: 0 0 0 3px #c2a503;
+    outline: none;
+    border-radius: 2px;
+  }
+}
+
+.download-block__button-fill {
+  outline: none;
+  border: none;
+
+  &:focus {
+    box-shadow: 0 0 0 3px #c2a503;
+    outline: none;
+    border-radius: 2px;
+  }
+}
+
+.download-block__button-contrast {
+  outline: none;
+  border: none;
+
+  &:focus {
+    box-shadow: 0 0 0 3px #c2a503;
+    outline: none;
+    border-radius: 2px;
+  }
+}

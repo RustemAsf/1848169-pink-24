@@ -149,18 +149,17 @@
   }
 
   &--nojs .main-nav__wrapper {
-    position: absolute;
-    top: 66px;
+    padding-top: 18px;
     display: block;
     width: 100%;
 
     @media (min-width: $tablet-width) {
-      position: absolute;
-      top: 110px;
+      padding-top: 32px;
+      width: 100%;
     }
 
     @media (min-width: $desktop-width) {
-      position: static;
+      padding: 0;
       width: 622px;
     }
   }

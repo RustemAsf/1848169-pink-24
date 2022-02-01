@@ -336,4 +336,10 @@
   outline: none;
   border: none;
   cursor: pointer;
+
+  &:focus {
+    box-shadow: 0 0 0 2px #c2a503;
+    outline: none;
+    border-radius: 1px;
+  }
 }
