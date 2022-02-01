@@ -37,4 +37,11 @@
     background: #ffffff;
     box-shadow: 0 0 0 3px #283645;
   }
+
+  &:active {
+    width: 48px;
+    height: 48px;
+    box-shadow: 0 0 0 3px #283645;
+    opacity: 0.1;
+  }
 }

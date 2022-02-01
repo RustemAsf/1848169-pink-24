@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html class="page" lang="ru">
+
 <head>
   <meta name="content-type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,6 +11,7 @@
   <link rel="icon" href="img/favicon-32x32.png" type="image/32x32">
   <link rel="icon" href="img/favicon-96x96.png" type="image/96x96">
 </head>
+
 <body class="page__body">
   <div class="page__container">
     <svg version="1.1" style="display: none">
@@ -61,19 +63,19 @@
           выкладывают пользователи!<br> Видите, как не хватает ваших?</p>
         <div class="photo-collage__user">
           <a class="photo-collage__user-link" href="#">
-          <picture>
-            <source type="image/webp" media="(min-width: 1200px)"
-              srcset="img/panorama-desktop.webp 1x, img/panorama-desktop@2x.webp 2x">
-            <source type="image/webp" media="(min-width: 660px)"
-              srcset="img/panorama-tablet.webp 1x, img/panorama-tablet@2x.webp 2x">
-            <source type="image/webp" media="(min-width: 320px)"
-              srcset="img/panorama-mobile.webp 1x, img/panorama-mobile@2x.webp 2x">
-            <source media="(min-width: 1200px)" srcset="img/panorama-desktop.jpg 1x, img/panorama-desktop@2x.jpg 2x">
-            <source media="(min-width: 660px)" srcset="img/panorama-tablet.jpg 1x, img/panorama-tablet@2x.jpg 2x">
-            <img class="photo-collage__user-img-one" src="img/panorama-mobile.jpg"
-              srcset="img/panorama-mobile@2x.jpg 2x" alt="Фотогалерея">
-          </picture>
-        </a>
+            <picture>
+              <source type="image/webp" media="(min-width: 1200px)"
+                srcset="img/panorama-desktop.webp 1x, img/panorama-desktop@2x.webp 2x">
+              <source type="image/webp" media="(min-width: 660px)"
+                srcset="img/panorama-tablet.webp 1x, img/panorama-tablet@2x.webp 2x">
+              <source type="image/webp" media="(min-width: 320px)"
+                srcset="img/panorama-mobile.webp 1x, img/panorama-mobile@2x.webp 2x">
+              <source media="(min-width: 1200px)" srcset="img/panorama-desktop.jpg 1x, img/panorama-desktop@2x.jpg 2x">
+              <source media="(min-width: 660px)" srcset="img/panorama-tablet.jpg 1x, img/panorama-tablet@2x.jpg 2x">
+              <img class="photo-collage__user-img-one" src="img/panorama-mobile.jpg"
+                srcset="img/panorama-mobile@2x.jpg 2x" alt="Фотогалерея">
+            </picture>
+          </a>
           <div class="photo-collage__marker">Панорама дня</div>
           <div class="photo-collage__user-text-one">
             <div class="photo-collage__first-block">
@@ -88,9 +90,11 @@
               </p>
             </div>
             <div class="photo-collage__like-block-one">
-              <svg class="photo-collage__heart-like" width="13" height="12">
-                <use xlink:href="img/sprite.svg#heart-like"></use>
-              </svg>
+              <button class="photo-collage__heart-button" type="button">
+                <svg class="photo-collage__heart-like" width="13" height="12">
+                  <use xlink:href="img/sprite.svg#heart-like"></use>
+                </svg>
+              </button>
               <div class="photo-collage__like-count photo-collage__like-count--one">
                 <span class="photo-collage__like-text">Нравится:</span>
                 <span class="photo-collage__like-counter">215</span>
@@ -100,20 +104,21 @@
           <div class="photo-collage__wrapper">
             <div class="photo-collage__user">
               <a class="photo-collage__user-link" href="#">
-              <picture>
-                <source type="image/webp" media="(min-width: 1200px)"
-                  srcset="img/photo-one-desktop.webp 1x, img/photo-one-desktop@2x.webp 2x">
-                <source type="image/webp" media="(min-width: 660px)"
-                  srcset="img/photo-one-tablet.webp 1x, img/photo-one-tablet@2x.webp 2x">
-                <source type="image/webp" media="(min-width: 320px)"
-                  srcset="img/photo-one-mobile.webp 1x, img/photo-one-mobile@2x.webp 2x">
-                <source media="(min-width: 1200px)"
-                  srcset="img/photo-one-desktop.jpg 1x, img/photo-one-desktop@2x.jpg 2x">
-                <source media="(min-width: 660px)" srcset="img/photo-one-tablet.jpg 1x, img/photo-one-tablet@2x.jpg 2x">
-                <img class="photo-collage__user-img" src="img/photo-one-mobile.jpg"
-                  srcset="img/photo-one-mobile@2x.jpg 2x" alt="Фотогалерея">
-              </picture>
-            </a>
+                <picture>
+                  <source type="image/webp" media="(min-width: 1200px)"
+                    srcset="img/photo-one-desktop.webp 1x, img/photo-one-desktop@2x.webp 2x">
+                  <source type="image/webp" media="(min-width: 660px)"
+                    srcset="img/photo-one-tablet.webp 1x, img/photo-one-tablet@2x.webp 2x">
+                  <source type="image/webp" media="(min-width: 320px)"
+                    srcset="img/photo-one-mobile.webp 1x, img/photo-one-mobile@2x.webp 2x">
+                  <source media="(min-width: 1200px)"
+                    srcset="img/photo-one-desktop.jpg 1x, img/photo-one-desktop@2x.jpg 2x">
+                  <source media="(min-width: 660px)"
+                    srcset="img/photo-one-tablet.jpg 1x, img/photo-one-tablet@2x.jpg 2x">
+                  <img class="photo-collage__user-img" src="img/photo-one-mobile.jpg"
+                    srcset="img/photo-one-mobile@2x.jpg 2x" alt="Фотогалерея">
+                </picture>
+              </a>
               <div class="photo-collage__user-text">
                 <h3 class="photo-collage__user-title">Левон
                   <span class="photo-collage__remark">(5 часов назад)</span>
@@ -122,9 +127,11 @@
                   Вчера он на луну летал, сегодня в<br>руки к нам попал.
                 </p>
                 <div class="photo-collage__like-block">
-                  <svg class="photo-collage__heart-like" width="13" height="12">
-                    <use xlink:href="img/sprite.svg#heart-like"></use>
-                  </svg>
+                  <button class="photo-collage__heart-button" type="button">
+                    <svg class="photo-collage__heart-like" width="13" height="12">
+                      <use xlink:href="img/sprite.svg#heart-like"></use>
+                    </svg>
+                  </button>
                   <div class="photo-collage__like-count">
                     <span class="photo-collage__like-text">Нравится:</span>
                     <span class="photo-collage__like-counter">356</span>
@@ -134,20 +141,21 @@
             </div>
             <div class="photo-collage__user">
               <a class="photo-collage__user-link" href="#">
-              <picture>
-                <source type="image/webp" media="(min-width: 1200px)"
-                  srcset="img/photo-two-desktop.webp 1x, img/photo-two-desktop@2x.webp 2x">
-                <source type="image/webp" media="(min-width: 660px)"
-                  srcset="img/photo-two-tablet.webp 1x, img/photo-two-tablet@2x.webp 2x">
-                <source type="image/webp" media="(min-width: 320px)"
-                  srcset="img/photo-two-mobile.webp 1x, img/photo-two-mobile@2x.webp 2x">
-                <source media="(min-width: 1200px)"
-                  srcset="img/photo-two-desktop.jpg 1x, img/photo-two-desktop@2x.jpg 2x">
-                <source media="(min-width: 660px)" srcset="img/photo-two-tablet.jpg 1x, img/photo-two-tablet@2x.jpg 2x">
-                <img class="photo-collage__user-img" src="img/photo-two-mobile.jpg"
-                  srcset="img/photo-two-mobile@2x.jpg 2x" alt="Фотогалерея">
-              </picture>
-            </a>
+                <picture>
+                  <source type="image/webp" media="(min-width: 1200px)"
+                    srcset="img/photo-two-desktop.webp 1x, img/photo-two-desktop@2x.webp 2x">
+                  <source type="image/webp" media="(min-width: 660px)"
+                    srcset="img/photo-two-tablet.webp 1x, img/photo-two-tablet@2x.webp 2x">
+                  <source type="image/webp" media="(min-width: 320px)"
+                    srcset="img/photo-two-mobile.webp 1x, img/photo-two-mobile@2x.webp 2x">
+                  <source media="(min-width: 1200px)"
+                    srcset="img/photo-two-desktop.jpg 1x, img/photo-two-desktop@2x.jpg 2x">
+                  <source media="(min-width: 660px)"
+                    srcset="img/photo-two-tablet.jpg 1x, img/photo-two-tablet@2x.jpg 2x">
+                  <img class="photo-collage__user-img" src="img/photo-two-mobile.jpg"
+                    srcset="img/photo-two-mobile@2x.jpg 2x" alt="Фотогалерея">
+                </picture>
+              </a>
               <div class="photo-collage__user-text">
                 <h3 class="photo-collage__user-title">Антон
                   <span class="photo-collage__remark">(12 часов назад)</span>
@@ -156,9 +164,11 @@
                   Соседи будут рады!
                 </p>
                 <div class="photo-collage__like-block">
-                  <svg class="photo-collage__heart-like" width="13" height="12">
-                    <use xlink:href="img/sprite.svg#heart-like"></use>
-                  </svg>
+                  <button class="photo-collage__heart-button" type="button">
+                    <svg class="photo-collage__heart-like" width="13" height="12">
+                      <use xlink:href="img/sprite.svg#heart-like"></use>
+                    </svg>
+                  </button>
                   <div class="photo-collage__like-count">
                     <span class="photo-collage__like-text">Нравится:</span>
                     <span class="photo-collage__like-counter">666</span>
@@ -168,21 +178,21 @@
             </div>
             <div class="photo-collage__user">
               <a class="photo-collage__user-link" href="#">
-              <picture>
-                <source type="image/webp" media="(min-width: 1200px)"
-                  srcset="img/photo-three-desktop.webp 1x, img/photo-three-desktop@2x.webp 2x">
-                <source type="image/webp" media="(min-width: 660px)"
-                  srcset="img/photo-three-tablet.webp 1x, img/photo-three-tablet@2x.webp 2x">
-                <source type="image/webp" media="(min-width: 320px)"
-                  srcset="img/photo-three-mobile.webp 1x, img/photo-three-mobile@2x.webp 2x">
-                <source media="(min-width: 1200px)"
-                  srcset="img/photo-three-desktop.jpg 1x, img/photo-three-desktop@2x.jpg 2x">
-                <source media="(min-width: 660px)"
-                  srcset="img/photo-three-tablet.jpg 1x, img/photo-three-tablet@2x.jpg 2x">
-                <img class="photo-collage__user-img" src="img/photo-three-mobile.jpg"
-                  srcset="img/photo-three-mobile@2x.jpg 2x" alt="Фотогалерея">
-              </picture>
-            </a>
+                <picture>
+                  <source type="image/webp" media="(min-width: 1200px)"
+                    srcset="img/photo-three-desktop.webp 1x, img/photo-three-desktop@2x.webp 2x">
+                  <source type="image/webp" media="(min-width: 660px)"
+                    srcset="img/photo-three-tablet.webp 1x, img/photo-three-tablet@2x.webp 2x">
+                  <source type="image/webp" media="(min-width: 320px)"
+                    srcset="img/photo-three-mobile.webp 1x, img/photo-three-mobile@2x.webp 2x">
+                  <source media="(min-width: 1200px)"
+                    srcset="img/photo-three-desktop.jpg 1x, img/photo-three-desktop@2x.jpg 2x">
+                  <source media="(min-width: 660px)"
+                    srcset="img/photo-three-tablet.jpg 1x, img/photo-three-tablet@2x.jpg 2x">
+                  <img class="photo-collage__user-img" src="img/photo-three-mobile.jpg"
+                    srcset="img/photo-three-mobile@2x.jpg 2x" alt="Фотогалерея">
+                </picture>
+              </a>
               <div class="photo-collage__user-text">
                 <h3 class="photo-collage__user-title">Борис
                   <span class="photo-collage__remark">(20 часов назад)</span>
@@ -191,9 +201,11 @@
                   Здесь могла быть ваша цитата о<br>высоком и вечном.
                 </p>
                 <div class="photo-collage__like-block">
-                  <svg class="photo-collage__heart-like" width="13" height="12">
-                    <use xlink:href="img/sprite.svg#heart-like"></use>
-                  </svg>
+                  <button class="photo-collage__heart-button" type="button">
+                    <svg class="photo-collage__heart-like" width="13" height="12">
+                      <use xlink:href="img/sprite.svg#heart-like"></use>
+                    </svg>
+                  </button>
                   <div class="photo-collage__like-count">
                     <span class="photo-collage__like-text">Нравится:</span>
                     <span class="photo-collage__like-counter">215</span>
@@ -203,21 +215,21 @@
             </div>
             <div class="photo-collage__user">
               <a class="photo-collage__user-link" href="#">
-              <picture>
-                <source type="image/webp" media="(min-width: 1200px)"
-                  srcset="img/photo-four-desktop.webp 1x, img/photo-four-desktop@2x.webp 2x">
-                <source type="image/webp" media="(min-width: 660px)"
-                  srcset="img/photo-four-tablet.webp 1x, img/photo-four-tablet@2x.webp 2x">
-                <source type="image/webp" media="(min-width: 320px)"
-                  srcset="img/photo-four-mobile.webp 1x, img/photo-four-mobile@2x.webp 2x">
-                <source media="(min-width: 1200px)"
-                  srcset="img/photo-four-desktop.jpg 1x, img/photo-four-desktop@2x.jpg 2x">
-                <source media="(min-width: 660px)"
-                  srcset="img/photo-four-tablet.jpg 1x, img/photo-four-tablet@2x.jpg 2x">
-                <img class="photo-collage__user-img" src="img/photo-four-mobile.jpg"
-                  srcset="img/photo-four-mobile@2x.jpg 2x" alt="Фотогалерея">
-              </picture>
-            </a>
+                <picture>
+                  <source type="image/webp" media="(min-width: 1200px)"
+                    srcset="img/photo-four-desktop.webp 1x, img/photo-four-desktop@2x.webp 2x">
+                  <source type="image/webp" media="(min-width: 660px)"
+                    srcset="img/photo-four-tablet.webp 1x, img/photo-four-tablet@2x.webp 2x">
+                  <source type="image/webp" media="(min-width: 320px)"
+                    srcset="img/photo-four-mobile.webp 1x, img/photo-four-mobile@2x.webp 2x">
+                  <source media="(min-width: 1200px)"
+                    srcset="img/photo-four-desktop.jpg 1x, img/photo-four-desktop@2x.jpg 2x">
+                  <source media="(min-width: 660px)"
+                    srcset="img/photo-four-tablet.jpg 1x, img/photo-four-tablet@2x.jpg 2x">
+                  <img class="photo-collage__user-img" src="img/photo-four-mobile.jpg"
+                    srcset="img/photo-four-mobile@2x.jpg 2x" alt="Фотогалерея">
+                </picture>
+              </a>
               <div class="photo-collage__user-text">
                 <h3 class="photo-collage__user-title">Сергей
                   <span class="photo-collage__remark">(25 часов назад)</span>
@@ -226,9 +238,11 @@
                   Самая кубанская в мире!
                 </p>
                 <div class="photo-collage__like-block">
-                  <svg class="photo-collage__heart-like" width="13" height="12">
-                    <use xlink:href="img/sprite.svg#heart-like"></use>
-                  </svg>
+                  <button class="photo-collage__heart-button" type="button">
+                    <svg class="photo-collage__heart-like" width="13" height="12">
+                      <use xlink:href="img/sprite.svg#heart-like"></use>
+                    </svg>
+                  </button>
                   <div class="photo-collage__like-count">
                     <span class="photo-collage__like-text">Нравится:;</span>
                     <span class="photo-collage__like-counter">4</span>
@@ -238,21 +252,21 @@
             </div>
             <div class="photo-collage__user">
               <a class="photo-collage__user-link" href="#">
-              <picture>
-                <source type="image/webp" media="(min-width: 1200px)"
-                  srcset="img/photo-five-desktop.webp 1x, img/photo-five-desktop@2x.webp 2x">
-                <source type="image/webp" media="(min-width: 660px)"
-                  srcset="img/photo-five-tablet.webp 1x, img/photo-five-tablet@2x.webp 2x">
-                <source type="image/webp" media="(min-width: 320px)"
-                  srcset="img/photo-five-mobile.webp 1x, img/photo-five-mobile@2x.webp 2x">
-                <source media="(min-width: 1200px)"
-                  srcset="img/photo-five-desktop.jpg 1x, img/photo-five-desktop@2x.jpg 2x">
-                <source media="(min-width: 660px)"
-                  srcset="img/photo-five-tablet.jpg 1x, img/photo-five-tablet@2x.jpg 2x">
-                <img class="photo-collage__user-img" src="img/photo-five-mobile.jpg"
-                  srcset="img/photo-five-mobile@2x.jpg 2x" alt="Фотогалерея">
-              </picture>
-            </a>
+                <picture>
+                  <source type="image/webp" media="(min-width: 1200px)"
+                    srcset="img/photo-five-desktop.webp 1x, img/photo-five-desktop@2x.webp 2x">
+                  <source type="image/webp" media="(min-width: 660px)"
+                    srcset="img/photo-five-tablet.webp 1x, img/photo-five-tablet@2x.webp 2x">
+                  <source type="image/webp" media="(min-width: 320px)"
+                    srcset="img/photo-five-mobile.webp 1x, img/photo-five-mobile@2x.webp 2x">
+                  <source media="(min-width: 1200px)"
+                    srcset="img/photo-five-desktop.jpg 1x, img/photo-five-desktop@2x.jpg 2x">
+                  <source media="(min-width: 660px)"
+                    srcset="img/photo-five-tablet.jpg 1x, img/photo-five-tablet@2x.jpg 2x">
+                  <img class="photo-collage__user-img" src="img/photo-five-mobile.jpg"
+                    srcset="img/photo-five-mobile@2x.jpg 2x" alt="Фотогалерея">
+                </picture>
+              </a>
               <div class="photo-collage__user-text">
                 <h3 class="photo-collage__user-title">Максим
                   <span class="photo-collage__remark">(40 часов назад)</span>
@@ -261,9 +275,11 @@
                   Где снег то?
                 </p>
                 <div class="photo-collage__like-block">
-                  <svg class="photo-collage__heart-like" width="13" height="12">
-                    <use xlink:href="img/sprite.svg#heart-like"></use>
-                  </svg>
+                  <button class="photo-collage__heart-button" type="button">
+                    <svg class="photo-collage__heart-like" width="13" height="12">
+                      <use xlink:href="img/sprite.svg#heart-like"></use>
+                    </svg>
+                  </button>
                   <div class="photo-collage__like-count">
                     <span class="photo-collage__like-text">Нравится:</span>
                     <span class="photo-collage__like-counter">150</span>
@@ -273,20 +289,21 @@
             </div>
             <div class="photo-collage__user">
               <a class="photo-collage__user-link" href="#">
-              <picture>
-                <source type="image/webp" media="(min-width: 1200px)"
-                  srcset="img/photo-six-desktop.webp 1x, img/photo-six-desktop@2x.webp 2x">
-                <source type="image/webp" media="(min-width: 660px)"
-                  srcset="img/photo-six-tablet.webp 1x, img/photo-six-tablet@2x.webp 2x">
-                <source type="image/webp" media="(min-width: 320px)"
-                  srcset="img/photo-six-mobile.webp 1x, img/photo-six-mobile@2x.webp 2x">
-                <source media="(min-width: 1200px)"
-                  srcset="img/photo-six-desktop.jpg 1x, img/photo-six-desktop@2x.jpg 2x">
-                <source media="(min-width: 660px)" srcset="img/photo-six-tablet.jpg 1x, img/photo-six-tablet@2x.jpg 2x">
-                <img class="photo-collage__user-img" src="img/photo-six-mobile.jpg"
-                  srcset="img/photo-six-mobile@2x.jpg 2x" alt="Фотогалерея">
-              </picture>
-            </a>
+                <picture>
+                  <source type="image/webp" media="(min-width: 1200px)"
+                    srcset="img/photo-six-desktop.webp 1x, img/photo-six-desktop@2x.webp 2x">
+                  <source type="image/webp" media="(min-width: 660px)"
+                    srcset="img/photo-six-tablet.webp 1x, img/photo-six-tablet@2x.webp 2x">
+                  <source type="image/webp" media="(min-width: 320px)"
+                    srcset="img/photo-six-mobile.webp 1x, img/photo-six-mobile@2x.webp 2x">
+                  <source media="(min-width: 1200px)"
+                    srcset="img/photo-six-desktop.jpg 1x, img/photo-six-desktop@2x.jpg 2x">
+                  <source media="(min-width: 660px)"
+                    srcset="img/photo-six-tablet.jpg 1x, img/photo-six-tablet@2x.jpg 2x">
+                  <img class="photo-collage__user-img" src="img/photo-six-mobile.jpg"
+                    srcset="img/photo-six-mobile@2x.jpg 2x" alt="Фотогалерея">
+                </picture>
+              </a>
               <div class="photo-collage__user-text">
                 <h3 class="photo-collage__user-title">Надежда
                   <span class="photo-collage__remark">(45 часов назад)</span>
@@ -295,9 +312,11 @@
                   Всем GM и взаимные лайки!
                 </p>
                 <div class="photo-collage__like-block">
-                  <svg class="photo-collage__heart-like" width="13" height="12">
-                    <use xlink:href="img/sprite.svg#heart-like"></use>
-                  </svg>
+                  <button class="photo-collage__heart-button" type="button">
+                    <svg class="photo-collage__heart-like" width="13" height="12">
+                      <use xlink:href="img/sprite.svg#heart-like"></use>
+                    </svg>
+                  </button>
                   <div class="photo-collage__like-count">
                     <span class="photo-collage__like-text">Нравится:</span>
                     <span class="photo-collage__like-counter">2560</span>
@@ -318,21 +337,21 @@
         <form class="download-block__user-photo" action="echo" method="post">
           <div class="download-block__wrapper">
             <a class="download-block__user-link" href="#">
-            <picture>
-              <source type="image/webp" media="(min-width: 1200px)"
-                srcset="img/photo-seven-desktop.webp 1x, img/photo-seven-desktop@2x.webp 2x">
-              <source type="image/webp" media="(min-width: 660px)"
-                srcset="img/photo-seven-tablet.webp 1x, img/photo-seven-tablet@2x.webp 2x">
-              <source type="image/webp" media="(min-width: 320px)"
-                srcset="img/photo-seven-mobile.webp 1x, img/photo-seven-mobile@2x.webp 2x">
-              <source media="(min-width: 1200px)"
-                srcset="img/photo-seven-desktop.jpg 1x, img/photo-seven-desktop@2x.jpg 2x">
-              <source media="(min-width: 660px)"
-                srcset="img/photo-seven-tablet.jpg 1x, img/photo-seven-tablet@2x.jpg 2x">
-              <img class="download-block__img" src="img/photo-seven-mobile.jpg"
-                srcset="img/photo-seven-mobile@2x.jpg 2x" alt="Фотогалерея">
-            </picture>
-          </a>
+              <picture>
+                <source type="image/webp" media="(min-width: 1200px)"
+                  srcset="img/photo-seven-desktop.webp 1x, img/photo-seven-desktop@2x.webp 2x">
+                <source type="image/webp" media="(min-width: 660px)"
+                  srcset="img/photo-seven-tablet.webp 1x, img/photo-seven-tablet@2x.webp 2x">
+                <source type="image/webp" media="(min-width: 320px)"
+                  srcset="img/photo-seven-mobile.webp 1x, img/photo-seven-mobile@2x.webp 2x">
+                <source media="(min-width: 1200px)"
+                  srcset="img/photo-seven-desktop.jpg 1x, img/photo-seven-desktop@2x.jpg 2x">
+                <source media="(min-width: 660px)"
+                  srcset="img/photo-seven-tablet.jpg 1x, img/photo-seven-tablet@2x.jpg 2x">
+                <img class="download-block__img" src="img/photo-seven-mobile.jpg"
+                  srcset="img/photo-seven-mobile@2x.jpg 2x" alt="Фотогалерея">
+              </picture>
+            </a>
             <div class="download-block__tools-block">
               <ul class="download-block__tools">
                 <li class="download-block__item download-block__item--crop">
@@ -422,4 +441,5 @@
     <script src="./js/script.js"></script>
   </div>
 </body>
+
 </html>

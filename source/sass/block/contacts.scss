@@ -127,6 +127,16 @@
   text-align: center;
   color: #d22856;
   margin: 0;
+  text-decoration: none;
+
+  &:hover {
+    color: #283645;
+    text-decoration: underline;
+  }
+
+  &:active {
+    color: rgba(40, 54, 69, 0.3);
+  }
 }
 
 .contacts__mail {
@@ -162,6 +172,16 @@
   margin: 0;
   margin-bottom: 31px;
   z-index: 2;
+  text-decoration: none;
+
+  &:hover {
+    color: #283645;
+    text-decoration: underline;
+  }
+
+  &:active {
+    color: rgba(40, 54, 69, 0.3);
+  }
 
   @media (min-width: $tablet-width) {
     margin-bottom: 25px;

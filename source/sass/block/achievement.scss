@@ -793,6 +793,10 @@
   &:active {
     box-shadow: 0 0 0 2px #d22856;
   }
+
+  &:disabled {
+    box-shadow: 0 0 0 2px #e5e5e5;
+  }
 }
 
 .achievement__control-block[type="checkbox"]:checked + .achievement__mark::before {
