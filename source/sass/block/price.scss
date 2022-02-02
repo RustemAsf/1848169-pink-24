@@ -24,11 +24,12 @@
 }
 
 .price__wrapper {
-  margin: 0 auto;
+  width: 100%;
   overflow: hidden;
 
   @media (min-width: $tablet-width) {
     width: 620px;
+    margin: 0 auto;
     min-height: 346px;
   }
 
@@ -39,15 +40,14 @@
 }
 
 .price__table {
-  position: relative;
-  width: 1214px;
   display: flex;
+  flex-direction: column;
   box-sizing: border-box;
   border-collapse: collapse;
   margin-top: 100px;
   margin-bottom: 39px;
-  margin-left: -375px;
-  overflow: hidden;
+  margin-left: -95px;
+  align-items: center;
 
   @media (min-width: $tablet-width) {
     margin: 0 auto;
@@ -88,27 +88,6 @@
     padding: 0;
     background: #ffffff;
     height: 59px;
-  }
-}
-
-.price__table::before {
-  position: absolute;
-  content: url("../img/hit-ribbon.svg");
-  top: 2px;
-  left: 398px;
-
-  @media (min-width: $tablet-width) {
-    position: absolute;
-    content: url("../img/hit-ribbon-tablet.svg");
-    top: 2px;
-    left: 312px;
-  }
-
-  @media (min-width: $desktop-width) {
-    position: absolute;
-    content: url("../img/hit-ribbon.svg");
-    top: 2px;
-    left: 467px;
   }
 }
 
@@ -206,6 +185,7 @@
 }
 
 .price__cell-one {
+  position: relative;
   border: 2px solid #e5e5e5;
   border-radius: 1px 0 0 0;
   background: #283645;
@@ -222,6 +202,27 @@
     background: #283645;
     width: 233px;
     height: 94px;
+  }
+
+  &--flag::before {
+    position: absolute;
+    content: url("../img/hit-ribbon.svg");
+    top: 0;
+    left: -2px;
+
+    @media (min-width: $tablet-width) {
+      position: absolute;
+      content: url("../img/hit-ribbon-tablet.svg");
+      top: 0;
+      left: -2px;
+    }
+
+    @media (min-width: $desktop-width) {
+      position: absolute;
+      content: url("../img/hit-ribbon.svg");
+      top: 0;
+      left: -2px;
+    }
   }
 }
 
