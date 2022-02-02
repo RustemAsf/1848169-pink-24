@@ -226,6 +226,8 @@
 
 .achievement__container {
   @media (min-width: $desktop-width) {
+    display: flex;
+    flex-wrap: wrap;
     width: 940px;
     margin: 0 auto;
   }
@@ -302,7 +304,6 @@
   }
 
   @media (min-width: $desktop-width) {
-    order: 1;
     width: 940px;
   }
 }
@@ -457,17 +458,54 @@
 
   @media (min-width: $desktop-width) {
     display: flex;
-    width: 875px;
+    padding: 0;
+    width: 817px;
     margin: 0 auto;
-    flex-direction: column;
     flex-wrap: wrap;
   }
 }
 
-@media (min-width: $desktop-width) {
-  .achievement__item {
-    &--checkbox {
-      padding-right: 60px;
+.achievement__item {
+  &--one-check {
+    @media (min-width: $desktop-width) {
+      order: 1;
+      width: 312px;
+    }
+  }
+
+  &--two-check {
+    @media (min-width: $desktop-width) {
+      order: 4;
+      width: 312px;
+    }
+  }
+
+  &--three-check {
+    @media (min-width: $desktop-width) {
+      order: 2;
+      width: 295px;
+    }
+  }
+
+
+  &--four-check {
+    @media (min-width: $desktop-width) {
+      order: 5;
+      width: 295px;
+    }
+  }
+
+  &--five-check {
+    @media (min-width: $desktop-width) {
+      order: 3;
+      width: 206px;
+    }
+  }
+
+  &--six-check {
+    @media (min-width: $desktop-width) {
+      order: 6;
+      width: 206px;
     }
   }
 }
@@ -1035,10 +1073,6 @@
     padding: 0;
     order: 4;
   }
-
-  @media (min-width: $desktop-width) {
-    margin-bottom: 0;
-  }
 }
 
 .achievement__filter {
@@ -1057,10 +1091,9 @@
   }
 
   @media (min-width: $desktop-width) {
-    display: flex;
     width: 940px;
-    height: 237px;
-    margin-bottom: 56px;
+    margin-bottom: 61px;
+    padding-bottom: 35px;
   }
 }
 
@@ -1298,7 +1331,7 @@
       position: absolute;
       content: "";
       top: 0;
-      left: 375px;
+      left: 373px;
       width: 60px;
       height: 61px;
       background: #e5e5e5;
@@ -1322,7 +1355,7 @@
       position: absolute;
       content: "";
       top: 0;
-      left: 816px;
+      left: 814px;
       width: 60px;
       height: 61px;
       background: #e5e5e5;

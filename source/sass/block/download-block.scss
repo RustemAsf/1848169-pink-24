@@ -355,6 +355,7 @@
 .download-block__button-crop {
   outline: none;
   border: none;
+  padding: 0;
 
   &:focus {
     box-shadow: 0 0 0 3px #c2a503;
@@ -366,6 +367,7 @@
 .download-block__button-fill {
   outline: none;
   border: none;
+  padding: 0;
 
   &:focus {
     box-shadow: 0 0 0 3px #c2a503;
@@ -377,6 +379,7 @@
 .download-block__button-contrast {
   outline: none;
   border: none;
+  padding: 0;
 
   &:focus {
     box-shadow: 0 0 0 3px #c2a503;
