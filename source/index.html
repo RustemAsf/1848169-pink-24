@@ -66,7 +66,16 @@
     <section class="description-section">
       <div class="description-section__block">
 <div class="description-section__block-img">
-  
+  <picture>
+    <source type="image/webp" media="(min-width: 1920px)"
+      srcset="img/unsplash@1x.webp 1x, img/unsplash@2x.webp 2x">
+    <source media="(min-width: 1920px)" srcset="img/unsplash@1x.jpg 1x, img/unsplash@2x.jpg 2x">
+      <img class="description-section__promo-photo" src="img/unsplash@1x.jpg"
+       alt="Фото преимущества">
+  </picture>
+</div>
+<div class="description-section__block-text">
+  <h2 class="description-section__title">О центре</h2>
 </div>
       </div>
     </section>
